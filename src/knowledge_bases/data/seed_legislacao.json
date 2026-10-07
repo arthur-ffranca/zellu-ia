@@ -1,0 +1,108 @@
+[
+  {
+    "id": "leg_cdc_art18",
+    "title": "CDC - Art. 18 - Responsabilidade por vicio do produto",
+    "content": "Art. 18. Os fornecedores de produtos de consumo duraveis ou nao duraveis respondem solidariamente pelos vicios de qualidade ou quantidade que os tornem improprios ou inadequados ao consumo a que se destinam ou lhes diminuam o valor, assim como por aqueles decorrentes da disparidade, com as indicacoes constantes do recipiente, da embalagem, rotulagem ou mensagem publicitaria. Par. 1o Nao sendo o vicio sanado no prazo maximo de trinta dias, pode o consumidor exigir, alternativamente e a sua escolha: I - a substituicao do produto por outro da mesma especie; II - a restituicao imediata da quantia paga; III - o abatimento proporcional do preco.",
+    "tipo": "codigo",
+    "numero": "8.078",
+    "ano": 1990,
+    "artigo": "18",
+    "categoria": "vicio_produto",
+    "palavras_chave": ["vicio", "defeito", "troca", "30 dias", "produto"]
+  },
+  {
+    "id": "leg_cdc_art42",
+    "title": "CDC - Art. 42 - Cobranca de dividas",
+    "content": "Art. 42. Na cobranca de debitos, o consumidor inadimplente nao sera exposto a ridiculo, nem sera submetido a qualquer tipo de constrangimento ou ameaca. Paragrafo unico. O consumidor cobrado em quantia indevida tem direito a repeticao do indebito, por valor igual ao dobro do que pagou em excesso, acrescido de correcao monetaria e juros legais, salvo hipotese de engano justificavel.",
+    "tipo": "codigo",
+    "numero": "8.078",
+    "ano": 1990,
+    "artigo": "42",
+    "categoria": "cobranca_indevida",
+    "palavras_chave": ["cobranca", "indebito", "dobro", "repeticao"]
+  },
+  {
+    "id": "leg_cdc_art39",
+    "title": "CDC - Art. 39 - Praticas abusivas",
+    "content": "Art. 39. E vedado ao fornecedor de produtos ou servicos: I - condicionar o fornecimento de produto ou servico ao fornecimento de outro produto ou servico (venda casada); II - recusar atendimento as demandas dos consumidores; III - enviar ou entregar ao consumidor produto ou servico sem solicitacao; IV - prevalecer-se da fraqueza ou ignorancia do consumidor; V - exigir vantagem manifestamente excessiva; IX - recusar a venda de bens ou servicos diretamente a quem se disponha a adquiri-los mediante pronto pagamento.",
+    "tipo": "codigo",
+    "numero": "8.078",
+    "ano": 1990,
+    "artigo": "39",
+    "palavras_chave": ["pratica abusiva", "venda casada", "recusa"]
+  },
+  {
+    "id": "leg_cdc_art49",
+    "title": "CDC - Art. 49 - Direito de arrependimento",
+    "content": "Art. 49. O consumidor pode desistir do contrato, no prazo de 7 dias a contar de sua assinatura ou do ato de recebimento do produto ou servico, sempre que a contratacao de fornecimento de produtos e servicos ocorrer fora do estabelecimento comercial, especialmente por telefone ou a domicilio. Paragrafo unico. Se o consumidor exercitar o direito de arrependimento, os valores eventualmente pagos serao devolvidos, de imediato, monetariamente atualizados.",
+    "tipo": "codigo",
+    "numero": "8.078",
+    "ano": 1990,
+    "artigo": "49",
+    "categoria": "cancelamento",
+    "palavras_chave": ["arrependimento", "7 dias", "desistencia", "devolucao"]
+  },
+  {
+    "id": "leg_cdc_art35",
+    "title": "CDC - Art. 35 - Oferta nao cumprida",
+    "content": "Art. 35. Se o fornecedor de produtos ou servicos recusar cumprimento a oferta, apresentacao ou publicidade, o consumidor podera, alternativamente e a sua livre escolha: I - exigir o cumprimento forcado da obrigacao; II - aceitar outro produto ou prestacao de servico equivalente; III - rescindir o contrato, com direito a restituicao de quantia eventualmente antecipada, monetariamente atualizada, e a perdas e danos.",
+    "tipo": "codigo",
+    "numero": "8.078",
+    "ano": 1990,
+    "artigo": "35",
+    "categoria": "propaganda_enganosa",
+    "palavras_chave": ["oferta", "publicidade", "propaganda", "descumprimento"]
+  },
+  {
+    "id": "leg_sumula_385",
+    "title": "Sumula 385 STJ - Inscricao preexistente",
+    "content": "Sumula 385 STJ: Da anotacao irregular em cadastro de protecao ao credito, nao cabe indenizacao por dano moral, quando preexistente legitima inscricao, ressalvado o direito ao cancelamento. EXPLICACAO: Se o consumidor ja possui outra inscricao legitima em cadastro de inadimplentes (SPC/Serasa), uma nova inscricao indevida nao gera direito a indenizacao por danos morais, apenas a baixa.",
+    "tipo": "sumula",
+    "numero": "385",
+    "ano": 2009,
+    "categoria": "negativacao_indevida",
+    "palavras_chave": ["sumula", "negativacao", "inscricao previa", "dano moral"]
+  },
+  {
+    "id": "leg_sumula_479",
+    "title": "Sumula 479 STJ - Instituicoes financeiras",
+    "content": "Sumula 479 STJ: As instituicoes financeiras respondem objetivamente pelos danos gerados por fortuito interno relativo a fraudes e delitos praticados por terceiros no ambito de operacoes bancarias. EXPLICACAO: Bancos e instituicoes financeiras sao responsaveis por fraudes mesmo quando praticadas por terceiros, como clonagem de cartao, saques indevidos, emprestimos fraudulentos.",
+    "tipo": "sumula",
+    "numero": "479",
+    "ano": 2012,
+    "categoria": "cobranca_indevida",
+    "palavras_chave": ["banco", "fraude", "responsabilidade objetiva", "terceiro"]
+  },
+  {
+    "id": "leg_lei7716",
+    "title": "Lei 7.716/89 - Crimes de preconceito de raca ou cor",
+    "content": "Lei 7.716/1989: Define os crimes resultantes de preconceito de raca ou de cor. Art. 1o Serao punidos, na forma desta Lei, os crimes resultantes de discriminacao ou preconceito de raca, cor, etnia, religiao ou procedencia nacional. Art. 3o Impedir ou obstar o acesso de alguem, devidamente habilitado, a qualquer cargo da Administracao Direta ou Indireta, bem como das concessionarias de servicos publicos. Pena: reclusao de 2 a 5 anos. Art. 4o Negar ou obstar emprego em empresa privada. Pena: reclusao de 2 a 5 anos. Art. 5o Recusar ou impedir acesso a estabelecimento comercial, negando-se a servir, atender ou receber cliente ou comprador. Pena: reclusao de 1 a 3 anos. Art. 20 Praticar, induzir ou incitar a discriminacao ou preconceito de raca, cor, etnia, religiao ou procedencia nacional. Pena: reclusao de 1 a 3 anos e multa. IMPORTANTE: Racismo e crime inafiancavel e imprescritivel conforme CF Art. 5, XLII.",
+    "tipo": "lei_especial",
+    "numero": "7.716",
+    "ano": 1989,
+    "categoria": "discriminacao_racismo",
+    "palavras_chave": ["racismo", "discriminacao", "preconceito", "raca", "cor", "etnia", "inafiancavel", "imprescritivel"]
+  },
+  {
+    "id": "leg_cp_art140_par3",
+    "title": "Codigo Penal - Art. 140 par. 3 - Injuria racial",
+    "content": "Art. 140 par. 3o do Codigo Penal: Se a injuria consiste na utilizacao de elementos referentes a raca, cor, etnia, religiao, origem ou a condicao de pessoa idosa ou portadora de deficiencia. Pena: reclusao de 1 a 3 anos e multa. IMPORTANTE: Desde a Lei 14.532/2023, a injuria racial foi equiparada ao crime de racismo, sendo tambem inafiancavel e imprescritivel. A pena foi aumentada e o crime deixou de ser de menor potencial ofensivo. A injuria racial se diferencia do racismo (Lei 7.716/89) pois e dirigida a pessoa especifica, enquanto o racismo atinge um grupo ou coletividade.",
+    "tipo": "codigo",
+    "numero": "2.848",
+    "ano": 1940,
+    "artigo": "140, par. 3",
+    "categoria": "discriminacao_racismo",
+    "palavras_chave": ["injuria racial", "raca", "cor", "etnia", "religiao", "ofensa", "dignidade"]
+  },
+  {
+    "id": "leg_cf_art5",
+    "title": "Constituicao Federal - Art. 5 - Direitos fundamentais",
+    "content": "Art. 5o da Constituicao Federal: Todos sao iguais perante a lei, sem distincao de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no Pais a inviolabilidade do direito a vida, a liberdade, a igualdade, a seguranca e a propriedade. III - ninguem sera submetido a tortura nem a tratamento desumano ou degradante. V - e assegurado o direito de resposta, proporcional ao agravo, alem da indenizacao por dano material, moral ou a imagem. X - sao inviolaveis a intimidade, a vida privada, a honra e a imagem das pessoas, assegurado o direito a indenizacao pelo dano material ou moral decorrente de sua violacao. XLI - a lei punira qualquer discriminacao atentatoria dos direitos e liberdades fundamentais. XLII - a pratica do racismo constitui crime inafiancavel e imprescritivel, sujeito a pena de reclusao, nos termos da lei.",
+    "tipo": "constituicao",
+    "numero": "CF/88",
+    "ano": 1988,
+    "artigo": "5",
+    "categoria": "direitos_fundamentais",
+    "palavras_chave": ["igualdade", "dignidade", "discriminacao", "racismo", "dano moral", "honra", "imagem", "direitos fundamentais"]
+  }
+]

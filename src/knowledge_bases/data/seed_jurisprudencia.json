@@ -1,0 +1,65 @@
+[
+  {
+    "id": "jurisp_cobranca_001",
+    "title": "STJ - REsp - Cobranca indevida em dobro",
+    "content": "EMENTA: DIREITO DO CONSUMIDOR. COBRANCA INDEVIDA. REPETICAO DO INDEBITO EM DOBRO. Art. 42, paragrafo unico do CDC. A repeticao em dobro do indebito pressupoe a ma-fe do credor, nao sendo suficiente a mera cobranca indevida. Contudo, demonstrada a ma-fe, a devolucao deve ser em dobro, acrescida de correcao monetaria e juros de mora. Valor medio de condenacao: R$ 3.000 a R$ 10.000 para danos morais em casos de negativacao indevida decorrente de cobranca indevida.",
+    "tribunal": "STJ",
+    "numero_processo": "REsp 1.111.111/SP",
+    "data_julgamento": "2024-03-15",
+    "relator": "Min. Exemplo Silva",
+    "categoria": "cobranca_indevida",
+    "decisao": "favoravel_consumidor",
+    "valor_indenizacao": 5000.00,
+    "valor_danos_morais": 5000.00,
+    "tese_juridica": "Cobranca indevida com ma-fe enseja devolucao em dobro (art. 42, CDC)"
+  },
+  {
+    "id": "jurisp_vicio_001",
+    "title": "TJ - Vicio do produto - Prazo de 30 dias",
+    "content": "EMENTA: DIREITO DO CONSUMIDOR. VICIO DO PRODUTO. PRAZO PARA REPARO. Art. 18, par. 1o do CDC. O fornecedor tem prazo de 30 dias para sanar vicio de produto duravel. Nao sanado o vicio, o consumidor pode exigir: substituicao do produto, restituicao do valor pago ou abatimento proporcional do preco. Danos morais sao cabiveis quando o vicio causa transtorno alem do mero aborrecimento. Valor medio: R$ 2.000 a R$ 5.000.",
+    "tribunal": "TJ",
+    "numero_processo": "AC 2222222-22.2024.8.26.0000",
+    "data_julgamento": "2024-05-20",
+    "categoria": "vicio_produto",
+    "decisao": "favoravel_consumidor",
+    "valor_indenizacao": 3500.00,
+    "tese_juridica": "Vicio nao sanado em 30 dias da direito a troca ou reembolso (art. 18, CDC)"
+  },
+  {
+    "id": "jurisp_atraso_001",
+    "title": "JEC - Atraso na entrega - Danos morais",
+    "content": "EMENTA: CONSUMIDOR. COMPRA ONLINE. ATRASO NA ENTREGA. O atraso significativo na entrega de produto adquirido pela internet, especialmente quando se trata de presente ou produto necessario para evento especifico, configura falha na prestacao do servico e pode ensejar danos morais. Atraso superior a 30 dias do prazo contratado: danos morais presumidos. Valor medio em JEC: R$ 1.000 a R$ 3.000.",
+    "tribunal": "JEC",
+    "numero_processo": "Proc. 3333333-33.2024.8.13.0000",
+    "data_julgamento": "2024-06-10",
+    "categoria": "atraso_entrega",
+    "decisao": "favoravel_consumidor",
+    "valor_danos_morais": 2000.00,
+    "tese_juridica": "Atraso significativo na entrega pode gerar danos morais"
+  },
+  {
+    "id": "jurisp_negativacao_001",
+    "title": "STJ - Negativacao indevida - Danos morais in re ipsa",
+    "content": "EMENTA: CONSUMIDOR. INSCRICAO INDEVIDA EM CADASTRO DE INADIMPLENTES. DANO MORAL IN RE IPSA. Sumula 385/STJ. A inscricao indevida do nome do consumidor em cadastro de inadimplentes gera dano moral presumido (in re ipsa), dispensando prova do prejuizo. Excecao: se o consumidor ja possui outras inscricoes legitimas (Sumula 385). Valor medio de indenizacao: R$ 5.000 a R$ 15.000. Prazo para baixa apos pagamento: 5 dias uteis.",
+    "tribunal": "STJ",
+    "numero_processo": "REsp 4.444.444/RS",
+    "data_julgamento": "2024-04-05",
+    "relator": "Min. Exemplo Souza",
+    "categoria": "negativacao_indevida",
+    "decisao": "favoravel_consumidor",
+    "valor_danos_morais": 10000.00,
+    "tese_juridica": "Negativacao indevida gera dano moral presumido (in re ipsa)"
+  },
+  {
+    "id": "jurisp_cancelamento_001",
+    "title": "PROCON - Dificuldade no cancelamento de servico",
+    "content": "DECISAO ADMINISTRATIVA. CANCELAMENTO DE SERVICO. A dificuldade imposta ao consumidor para cancelar servico configura pratica abusiva (art. 39, CDC). O cancelamento deve ser tao facil quanto a contratacao. Retencao indevida de valores ou cobranca de multas abusivas apos cancelamento gera direito a restituicao e possivel indenizacao. Multa de fidelidade: proporcional ao tempo restante, nunca integral.",
+    "tribunal": "PROCON",
+    "numero_processo": "PA 5555555/2024",
+    "data_julgamento": "2024-07-01",
+    "categoria": "cancelamento",
+    "decisao": "favoravel_consumidor",
+    "valor_indenizacao": 1500.00,
+    "tese_juridica": "Cancelamento deve ser tao facil quanto contratacao"
+  }
+]

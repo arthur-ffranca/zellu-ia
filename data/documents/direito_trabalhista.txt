@@ -1,0 +1,495 @@
+DIREITO TRABALHISTA - DIREITOS E ORIENTAÇÕES
+
+=== CONTRATO DE TRABALHO ===
+
+Tipos de Contrato:
+- CLT (tempo indeterminado): padrão, maior proteção
+- Contrato por prazo determinado: máximo 2 anos
+- Contrato de experiência: máximo 90 dias
+- Intermitente: convocação conforme demanda
+- Estágio: não gera vínculo empregatório
+- MEI/PJ: não é relação de emprego (mas pode ser reconhecido se houver subordinação)
+
+Requisitos da Relação de Emprego:
+- Pessoalidade: trabalho prestado pela própria pessoa
+- Subordinação: sujeição a ordens do empregador
+- Habitualidade: trabalho não eventual
+- Onerosidade: pagamento de salário
+- Presentes os requisitos, há vínculo mesmo sem registro
+
+=== JORNADA DE TRABALHO ===
+
+Duração e Limites:
+- Jornada normal: 8 horas/dia ou 44 horas/semana
+- Pode ser compensada (banco de horas)
+- Hora extra: adicional mínimo de 50% (dias úteis) ou 100% (domingos/feriados)
+- Intervalo intrajornada: mínimo 1 hora (jornadas acima de 6h)
+- Intervalo entre jornadas: mínimo 11 horas
+
+Escalas Especiais:
+- Escala 12x36: 12 horas de trabalho por 36 de descanso
+- Trabalho noturno (22h às 5h): adicional de 20%
+- Turnos ininterruptos: máximo 6 horas (salvo acordo coletivo)
+
+Descanso:
+- Repouso semanal remunerado: preferencialmente aos domingos
+- Feriados: devem ser remunerados
+- Trabalho em feriado/domingo: dobro ou folga compensatória
+
+=== SALÁRIO E VERBAS ===
+
+Salário:
+- Piso salarial da categoria (conforme convenção coletiva)
+- Salário-mínimo nacional: valor estabelecido anualmente
+- Data de pagamento: até o 5º dia útil do mês seguinte
+- Irredutibilidade salarial: salário não pode ser reduzido
+- Equiparação salarial: mesma função, mesmo salário
+
+13º Salário:
+- Direito a partir de 15 dias de trabalho
+- Proporcional ao tempo trabalhado no ano
+- 1ª parcela: até 30/novembro (50%)
+- 2ª parcela: até 20/dezembro (saldo)
+
+Férias:
+- 30 dias após 12 meses de trabalho
+- Remuneração: salário + 1/3 constitucional
+- Pode ser fracionada: máximo 3 períodos (1 período de no mínimo 14 dias)
+- Venda de 1/3 das férias é permitida
+- Férias devem ser concedidas até 12 meses após aquisição
+
+FGTS (Fundo de Garantia):
+- Depósito mensal: 8% do salário
+- Saque: demissão sem justa causa, aposentadoria, doença grave, etc.
+- Multa de 40% sobre FGTS em demissão sem justa causa
+
+=== DEMISSÃO ===
+
+Tipos de Rescisão:
+- Sem justa causa: direito a aviso prévio, FGTS+40%, seguro-desemprego
+- Com justa causa: perde direitos rescisórios (apenas saldo e férias vencidas)
+- Pedido de demissão: perde seguro-desemprego e multa 40% FGTS
+- Acordo: 50% aviso prévio + 20% FGTS + saque de 80% FGTS (sem seguro-desemprego)
+
+Verbas Rescisórias:
+- Saldo de salário
+- Férias vencidas + 1/3
+- Férias proporcionais + 1/3
+- 13º proporcional
+- Aviso prévio (trabalhado ou indenizado)
+- FGTS + multa de 40% (demissão sem justa causa)
+
+Aviso Prévio:
+- Mínimo 30 dias + 3 dias por ano trabalhado (máximo 90 dias)
+- Trabalhado: redução de 2h/dia ou 7 dias no final
+- Indenizado: empregador paga sem trabalho
+
+Seguro-Desemprego:
+- 3 a 5 parcelas (conforme tempo trabalhado)
+- Requisitos: 12 meses trabalhados (primeira solicitação)
+- Valor: varia conforme média salarial
+
+=== ESTABILIDADES ===
+
+Situações de Estabilidade:
+- Gestante: confirmação da gravidez até 5 meses após parto
+- Acidente de trabalho: 12 meses após alta
+- CIPA: desde candidatura até 1 ano após fim do mandato
+- Pré-aposentadoria: 2 anos (algumas convenções)
+- Sindical: durante mandato + 1 ano
+
+=== SAÚDE E SEGURANÇA ===
+
+Direitos do Trabalhador:
+- Ambiente de trabalho seguro
+- Fornecimento de EPI (Equipamento de Proteção Individual) gratuito
+- Exames médicos: admissional, periódico, demissional
+- CAT (Comunicação de Acidente de Trabalho): obrigatória
+- Adicional de insalubridade: 10%, 20% ou 40% do salário-mínimo
+- Adicional de periculosidade: 30% do salário
+
+Afastamento e Auxílio-Doença:
+- Até 15 dias: empresa paga
+- A partir do 16º dia: INSS (auxílio-doença)
+- Acidente de trabalho: estabilidade de 12 meses após alta
+
+=== MATERNIDADE E PATERNIDADE ===
+
+Licença-Maternidade:
+- 120 dias (pode ser 180 em empresas do Programa Empresa Cidadã)
+- Salário-maternidade pago pelo INSS
+- Estabilidade até 5 meses após parto
+- Amamentação: 2 pausas de 30 min até 6 meses do bebê
+
+Licença-Paternidade:
+- 5 dias (pode ser 20 em empresas do Programa Empresa Cidadã)
+- Adoção: mesmos direitos
+
+=== TRABALHO DOMÉSTICO ===
+
+Direitos:
+- Mesmos direitos da CLT desde 2015
+- FGTS obrigatório
+- Controle de jornada
+- Horas extras
+- Adicional noturno
+- Seguro-desemprego
+- Salário-família
+
+=== AÇÕES TRABALHISTAS ===
+
+Quando Recorrer à Justiça:
+- Não pagamento de salários/verbas
+- Horas extras não pagas
+- Falta de registro em carteira
+- Assédio moral ou sexual
+- Acidente de trabalho
+
+Prazo:
+- 2 anos após fim do contrato
+- Verbas dos últimos 5 anos podem ser cobradas
+
+Custos:
+- Justiça gratuita: renda até 40% do teto do RGPS ou declaração de hipossuficiência
+- Honorários sucumbenciais: parte perdedora paga (20% do valor da causa)
+- Sindicatos podem oferecer assistência jurídica
+
+=== CONVENÇÕES E ACORDOS COLETIVOS ===
+
+Normas Coletivas:
+- Prevalecem sobre a lei em alguns pontos (reforma trabalhista)
+- Consulte o sindicato da categoria
+- Podem estabelecer benefícios adicionais
+- Validade: máximo 2 anos
+
+=== TRABALHO INTERMITENTE ===
+
+Características:
+- Convocação conforme necessidade
+- Pagamento proporcional às horas trabalhadas
+- Férias, 13º e FGTS proporcionais
+- Não há garantia de renda mensal mínima
+
+=== HOME OFFICE ===
+
+Direitos:
+- Mesmos direitos trabalhistas
+- Fornecimento de equipamentos: conforme acordo
+- Controle de jornada: se houver, gera horas extras
+- Ajuda de custo: energia, internet (se previsto em contrato)
+
+=== ORIENTAÇÕES GERAIS ===
+
+Documentos Importantes:
+- Carteira de Trabalho (física ou digital)
+- Contracheque (guardar todos)
+- Contrato de trabalho
+- Comprovantes de ponto
+- E-mails e mensagens relacionadas ao trabalho
+
+Como Agir em Caso de Problema:
+1. Documente tudo (prints, e-mails, testemunhas)
+2. Tente resolver com RH/empregador
+3. Procure o sindicato da categoria
+4. Se necessário, acione a Justiça do Trabalho
+5. Denuncie ao Ministério do Trabalho (casos graves)
+
+Onde Buscar Ajuda:
+- Sindicato da categoria
+- Defensoria Pública
+- OAB (advocacia)
+- Ministério Público do Trabalho (denúncias)
+- INSS (auxílios e aposentadoria)
+
+=== EXEMPLOS PRÁTICOS E CASOS COMUNS ===
+
+CASO 1: Demissão Sem Justa Causa
+Situação: João trabalhou 3 anos em uma empresa com salário de R$ 3.000,00 e foi demitido sem justa causa.
+Direitos a receber:
+- Saldo de salário (proporcional aos dias trabalhados no mês)
+- Aviso prévio: 30 dias + 9 dias (3 anos x 3 dias) = 39 dias = R$ 3.900,00
+- Férias vencidas + 1/3: R$ 4.000,00
+- Férias proporcionais + 1/3: R$ 1.333,00 (4 meses trabalhados no ano)
+- 13º proporcional: R$ 1.000,00 (4 meses)
+- FGTS depositado + multa 40%
+- Seguro-desemprego: 4 ou 5 parcelas
+Valor estimado da rescisão: R$ 10.000,00 a R$ 15.000,00 (sem contar FGTS)
+
+CASO 2: Horas Extras Não Pagas
+Situação: Maria trabalha 2 horas extras por dia sem receber, durante 2 anos.
+Cálculo do direito:
+- 2 horas/dia x 22 dias úteis x 24 meses = 1.056 horas extras
+- Salário: R$ 2.500,00 (R$ 11,36/hora)
+- Hora extra (50%): R$ 17,04/hora
+- Total: 1.056 horas x R$ 17,04 = R$ 17.994,24
+- Reflexos em: 13º, férias, FGTS, aviso prévio
+Valor total estimado da ação: R$ 25.000,00 a R$ 35.000,00
+
+CASO 3: Acidente de Trabalho
+Situação: Pedro sofreu acidente no trabalho e ficou afastado por 6 meses.
+Direitos:
+- Estabilidade de 12 meses após alta médica (não pode ser demitido)
+- Auxílio-doença acidentário (pago pelo INSS)
+- Indenização por danos materiais (despesas médicas não cobertas)
+- Possível indenização por dano moral (R$ 5.000,00 a R$ 50.000,00 conforme gravidade)
+- Pensão vitalícia (se ficar incapacitado permanentemente)
+- Custeio de tratamento e reabilitação
+
+CASO 4: Vínculo Empregatício Não Reconhecido (PJ/MEI)
+Situação: Ana trabalha como PJ há 2 anos, mas tem horário fixo, recebe ordens e trabalha exclusivamente para uma empresa.
+Direitos ao reconhecer vínculo:
+- Registro em carteira retroativo
+- FGTS de todo o período + multa 40%
+- Férias + 1/3 de todo o período
+- 13º salário de todo o período
+- Horas extras (se houver)
+- Multa administrativa para empresa
+Valor estimado da ação: R$ 30.000,00 a R$ 80.000,00 (para 2 anos)
+
+CASO 5: Assédio Moral
+Situação: Carlos sofre humilhações constantes, apelidos pejorativos e exclusão pelo superior.
+Direitos:
+- Rescisão indireta do contrato (como se fosse demissão sem justa causa)
+- Indenização por dano moral: R$ 5.000,00 a R$ 100.000,00 (conforme gravidade e provas)
+- Verbas rescisórias completas
+Documentos necessários: prints de conversas, e-mails, testemunhas, laudos médicos/psicológicos
+
+=== VALORES TÍPICOS DE INDENIZAÇÃO ===
+
+Dano Moral Trabalhista (Valores de Referência - 2024):
+- Leve: R$ 1.000,00 a R$ 5.000,00
+  Exemplos: atraso salarial pontual, pequenos constrangimentos
+- Médio: R$ 5.000,00 a R$ 20.000,00
+  Exemplos: revista vexatória, cobrança de metas abusiva, discriminação leve
+- Grave: R$ 20.000,00 a R$ 50.000,00
+  Exemplos: assédio moral continuado, acidente de trabalho com sequelas, discriminação grave
+- Gravíssimo: R$ 50.000,00 a R$ 200.000,00+
+  Exemplos: acidente com invalidez permanente, assédio sexual, morte
+
+Verbas Rescisórias Médias:
+- Trabalhador com salário de R$ 2.000,00 e 1 ano de trabalho: R$ 4.000,00 a R$ 6.000,00
+- Trabalhador com salário de R$ 3.000,00 e 3 anos de trabalho: R$ 10.000,00 a R$ 15.000,00
+- Trabalhador com salário de R$ 5.000,00 e 5 anos de trabalho: R$ 20.000,00 a R$ 30.000,00
+
+Horas Extras:
+- Valor base: hora normal + 50% (dias úteis) ou + 100% (domingos/feriados)
+- Reflexos: impactam 13º, férias, FGTS, aviso prévio
+- Ação típica: R$ 15.000,00 a R$ 80.000,00 (conforme tempo e quantidade)
+
+=== DOCUMENTOS NECESSÁRIOS POR TIPO DE AÇÃO ===
+
+Ação de Verbas Rescisórias:
+- Carteira de Trabalho
+- Termo de rescisão (TRCT)
+- Contracheques (todos do período)
+- Comprovante de dados bancários
+- Extrato FGTS
+- Testemunhas (se possível)
+
+Ação de Horas Extras:
+- Contracheques
+- Controles de ponto (espelhos de ponto)
+- E-mails e mensagens comprovando horário
+- Testemunhas (colegas de trabalho)
+- Registros de entrada/saída (prints, fotos)
+- Comprovação da jornada real
+
+Ação de Reconhecimento de Vínculo:
+- Contratos de PJ/prestação de serviços
+- Comprovantes de pagamento (recibos, notas fiscais)
+- E-mails e mensagens mostrando subordinação
+- Testemunhas
+- Fotos/vídeos do local de trabalho
+- Crachá, uniformes, equipamentos fornecidos
+
+Ação de Acidente de Trabalho:
+- CAT (Comunicação de Acidente de Trabalho)
+- Relatórios médicos e laudos
+- Receitas médicas e notas fiscais de gastos
+- Testemunhas do acidente
+- Fotos do local/condições de trabalho
+- Perícia médica do INSS
+
+Ação de Assédio Moral/Sexual:
+- Prints de conversas e e-mails
+- Gravações (se legais)
+- Testemunhas presenciais
+- Laudos médicos/psicológicos
+- Atestados de afastamento
+- Denúncias formais ao RH (se houver)
+- Registro de ocorrência policial (casos de assédio sexual)
+
+=== PRAZOS IMPORTANTES ===
+
+Urgentes (Ação Imediata):
+- Acidente de trabalho: comunicar imediatamente (CAT)
+- Assédio sexual: denunciar imediatamente
+- Prisão/detenção injusta: habeas corpus
+- Risco iminente à saúde: afastamento e perícia
+
+Prazo de 30 dias:
+- Contestar advertência ou suspensão
+- Requerer equiparação salarial após conhecimento
+
+Prazo de 2 anos:
+- Ajuizar ação trabalhista após término do contrato
+- Prazo FATAL: após 2 anos, perde o direito de ação
+
+Prazo de 5 anos:
+- Período das verbas que podem ser cobradas (últimos 5 anos do contrato)
+- Mesmo ajuizando em 2 anos, só pode cobrar os últimos 5 anos
+
+=== PASSOS PARA CADA TIPO DE SITUAÇÃO ===
+
+Demitido Sem Justa Causa:
+1. Solicitar aviso prévio por escrito
+2. Conferir cálculo das verbas rescisórias
+3. Verificar se FGTS foi depositado
+4. Dar baixa na carteira de trabalho
+5. Solicitar seguro-desemprego (após 7 dias)
+6. Se valores incorretos: procurar sindicato ou advogado em até 2 anos
+
+Foi Demitido Por Justa Causa (Injustamente):
+1. Pedir a demissão por escrito com a justificativa
+2. Não assinar nada se não concordar
+3. Procurar advogado IMEDIATAMENTE
+4. Reunir provas de que não cometeu a falta
+5. Ajuizar ação para reverter justa causa
+6. Prazo: 2 anos (mas quanto antes, melhor)
+
+Sofreu Acidente de Trabalho:
+1. Comunicar imediatamente ao empregador
+2. Ir ao médico/hospital e guardar todos os documentos
+3. Exigir emissão da CAT pela empresa (ou fazer você mesmo)
+4. Protocolar CAT no INSS em até 24h
+5. Fazer perícia médica do INSS
+6. Garantir estabilidade de 12 meses após alta
+7. Se houver sequelas: procurar advogado para indenização
+
+Está Sofrendo Assédio Moral:
+1. Documentar TUDO: prints, e-mails, testemunhas, datas
+2. Comunicar formalmente ao RH (por escrito)
+3. Procurar atendimento médico/psicológico (guardar atestados)
+4. Denunciar ao sindicato
+5. Considerar rescisão indireta (demissão por culpa do empregador)
+6. Ajuizar ação trabalhista com pedido de dano moral
+
+Horas Extras Não Pagas:
+1. Guardar todos os controles de ponto (tirar fotos)
+2. Documentar jornada real (anotar diariamente)
+3. Reunir testemunhas
+4. Tentar resolver com RH primeiro
+5. Procurar sindicato
+6. Ajuizar ação trabalhista (prazo: 2 anos após fim do contrato)
+
+=== JURISPRUDÊNCIA E ENTENDIMENTOS CONSOLIDADOS ===
+
+Súmula 338 TST - Horas Extras:
+"É ônus do empregador que conta com mais de 10 empregados o registro da jornada de trabalho."
+Consequência prática: Se a empresa não tiver controle de ponto, prevalece a jornada alegada pelo empregado.
+
+Súmula 377 TST - Adicional de Periculosidade:
+"Presume-se indevida a transferência de que trata o § 1º do art. 469 da CLT."
+Consequência prática: Transferência de local de trabalho que cause prejuízo pode ser revertida.
+
+Súmula 90 TST - Horas Extras Habituais:
+"Horas extras habituais integram o cálculo de férias, 13º, aviso prévio e FGTS."
+Consequência prática: Horas extras geram reflexos em todas as verbas.
+
+Orientação Jurisprudencial 342 SDI-I - Intervalo Intrajornada:
+"Não concessão ou concessão parcial gera pagamento como extra + 50%."
+Consequência prática: Empresa que não dá 1h de intervalo paga essa hora como extra.
+
+Tema 1046 STF - Terceirização:
+"Lícita a terceirização de toda e qualquer atividade (inclusive atividade-fim)."
+Consequência prática: Terceirização é legal, mas direitos trabalhistas devem ser respeitados.
+
+=== CÁLCULO DE VERBAS RESCISÓRIAS (EXEMPLO PRÁTICO) ===
+
+Exemplo: Trabalhador com salário R$ 3.000,00, 3 anos de trabalho, demitido sem justa causa em 15/04/2024.
+
+1. Saldo de salário (15 dias de abril): R$ 1.500,00
+2. Aviso prévio (30 dias + 9 dias): R$ 3.900,00
+3. Férias vencidas + 1/3 (1 período): R$ 4.000,00
+4. Férias proporcionais + 1/3 (4 meses): R$ 1.333,33
+5. 13º proporcional (4 meses): R$ 1.000,00
+6. Saldo FGTS: 36 meses x R$ 240,00 (8%) = R$ 8.640,00
+7. Multa 40% FGTS: R$ 3.456,00
+
+Total aproximado: R$ 23.829,33
+
+Obs: Valores aproximados, desconsiderando descontos de INSS e IR.
+
+=== DIREITOS ESPECÍFICOS POR CATEGORIA ===
+
+Bancários:
+- Jornada de 6 horas/dia ou 30 horas/semana
+- 7ª e 8ª horas são extras (mesmo com banco de horas)
+- Intervalo de 15 minutos
+- Adicional de trabalho em caixa
+
+Professores:
+- Hora-aula de 50 ou 60 minutos (conforme estabelecimento)
+- Máximo 4 aulas consecutivas ou 6 intercaladas
+- Férias de 30 dias (preferencialmente em janeiro ou julho)
+- Redução de carga horária sem redução salarial (se turmas diminuírem)
+
+Vigilantes:
+- Adicional de periculosidade (30%)
+- Trabalho em escala 12x36
+- Fornecimento de EPI obrigatório
+- Treinamento periódico obrigatório
+
+Motoristas:
+- Jornada especial: 8 horas + 2 extras
+- Tempo de espera pode ser jornada
+- Horas extras acima do permitido geram indenização
+- Diárias de viagem não são salário (se não excederem 50% do salário)
+
+Saúde (Enfermeiros, Técnicos):
+- Jornada de 12x36 permitida
+- Adicional de insalubridade/periculosidade
+- Risco biológico: adicional de periculosidade
+- Vacinação obrigatória fornecida pelo empregador
+
+=== DIREITOS EM SITUAÇÕES ESPECÍFICAS ===
+
+Gravidez Durante Aviso Prévio:
+- Se engravidar durante aviso prévio: tem estabilidade até 5 meses após o parto
+- Demissão é revertida
+- Direito a todos os salários do período de estabilidade
+
+Doença Durante Aviso Prévio:
+- Aviso prévio fica suspenso
+- Só volta a contar após alta médica
+- Não pode ser demitido durante afastamento
+
+Morte do Empregado:
+- Dependentes recebem verbas rescisórias
+- Direito a 4 meses de salário (Lei 6.858/80)
+- FGTS liberado para dependentes
+- Pensão por morte do INSS (se aplicável)
+
+Aposentadoria:
+- Pode continuar trabalhando após aposentar
+- Empregador pode demitir sem justa causa normalmente
+- Direito a todas as verbas rescisórias
+- FGTS liberado
+
+Prisão do Empregado:
+- Suspensão do contrato (não rescisão)
+- Após absolvição: reintegração
+- Se condenação: justa causa para rescisão
+
+=== GLOSSÁRIO TRABALHISTA ===
+
+Aviso Prévio: Comunicação antecipada de término do contrato.
+Rescisão Indireta: Demissão por culpa do empregador (falta grave).
+Equiparação Salarial: Direito a mesmo salário para mesma função.
+Estabilidade: Período em que empregado não pode ser demitido.
+FGTS: Fundo de Garantia por Tempo de Serviço (8% do salário).
+Horas In Itinere: Tempo de deslocamento casa-trabalho (abolido em 2017).
+Justa Causa: Rescisão por falta grave do empregado.
+PLR: Participação nos Lucros e Resultados.
+Sobreaviso: Ficar disponível para ser chamado (recebe 1/3 da hora).
+Prontidão: Aguardar no local de trabalho para ser chamado (recebe 2/3 da hora).

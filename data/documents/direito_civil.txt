@@ -1,0 +1,143 @@
+DIREITO CIVIL - DIREITOS E ORIENTAÇÕES
+
+=== CONTRATOS ===
+
+Direitos em Contratos:
+- Todo contrato deve ser celebrado de boa-fé entre as partes
+- Contratos leoninos (excessivamente desvantajosos) podem ser revisados judicialmente
+- Você tem direito a receber cópia do contrato assinado
+- Cláusulas abusivas podem ser anuladas mesmo após assinatura
+- Prazo de reflexão: 7 dias para desistir de compras feitas fora do estabelecimento comercial
+
+Rescisão de Contratos:
+- Contratos podem ser rescindidos por comum acordo
+- Descumprimento contratual gera direito a indenização
+- Força maior pode justificar rescisão sem penalidades
+- Verifique cláusulas de multa rescisória antes de assinar
+
+=== RESPONSABILIDADE CIVIL ===
+
+Danos Materiais e Morais:
+- Toda pessoa que causar dano a outra tem obrigação de indenizar
+- Dano moral: violação à honra, imagem, intimidade ou dignidade
+- Dano material: prejuízo econômico comprovável
+- Dano estético: alteração física permanente
+- Prazo para ação de indenização: geralmente 3 anos
+
+Acidentes e Negligência:
+- Proprietário de veículo responde solidariamente por acidentes
+- Estabelecimentos respondem por acidentes em suas dependências
+- Dono de animal responde por danos causados pelo animal
+- Queda em calçada: responsabilidade do proprietário do imóvel
+
+=== PROPRIEDADE E POSSE ===
+
+Direitos do Proprietário:
+- Direito de usar, gozar e dispor do bem
+- Pode reivindicar o bem de quem injustamente o possua
+- Responsável por manutenção e impostos
+- Pode ser limitado por função social da propriedade
+
+Direitos do Possuidor:
+- Proteção possessória contra esbulho ou turbação
+- Direito aos frutos e benfeitorias
+- Pode se defender por meio de ação possessória
+- Usucapião: aquisição de propriedade por posse prolongada
+
+Locação:
+- Locatário tem direito à renovação em locações comerciais (5 anos)
+- Reajuste de aluguel deve seguir índice contratual ou legal
+- Proprietário não pode aumentar aluguel arbitrariamente
+- Direito à moradia: proteção contra despejos abusivos
+
+=== FAMÍLIA ===
+
+Casamento e União Estável:
+- Regime de bens define partilha patrimonial
+- Comunhão parcial: padrão legal (bens adquiridos após casamento são comuns)
+- Separação total: cada cônjuge mantém seus bens
+- União estável equipara-se ao casamento para fins patrimoniais
+
+Divórcio:
+- Divórcio consensual pode ser feito em cartório (sem filhos menores ou incapazes)
+- Partilha de bens conforme regime escolhido
+- Guarda compartilhada é preferencial
+- Pensão alimentícia: direito dos filhos e, em alguns casos, do ex-cônjuge
+
+Filiação:
+- Reconhecimento de paternidade pode ser judicial ou extrajudicial
+- Filho tem direito a alimentos, convivência e herança
+- Investigação de paternidade é direito imprescritível
+
+=== SUCESSÕES E HERANÇA ===
+
+Direitos Sucessórios:
+- Ordem de vocação hereditária: descendentes, ascendentes, cônjuge, colaterais
+- Cônjuge/companheiro tem direito à meação + quota hereditária
+- Testamento pode dispor de até 50% dos bens (legítima protege herdeiros necessários)
+- Inventário deve ser aberto em até 60 dias do falecimento
+
+Processo de Inventário:
+- Pode ser judicial ou extrajudicial (cartório)
+- Extrajudicial: mais rápido, exige consenso entre herdeiros
+- ITCMD: imposto sobre herança (alíquota varia por estado)
+- Bens podem ser bloqueados até regularização
+
+=== DIREITOS DO CONSUMIDOR (ASPECTO CIVIL) ===
+
+Vícios e Defeitos:
+- Produto com vício: troca, reparo ou devolução do dinheiro
+- Prazo de reclamação: 30 dias (não duráveis) ou 90 dias (duráveis)
+- Garantia legal + garantia contratual
+- Recall: fabricante deve comunicar e consertar gratuitamente
+
+Práticas Abusivas:
+- Venda casada é proibida
+- Publicidade enganosa gera direito a indenização
+- Cobrança de dívida vexatória é ilegal
+- Juros e multas têm limites legais
+
+=== PRESCRIÇÃO E DECADÊNCIA ===
+
+Prazos Importantes:
+- Ação de indenização: 3 anos
+- Ação de cobrança (dívida): 5 anos
+- Pretensão do menor: conta da maioridade (18 anos)
+- Ação contra a Fazenda Pública: 5 anos
+- Dívida prescreve, mas não se extingue automaticamente
+
+=== NOME E PERSONALIDADE ===
+
+Direito ao Nome:
+- Nome é direito da personalidade
+- Alteração depende de justificativa e autorização judicial
+- Nome social: direito de pessoas trans
+- Uso indevido de nome gera dano moral
+
+Direitos da Personalidade:
+- Irrenunciáveis e intransmissíveis
+- Proteção à imagem, honra, intimidade e vida privada
+- Publicação não autorizada de foto/vídeo pode gerar indenização
+- Direito ao esquecimento: em discussão no Brasil
+
+=== ORIENTAÇÕES GERAIS ===
+
+Como Agir em Caso de Problema Civil:
+1. Tente resolver amigavelmente (documentar tentativas)
+2. Reúna provas: contratos, e-mails, fotos, testemunhas
+3. Procure conciliação (CEJUSC, Procon, OAB)
+4. Se necessário, ajuíze ação judicial
+5. Verifique possibilidade de Justiça Gratuita
+
+Documentação Importante:
+- Sempre exija contratos por escrito
+- Guarde comprovantes de pagamento
+- Registre comunicações importantes por e-mail ou carta
+- Faça ata notarial para preservar provas (site, conversas)
+
+Onde Buscar Ajuda:
+- Defensoria Pública: assistência jurídica gratuita
+- OAB: indicação de advogados
+- Procon: relações de consumo
+- CEJUSC: conciliação e mediação gratuitas
+- Juizados Especiais: causas até 40 salários mínimos (sem advogado até 20 SM)

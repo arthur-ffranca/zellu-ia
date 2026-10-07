@@ -1,0 +1,317 @@
+DIREITO CRIMINAL - DIREITOS E ORIENTAÇÕES
+
+=== DIREITOS DO ACUSADO ===
+
+Princípios Fundamentais:
+- Presunção de inocência: ninguém é culpado até trânsito em julgado
+- Direito ao silêncio: não obrigação de produzir provas contra si
+- Ampla defesa e contraditório
+- Devido processo legal
+- Proibição de provas ilícitas
+- Direito a advogado (defensor público se não puder pagar)
+
+Prisão em Flagrante:
+- Direito de permanecer calado
+- Direito de avisar familiar ou advogado
+- Exame de corpo de delito
+- Audiência de custódia em até 24h
+- Possibilidade de liberdade provisória (dependendo do crime)
+
+Prisão Preventiva:
+- Somente com ordem judicial
+- Requer fundamentação do juiz
+- Aplicável quando há risco à ordem pública, instrução criminal ou aplicação da lei
+- Não é antecipação de pena
+
+=== TIPOS DE CRIMES COMUNS ===
+
+Crimes Contra a Pessoa:
+- Lesão corporal: ofensa à integridade física
+  • Leve: até 1 ano
+  • Grave: 1 a 5 anos
+  • Gravíssima: 2 a 8 anos
+- Ameaça: prometer mal injusto (pena: 1 a 6 meses)
+- Injúria: ofender dignidade/decoro (1 a 6 meses)
+- Calúnia: imputar falsamente crime (6 meses a 2 anos)
+- Difamação: imputar fato ofensivo à reputação (3 meses a 1 ano)
+
+Crimes Contra o Patrimônio:
+- Furto: subtrair coisa alheia (1 a 4 anos)
+  • Furto qualificado: arrombamento, escalada, etc (2 a 8 anos)
+- Roubo: subtrair com violência/grave ameaça (4 a 10 anos)
+  • Roubo majorado: arma de fogo (5 a 15 anos)
+- Estelionato: obter vantagem ilícita enganando alguém (1 a 5 anos)
+- Dano: destruir/inutilizar coisa alheia (1 a 6 meses)
+- Apropriação indébita: apropriar-se de coisa alheia confiada (1 a 4 anos)
+
+Crimes de Trânsito:
+- Dirigir embriagado: detenção de 6 meses a 3 anos
+- Homicídio culposo (por imprudência): 2 a 4 anos
+- Lesão corporal culposa: 6 meses a 2 anos
+- Fuga do local: causa de aumento de pena (1/3 a metade)
+- Participar de "racha": 6 meses a 3 anos
+
+=== VIOLÊNCIA DOMÉSTICA E FAMILIAR ===
+
+Lei Maria da Penha (Lei 11.340/2006):
+- Protege mulheres em situação de violência doméstica
+- Tipos de violência: física, psicológica, sexual, patrimonial, moral
+- Medidas protetivas de urgência (afastamento do agressor, proibição de contato)
+- Não é necessário representação para alguns crimes (ex: lesão corporal)
+- Vara especializada e atendimento prioritário
+
+Como Agir:
+- Registro de Boletim de Ocorrência (delegacia comum ou especializada - DEAM)
+- Solicitar medidas protetivas
+- Buscar acolhimento em Casa Abrigo (se necessário)
+- Ligar 180 (Central de Atendimento à Mulher)
+- Ligar 190 (Polícia Militar - emergências)
+
+=== CRIMES CONTRA CRIANÇAS E ADOLESCENTES ===
+
+Proteção Especial:
+- Abuso sexual: crime hediondo, penas severas
+- Maus-tratos: 2 meses a 1 ano
+- Abandono de incapaz: 6 meses a 3 anos
+- Exploração de trabalho infantil: 2 a 5 anos
+- Conselho Tutelar: proteção e denúncias
+
+Denúncia:
+- Disque 100 (Direitos Humanos)
+- Conselho Tutelar
+- Ministério Público
+- Boletim de Ocorrência
+
+=== CRIMES DE DISCRIMINAÇÃO E RACISMO ===
+
+Lei 7.716/1989 - Crimes de Preconceito:
+- Define crimes resultantes de discriminação ou preconceito de raça, cor, etnia, religião ou procedência nacional
+- Crime INAFIANÇÁVEL e IMPRESCRITÍVEL (CF Art. 5, XLII)
+- Condutas tipificadas:
+  • Impedir ou obstar acesso a cargo público: 2 a 5 anos
+  • Negar ou impedir emprego por discriminação: 2 a 5 anos
+  • Recusar ou impedir acesso a estabelecimento comercial: 1 a 3 anos
+  • Recusar hospedagem em hotel/similar: 3 a 5 anos
+  • Impedir acesso a transporte público: 1 a 3 anos
+  • Impedir acesso a estabelecimento de ensino: 3 a 5 anos
+  • Impedir acesso às Forças Armadas: 2 a 4 anos
+  • Praticar, induzir ou incitar discriminação: 1 a 3 anos
+  • Fabricar ou comercializar símbolos de discriminação: 2 a 5 anos
+
+Injúria Racial (Art. 140 §3 do Código Penal):
+- Ofender a dignidade de alguém usando elementos de raça, cor, etnia, religião, origem, ou condição de pessoa idosa ou com deficiência
+- Pena: reclusão de 1 a 3 anos e multa
+- Desde 2023 (Lei 14.532/2023): injúria racial foi equiparada ao crime de racismo
+  • Também é inafiançável e imprescritível
+  • Antes era considerada crime de menor potencial ofensivo
+
+Diferença entre Racismo e Injúria Racial:
+- Racismo (Lei 7.716/89): conduta discriminatória dirigida a grupo ou coletividade
+  • Exemplo: impedir entrada de pessoas negras em estabelecimento
+- Injúria Racial (Art. 140 §3 CP): ofensa direcionada a pessoa específica
+  • Exemplo: insultar alguém pela sua cor de pele
+- Desde 2023, ambos são crimes inafiançáveis e imprescritíveis
+
+Outros Tipos de Discriminação:
+- Homofobia e Transfobia: equiparadas ao racismo pelo STF (ADO 26, 2019)
+  • Mesmas penas da Lei 7.716/89
+- Xenofobia: discriminação contra estrangeiros ou pessoas de outra região
+- Intolerância religiosa: discriminação baseada em crença ou religião
+- Etarismo: discriminação por idade (Estatuto do Idoso, Lei 10.741/2003)
+
+Direitos da Vítima de Discriminação:
+- Registrar Boletim de Ocorrência imediatamente
+- Direito a indenização por danos morais (ação cível independente da penal)
+- Valores de indenização por racismo/injúria racial: R$ 10.000 a R$ 100.000+
+- Preservar provas: prints, gravações, testemunhas
+- Denúncia pode ser feita na delegacia comum ou especializada (Delegacia de Crimes Raciais)
+- Disque 100 (Direitos Humanos)
+- Ministério Público pode atuar como fiscal da lei
+
+=== CRIMES DE ASSÉDIO ===
+
+Assédio Sexual (Art. 216-A do Código Penal):
+- Constranger alguém com o intuito de obter vantagem ou favorecimento sexual
+- Prevalecendo-se de condição de superior hierárquico ou ascendência
+- Pena: detenção de 1 a 2 anos
+- Agravantes:
+  • Se a vítima é menor de 18 anos: pena aumentada em até 1/3
+  • Se cometido por servidor público: pode resultar em demissão
+
+Assédio Moral:
+- Não tipificado como crime específico no Código Penal federal
+- Pode configurar: constrangimento ilegal (Art. 146 CP), ameaça (Art. 147 CP)
+- No âmbito trabalhista: gera direito a rescisão indireta (CLT Art. 483) e indenização
+- Condutas típicas: humilhações repetitivas, isolamento, sobrecarga proposital, ameaças
+- Pode ocorrer no trabalho, escola, universidade ou qualquer ambiente institucional
+
+Stalking/Perseguição (Art. 147-A do Código Penal):
+- Perseguir alguém, reiteradamente, por qualquer meio
+- Ameaçando-lhe a integridade física ou psicológica
+- Restringindo-lhe a capacidade de locomoção ou perturbando a liberdade/privacidade
+- Pena: reclusão de 6 meses a 2 anos e multa
+- Agravantes: se contra criança, idoso, mulher (Lei Maria da Penha)
+
+Importunação Sexual (Art. 215-A do Código Penal):
+- Praticar ato libidinoso contra alguém sem consentimento
+- Pena: reclusão de 1 a 5 anos
+- Exemplos: toques não consentidos, "encoxadas" em transporte público
+
+Como Agir em Caso de Assédio:
+1. Documentar todos os episódios (datas, horários, testemunhas)
+2. Preservar provas (mensagens, e-mails, gravações)
+3. Registrar Boletim de Ocorrência
+4. Comunicar a empresa/instituição por escrito
+5. Buscar advogado para ação penal e cível
+6. Ligar 180 (se mulher vítima de assédio sexual)
+
+=== CRIMES VIRTUAIS (CIBERCRIMES) ===
+
+Lei Carolina Dieckmann (Lei 12.737/2012):
+- Invasão de dispositivo informático: 3 meses a 1 ano
+- Divulgação de conteúdo sem autorização: 1 a 3 anos
+
+Crimes Comuns no Ambiente Virtual:
+- Cyberbullying: injúria, difamação, ameaça online
+- Revenge porn: divulgação não autorizada de conteúdo íntimo (1 a 5 anos)
+- Stalking virtual: perseguição online (6 meses a 2 anos)
+- Estelionato digital (golpes online)
+- Pedofilia (compartilhamento de material)
+
+Como Se Proteger e Denunciar:
+- Preservar provas (prints com data/hora)
+- Registrar B.O. em delegacia especializada
+- Denunciar à plataforma/rede social
+- Notificar provedores
+- SaferNet Brasil: denúncias de crimes na internet
+
+=== DIREITOS DA VÍTIMA ===
+
+Direitos Fundamentais:
+- Ser informada sobre andamento do processo
+- Receber proteção (Lei de Proteção a Testemunhas)
+- Requerer indenização (ação cível)
+- Ser ouvida pelo juiz
+- Recorrer de decisões que lhe prejudiquem
+
+Dano Moral e Material:
+- Reparação de danos pode ser pedida junto ao processo criminal ou separadamente
+- Sentença condenatória serve como título executivo
+- Indenização independe de condenação criminal (esferas diferentes)
+
+=== PRISÕES E PENAS ===
+
+Tipos de Prisão:
+- Prisão em flagrante: momento do crime
+- Prisão temporária: investigação (5 a 30 dias)
+- Prisão preventiva: garantir ordem pública/instrução criminal
+- Prisão após condenação transitada em julgado
+
+Regimes de Cumprimento de Pena:
+- Fechado: estabelecimento de segurança máxima/média
+- Semiaberto: colônia agrícola, industrial ou similar
+- Aberto: casa de albergado ou prisão domiciliar
+
+Progressão de Regime:
+- Fechado → Semiaberto: 40% da pena (crime comum) ou 60% (hediondo)
+- Semiaberto → Aberto: mesmo requisito
+- Bom comportamento carcerário obrigatório
+
+Alternativas à Prisão:
+- Penas restritivas de direitos (prestação de serviços comunitários)
+- Multa
+- Suspensão condicional da pena (sursis)
+- Transação penal (crimes de menor potencial ofensivo)
+
+=== LIBERDADE PROVISÓRIA ===
+
+Direito à Liberdade:
+- Regra: liberdade durante processo
+- Exceção: prisão preventiva fundamentada
+- Medidas cautelares diversas: comparecimento periódico, proibição de frequentar lugares, etc.
+- Fiança: crimes com pena até 4 anos
+
+Como Requerer:
+- Advogado ou defensor público pode pedir
+- Audiência de custódia: juiz decide em até 24h após prisão em flagrante
+- Habeas corpus: em caso de prisão ilegal
+
+=== PRESCRIÇÃO ===
+
+Extinção da Punibilidade:
+- Prescrição: prazo para Estado punir (varia conforme pena máxima do crime)
+- Prazo conta da data do crime ou da interrupção (sentença, denúncia, etc)
+- Prescrição da pretensão punitiva: antes da condenação
+- Prescrição da pretensão executória: após condenação definitiva
+
+Prazos:
+- Pena máxima < 1 ano: prescreve em 3 anos
+- Pena de 1 a 2 anos: 4 anos
+- Pena de 2 a 4 anos: 8 anos
+- Pena de 4 a 8 anos: 12 anos
+- Pena de 8 a 12 anos: 16 anos
+- Pena > 12 anos: 20 anos
+
+=== REABILITAÇÃO ===
+
+Antecedentes Criminais:
+- Condenação "apagada" após 5 anos (sem reincidência)
+- Certidão de antecedentes fica "limpa"
+- Reabilitação restaura direitos (ex: concursos públicos)
+- Reincidência impede reabilitação automática
+
+=== LEGÍTIMA DEFESA E ESTADO DE NECESSIDADE ===
+
+Excludentes de Ilicitude:
+- Legítima defesa: repelir agressão injusta, atual ou iminente
+  • Deve ser proporcional
+  • Proteção de direito próprio ou de terceiro
+- Estado de necessidade: sacrificar bem para salvar outro (ex: furtar para salvar vida)
+- Estrito cumprimento de dever legal
+- Exercício regular de direito
+
+=== JUSTIÇA RESTAURATIVA ===
+
+Mediação e Conciliação:
+- Resolução pacífica de conflitos
+- Acordo entre vítima e autor
+- Reparação do dano
+- Aplicável principalmente em crimes de menor potencial ofensivo
+
+=== ORIENTAÇÕES GERAIS ===
+
+O Que Fazer Se For Vítima de Crime:
+1. Preservar local do crime (quando possível)
+2. Reunir provas (fotos, vídeos, testemunhas)
+3. Registrar Boletim de Ocorrência imediatamente
+4. Buscar atendimento médico (lesões)
+5. Procurar advogado ou defensor público
+
+O Que Fazer Se For Acusado:
+1. Permanecer calado até falar com advogado
+2. NÃO produzir provas contra si mesmo
+3. Contatar familiar ou advogado imediatamente
+4. Solicitar advogado (Defensoria Pública se não puder pagar)
+5. Não assinar nada sem presença de advogado
+
+Documentação Importante:
+- Cópia do Boletim de Ocorrência
+- Laudos médicos (em caso de lesões)
+- Provas (prints, mensagens, gravações permitidas por lei)
+- Testemunhas
+
+Onde Buscar Ajuda:
+- Delegacia de Polícia (registro de B.O.)
+- Defensoria Pública (assistência jurídica gratuita)
+- OAB (indicação de advogados criminalistas)
+- Ministério Público (denúncias e proteção de direitos)
+- Disque 180 (violência contra mulher)
+- Disque 100 (direitos humanos)
+- 190 (Polícia Militar - emergências)
+
+Delegacias Especializadas:
+- DEAM (Delegacia da Mulher)
+- Delegacia de Crimes Raciais
+- Delegacia de Crimes Cibernéticos
+- Delegacia do Idoso
+- Delegacia da Criança e do Adolescente

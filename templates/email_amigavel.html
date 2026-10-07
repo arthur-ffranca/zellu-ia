@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitação de Resolução Amigável</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 2.5cm;
+        }
+        body {
+            font-family: 'Arial', Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #222;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 24px;
+            background-color: #ffffff;
+        }
+        .document-container {
+            background-color: #ffffff;
+        }
+        .subject-line {
+            font-size: 14px;
+            color: #444;
+            margin-bottom: 24px;
+        }
+        .subject-line strong {
+            color: #000;
+        }
+        h1.document-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0 0 16px 0;
+        }
+        .intro {
+            margin: 16px 0 28px 0;
+            text-align: justify;
+        }
+        .section {
+            margin: 22px 0;
+        }
+        .section-title {
+            font-weight: bold;
+            font-size: 14px;
+            color: #000;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            margin-bottom: 8px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 4px;
+        }
+        .info-row {
+            margin: 4px 0;
+        }
+        .info-label {
+            font-weight: bold;
+            display: inline-block;
+            min-width: 90px;
+        }
+        .free-text {
+            text-align: justify;
+            margin: 8px 0;
+        }
+        .placeholder {
+            color: #999;
+            font-style: italic;
+        }
+        .closing-paragraph {
+            margin-top: 28px;
+            text-align: justify;
+            font-size: 13px;
+            color: #555;
+            border-top: 1px solid #ddd;
+            padding-top: 16px;
+        }
+        .footer {
+            margin-top: 24px;
+            font-size: 11px;
+            color: #888;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="document-container">
+
+        <div class="subject-line">
+            <strong>Assunto:</strong> Solicitação de resolução amigável — Protocolo nº [NÚMERO DO PROTOCOLO]
+        </div>
+
+        <p>Olá,</p>
+
+        <p class="intro">
+            Esta mensagem formaliza uma solicitação de resolução amigável realizada por
+            <strong>{{client_name}}</strong>. A situação está relatada a seguir, acompanhada de uma proposta
+            de encaminhamento — com o interesse genuíno de chegar a um acordo sem a necessidade de medidas
+            adicionais.
+        </p>
+
+        <div class="section">
+            <div class="section-title">Quem está solicitando</div>
+            <div class="info-row"><span class="info-label">Nome:</span> {{client_name}}</div>
+            <div class="info-row"><span class="info-label">CPF:</span> {{client_cpf}}</div>
+            <div class="info-row"><span class="info-label">E-mail:</span> <span class="placeholder">[E-MAIL]</span></div>
+            <div class="info-row"><span class="info-label">Telefone:</span> <span class="placeholder">[TELEFONE]</span></div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Para quem se destina</div>
+            <div class="info-row"><span class="info-label">Razão Social:</span> {{opposing_party_name or '[RAZÃO SOCIAL]'}}</div>
+            <div class="info-row"><span class="info-label">CNPJ:</span> {{opposing_party_cnpj or '[CNPJ]'}}</div>
+            <div class="info-row"><span class="info-label">Canal de contato:</span> <span class="placeholder">[E-MAIL / SETOR DE ATENDIMENTO]</span></div>
+            <div class="info-row"><span class="info-label">Referência interna (pedido, contrato ou protocolo, se houver):</span> <span class="placeholder">[REFERÊNCIA]</span></div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">O que aconteceu</div>
+            <div class="free-text">
+                {% if problem_description %}
+                <p>{{problem_description}}</p>
+                {% else %}
+                <p class="placeholder">[Espaço para o relato do solicitante de forma completa e com detalhes. Mínimo de 2 parágrafos. Não é necessário, nesta fase, suscitar questões de direito.]</p>
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">O que o solicitante propõe</div>
+            <div class="free-text">
+                {% if suggested_next_steps %}
+                <ul>
+                    {% for step in suggested_next_steps %}
+                    <li>{{ step }}</li>
+                    {% endfor %}
+                </ul>
+                {% else %}
+                <p class="placeholder">[Espaço para a proposta de solução do solicitante.]</p>
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Prazo para retorno</div>
+            <p>
+                Aguardamos uma resposta em até <strong>24 horas</strong> a partir do recebimento desta mensagem.
+                Caso não haja manifestação dentro desse prazo, o solicitante poderá avaliar outros caminhos
+                disponíveis para a defesa de seus direitos.
+            </p>
+            <p>A preferência, no entanto, é pelo diálogo e estamos aqui para facilitar isso.</p>
+        </div>
+
+        <div class="closing-paragraph">
+            A Zellu atua como uma ponte de comunicação para pessoas que enfrentam algum impasse, facilitando
+            o diálogo para que questões do dia a dia sejam resolvidas de forma rápida, sem burocracia ou
+            intervenções judiciais.
+        </div>
+
+        <div class="footer">
+            Documento gerado em {{generation_date}}.
+        </div>
+    </div>
+</body>
+</html>

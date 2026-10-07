@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificação Extrajudicial</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 2.5cm;
+        }
+        body {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 12pt;
+            line-height: 1.6;
+            color: #000;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+        }
+        .subject-line {
+            font-size: 12pt;
+            margin-bottom: 24px;
+        }
+        .subject-line strong {
+            font-weight: bold;
+        }
+        .greeting {
+            margin: 12px 0;
+        }
+        .intro {
+            text-align: justify;
+            margin: 12px 0 28px 0;
+        }
+        .section {
+            margin: 24px 0;
+        }
+        .section-title {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 12pt;
+            margin-bottom: 8px;
+            border-bottom: 1px solid #444;
+            padding-bottom: 4px;
+        }
+        .info-row {
+            margin: 4px 0;
+        }
+        .info-label {
+            font-weight: bold;
+            display: inline-block;
+            min-width: 110px;
+        }
+        .free-text {
+            text-align: justify;
+            margin: 10px 0;
+        }
+        .placeholder {
+            color: #777;
+            font-style: italic;
+        }
+        .law-disclaimer {
+            margin-top: 12px;
+            font-style: italic;
+            color: #444;
+        }
+        .deadline-block {
+            margin: 16px 0;
+            text-align: justify;
+        }
+        .date-line {
+            margin-top: 40px;
+            text-align: left;
+        }
+        .signature-section {
+            margin-top: 50px;
+            text-align: center;
+        }
+        .signature-line {
+            border-top: 1px solid #000;
+            width: 300px;
+            margin: 0 auto 6px auto;
+        }
+        .signature-name {
+            font-weight: bold;
+        }
+        .footer-note {
+            margin-top: 40px;
+            font-size: 10pt;
+            color: #666;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="subject-line">
+        <strong>Assunto:</strong> Notificação extrajudicial — Protocolo nº [NÚMERO DO PROTOCOLO]
+    </div>
+
+    <div class="greeting">Olá,</div>
+
+    <div class="intro">
+        Por meio desta mensagem, <strong>{{client_name}}</strong> notifica extrajudicialmente a empresa
+        abaixo identificada, dando ciência formal dos fatos descritos a seguir para todos os fins legais
+        pertinentes.
+    </div>
+
+    <div class="section">
+        <div class="section-title">Quem notifica</div>
+        <div class="info-row"><span class="info-label">Nome:</span> {{client_name}}</div>
+        <div class="info-row"><span class="info-label">CPF:</span> {{client_cpf}}</div>
+        <div class="info-row"><span class="info-label">E-mail:</span> <span class="placeholder">[E-MAIL]</span></div>
+        <div class="info-row"><span class="info-label">Telefone:</span> <span class="placeholder">[TELEFONE]</span></div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Quem é notificado</div>
+        <div class="info-row"><span class="info-label">Razão Social:</span> {{opposing_party_name or '[RAZÃO SOCIAL]'}}</div>
+        <div class="info-row"><span class="info-label">CNPJ:</span> {{opposing_party_cnpj or '[CNPJ]'}}</div>
+        <div class="info-row"><span class="info-label">Endereço:</span> <span class="placeholder">[ENDEREÇO]</span></div>
+        <div class="info-row"><span class="info-label">Canal de contato:</span> <span class="placeholder">[E-MAIL / SETOR DE ATENDIMENTO]</span></div>
+        <div class="info-row"><span class="info-label">Referência interna:</span> <span class="placeholder">[REFERÊNCIA]</span></div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">1. Objeto da notificação</div>
+        <div class="free-text">
+            {% if problem_description %}
+            <p>{{problem_description}}</p>
+            {% else %}
+            <p class="placeholder">[Espaço para o relato completo. Caso já tenha ocorrido a solicitação de resolução amigável, informar quando foi enviada e que não houve solução, não restando outra alternativa senão a notificação extrajudicial. Mínimo de 2 parágrafos.]</p>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">2. Fundamentos legais aplicáveis</div>
+        <p class="free-text">A situação descrita pode configurar violação aos seguintes dispositivos, entre outros que se mostrarem pertinentes ao caso:</p>
+        {% if client_rights %}
+        <ul>
+            {% for right in client_rights %}
+            <li>{{ right }}</li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <ul>
+            <li class="placeholder">[Direito à informação: art. 6º, inciso III do CDC]</li>
+            <li class="placeholder">[Outros dispositivos aplicáveis ao caso]</li>
+        </ul>
+        {% endif %}
+        <p class="law-disclaimer">
+            Os dispositivos acima são indicados a título informativo e não constituem parecer técnico nem
+            excluem outros que possam ser aplicáveis.
+        </p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">3. Da notificação</div>
+        <p class="free-text">
+            Pelo exposto, e com o propósito de sanar as irregularidades apontadas, o NOTIFICANTE formaliza,
+            por meio da presente, os requerimentos elencados abaixo, sobre os quais aguarda providências
+            imediatas:
+        </p>
+        {% if suggested_next_steps %}
+        <ul>
+            {% for step in suggested_next_steps %}
+            <li>{{ step }}</li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <p class="placeholder">[Espaço para os pedidos do notificante, estruturados em tópicos.]</p>
+        {% endif %}
+
+        <div class="deadline-block">
+            <p>
+                Concede-se o prazo de <strong>3 (três) dias úteis</strong>, contados a partir do recebimento
+                desta notificação, para que a empresa se manifeste ou cumpra os pedidos acima.
+            </p>
+            <p>
+                A ausência de resposta ou a recusa em resolver a questão dentro do prazo poderá levar o
+                notificante a adotar outras medidas, inclusive judiciais, para a defesa de seus direitos.
+            </p>
+            <p>
+                A presente notificação tem caráter preventivo e visa evitar a judicialização do conflito,
+                oportunizando a composição amigável. Contudo, a inércia ou negativa injustificada poderá
+                ensejar a imediata tutela judicial dos direitos do NOTIFICANTE.
+            </p>
+        </div>
+    </div>
+
+    <div class="date-line">
+        <span class="placeholder">[CIDADE DO NOTIFICANTE]/[UF]</span>, {{current_date}}.
+    </div>
+
+    <div class="signature-section">
+        <div class="signature-line"></div>
+        <div class="signature-name">{{client_name}}</div>
+    </div>
+
+    <div class="footer-note">
+        Documento gerado em {{generation_date}}.
+    </div>
+</body>
+</html>

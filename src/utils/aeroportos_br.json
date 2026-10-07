@@ -1,0 +1,3015 @@
+{
+ "apelidos": [
+  "congonhas",
+  "cumbica",
+  "viracopos",
+  "galeao",
+  "santos dumont",
+  "pampulha",
+  "confins",
+  "afonso pena",
+  "guararapes",
+  "luis eduardo magalhaes",
+  "hercilio luz",
+  "salgado filho",
+  "tancredo neves",
+  "deputado luis eduardo magalhaes",
+  "eduardo gomes",
+  "val de cans",
+  "pinto martins",
+  "marechal rondon",
+  "santa genoveva",
+  "jorge amado",
+  "zumbi dos palmares"
+ ],
+ "aeroportos": [
+  {
+   "iata": "QGA",
+   "icao": "SSGY",
+   "nome": "Guaira Airport",
+   "uf": "",
+   "municipios": [
+    "guaira"
+   ]
+  },
+  {
+   "iata": "OYK",
+   "icao": "SBOI",
+   "nome": "Oiapoque Airport",
+   "uf": "",
+   "municipios": [
+    "oiapoque"
+   ]
+  },
+  {
+   "iata": "OUS",
+   "icao": "SDOU",
+   "nome": "Ourinhos Airport",
+   "uf": "",
+   "municipios": [
+    "ourinhos"
+   ]
+  },
+  {
+   "iata": "PBQ",
+   "icao": "SWPM",
+   "nome": "Pimenta Bueno Airport",
+   "uf": "",
+   "municipios": [
+    "pimenta bueno"
+   ]
+  },
+  {
+   "iata": "APQ",
+   "icao": "SNAL",
+   "nome": "Arapiraca Airport",
+   "uf": "AL",
+   "municipios": [
+    "arapiraca"
+   ]
+  },
+  {
+   "iata": "QXC",
+   "icao": "SNXS",
+   "nome": "Fazenda Sao Braz Airport",
+   "uf": "AL",
+   "municipios": [
+    "barra de santo antonio"
+   ]
+  },
+  {
+   "iata": "MCZ",
+   "icao": "SBMO",
+   "nome": "Zumbi dos Palmares Airport",
+   "uf": "AL",
+   "municipios": [
+    "maceio",
+    "rio largo"
+   ]
+  },
+  {
+   "iata": "BAZ",
+   "icao": "SWBC",
+   "nome": "Barcelos Airport",
+   "uf": "AM",
+   "municipios": [
+    "barcelos"
+   ]
+  },
+  {
+   "iata": "BCR",
+   "icao": "SWNK",
+   "nome": "Novo Campo Airport",
+   "uf": "AM",
+   "municipios": [
+    "boca do acre"
+   ]
+  },
+  {
+   "iata": "RBB",
+   "icao": "SWBR",
+   "nome": "Borba Airport",
+   "uf": "AM",
+   "municipios": [
+    "borba"
+   ]
+  },
+  {
+   "iata": "CAF",
+   "icao": "SWCA",
+   "nome": "Carauari Airport",
+   "uf": "AM",
+   "municipios": [
+    "carauari"
+   ]
+  },
+  {
+   "iata": "CIZ",
+   "icao": "SWKO",
+   "nome": "Coari Airport",
+   "uf": "AM",
+   "municipios": [
+    "coari"
+   ]
+  },
+  {
+   "iata": "ERN",
+   "icao": "SWEI",
+   "nome": "Eirunepe Airport",
+   "uf": "AM",
+   "municipios": [
+    "eirunepe"
+   ]
+  },
+  {
+   "iata": "FBA",
+   "icao": "SWOB",
+   "nome": "Fonte Boa Airport",
+   "uf": "AM",
+   "municipios": [
+    "fonte boa"
+   ]
+  },
+  {
+   "iata": "HUW",
+   "icao": "SWHT",
+   "nome": "Humaita Airport",
+   "uf": "AM",
+   "municipios": [
+    "humaita"
+   ]
+  },
+  {
+   "iata": "ITA",
+   "icao": "SBIC",
+   "nome": "Itacoatiara Airport",
+   "uf": "AM",
+   "municipios": [
+    "itacoatiara"
+   ]
+  },
+  {
+   "iata": "LBR",
+   "icao": "SWLB",
+   "nome": "Labrea Airport",
+   "uf": "AM",
+   "municipios": [
+    "labrea"
+   ]
+  },
+  {
+   "iata": "MAO",
+   "icao": "SBEG",
+   "nome": "Eduardo Gomes International Airport",
+   "uf": "AM",
+   "municipios": [
+    "manaus"
+   ]
+  },
+  {
+   "iata": "PLL",
+   "icao": "SBMN",
+   "nome": "Ponta Pelada Airport",
+   "uf": "AM",
+   "municipios": [
+    "manaus"
+   ]
+  },
+  {
+   "iata": "MNX",
+   "icao": "SBMY",
+   "nome": "Manicore Airport",
+   "uf": "AM",
+   "municipios": [
+    "manicore"
+   ]
+  },
+  {
+   "iata": "MBZ",
+   "icao": "SWMW",
+   "nome": "Maues Airport",
+   "uf": "AM",
+   "municipios": [
+    "maues"
+   ]
+  },
+  {
+   "iata": "NVP",
+   "icao": "SWNA",
+   "nome": "Novo Aripuana Airport",
+   "uf": "AM",
+   "municipios": [
+    "novo aripuana"
+   ]
+  },
+  {
+   "iata": "PIN",
+   "icao": "SWPI",
+   "nome": "Parintins Airport",
+   "uf": "AM",
+   "municipios": [
+    "parintins"
+   ]
+  },
+  {
+   "iata": "IRZ",
+   "icao": "SWTP",
+   "nome": "Tapuruquara Airport",
+   "uf": "AM",
+   "municipios": [
+    "santa isabel do rio negro"
+   ]
+  },
+  {
+   "iata": "IPG",
+   "icao": "SWII",
+   "nome": "Ipiranga Airport",
+   "uf": "AM",
+   "municipios": [
+    "santo antonio do ica"
+   ]
+  },
+  {
+   "iata": "SJL",
+   "icao": "SBUA",
+   "nome": "Sao Gabriel da Cachoeira Airport",
+   "uf": "AM",
+   "municipios": [
+    "sao gabriel da cachoeira"
+   ]
+  },
+  {
+   "iata": "OLC",
+   "icao": "SDCG",
+   "nome": "Senadora Eunice Micheles Airport",
+   "uf": "AM",
+   "municipios": [
+    "sao paulo de olivenca"
+   ]
+  },
+  {
+   "iata": "TBT",
+   "icao": "SBTT",
+   "nome": "Tabatinga Airport",
+   "uf": "AM",
+   "municipios": [
+    "tabatinga"
+   ]
+  },
+  {
+   "iata": "TFF",
+   "icao": "SBTF",
+   "nome": "Tefe Airport",
+   "uf": "AM",
+   "municipios": [
+    "tefe"
+   ]
+  },
+  {
+   "iata": "MCP",
+   "icao": "SBMQ",
+   "nome": "Alberto Alcolumbre Airport",
+   "uf": "AP",
+   "municipios": [
+    "macapa"
+   ]
+  },
+  {
+   "iata": "QGS",
+   "icao": "SDUO",
+   "nome": "Alagoinhas Airport",
+   "uf": "BA",
+   "municipios": [
+    "alagoinhas"
+   ]
+  },
+  {
+   "iata": "BQQ",
+   "icao": "SNBX",
+   "nome": "Barra Airport",
+   "uf": "BA",
+   "municipios": [
+    "barra"
+   ]
+  },
+  {
+   "iata": "BRA",
+   "icao": "SNBR",
+   "nome": "Barreiras Airport",
+   "uf": "BA",
+   "municipios": [
+    "barreiras"
+   ]
+  },
+  {
+   "iata": "BVM",
+   "icao": "SNBL",
+   "nome": "Belmonte Airport",
+   "uf": "BA",
+   "municipios": [
+    "belmonte"
+   ]
+  },
+  {
+   "iata": "LAZ",
+   "icao": "SBLP",
+   "nome": "Bom Jesus da Lapa Airport",
+   "uf": "BA",
+   "municipios": [
+    "bom jesus da lapa"
+   ]
+  },
+  {
+   "iata": "BMS",
+   "icao": "SNBU",
+   "nome": "Socrates Mariani Bittencourt Airport",
+   "uf": "BA",
+   "municipios": [
+    "brumado"
+   ]
+  },
+  {
+   "iata": "PBA",
+   "icao": "SDLO",
+   "nome": "Fazenda Pontal Airport",
+   "uf": "BA",
+   "municipios": [
+    "cairu"
+   ]
+  },
+  {
+   "iata": "MXQ",
+   "icao": "SNCL",
+   "nome": "Lorenzo Airport",
+   "uf": "BA",
+   "municipios": [
+    "cairu"
+   ]
+  },
+  {
+   "iata": "CNV",
+   "icao": "SNED",
+   "nome": "Canavieiras Airport",
+   "uf": "BA",
+   "municipios": [
+    "canavieiras"
+   ]
+  },
+  {
+   "iata": "CRQ",
+   "icao": "SBCV",
+   "nome": "Caravelas Airport",
+   "uf": "BA",
+   "municipios": [
+    "caravelas"
+   ]
+  },
+  {
+   "iata": "ESI",
+   "icao": "SBEP",
+   "nome": "Espinosa Airport",
+   "uf": "BA",
+   "municipios": [
+    "espinosa"
+   ]
+  },
+  {
+   "iata": "FEC",
+   "icao": "SNJD",
+   "nome": "Joao Durval Carneiro Airport",
+   "uf": "BA",
+   "municipios": [
+    "feira de santana"
+   ]
+  },
+  {
+   "iata": "GNM",
+   "icao": "SNGI",
+   "nome": "Guanambi Airport",
+   "uf": "BA",
+   "municipios": [
+    "guanambi"
+   ]
+  },
+  {
+   "iata": "IOS",
+   "icao": "SBIL",
+   "nome": "Bahia - Jorge Amado Airport",
+   "uf": "BA",
+   "municipios": [
+    "ilheus"
+   ]
+  },
+  {
+   "iata": "IPU",
+   "icao": "SNIU",
+   "nome": "Ipiau Airport",
+   "uf": "BA",
+   "municipios": [
+    "ipiau"
+   ]
+  },
+  {
+   "iata": "IRE",
+   "icao": "SNIC",
+   "nome": "Irece Airport",
+   "uf": "BA",
+   "municipios": [
+    "irece"
+   ]
+  },
+  {
+   "iata": "QIT",
+   "icao": "SNIP",
+   "nome": "Itapetinga Airport",
+   "uf": "BA",
+   "municipios": [
+    "itapetinga"
+   ]
+  },
+  {
+   "iata": "ITE",
+   "icao": "SNZW",
+   "nome": "Itubera Airport",
+   "uf": "BA",
+   "municipios": [
+    "itubera"
+   ]
+  },
+  {
+   "iata": "JCM",
+   "icao": "SNJB",
+   "nome": "Jacobina Airport",
+   "uf": "BA",
+   "municipios": [
+    "jacobina"
+   ]
+  },
+  {
+   "iata": "JEQ",
+   "icao": "SNJK",
+   "nome": "Jequie Airport",
+   "uf": "BA",
+   "municipios": [
+    "jequie"
+   ]
+  },
+  {
+   "iata": "SSA",
+   "icao": "SBSV",
+   "nome": "Deputado Luiz Eduardo Magalhaes International Airport",
+   "uf": "BA",
+   "municipios": [
+    "lauro de freitas",
+    "salvador"
+   ]
+  },
+  {
+   "iata": "LEC",
+   "icao": "SBLE",
+   "nome": "Chapada Diamantina Airport",
+   "uf": "BA",
+   "municipios": [
+    "lencois"
+   ]
+  },
+  {
+   "iata": "MVS",
+   "icao": "SNMU",
+   "nome": "Mucuri Airport",
+   "uf": "BA",
+   "municipios": [
+    "mucuri"
+   ]
+  },
+  {
+   "iata": "PAV",
+   "icao": "SBUF",
+   "nome": "Paulo Afonso Airport",
+   "uf": "BA",
+   "municipios": [
+    "paulo afonso"
+   ]
+  },
+  {
+   "iata": "BPS",
+   "icao": "SBPS",
+   "nome": "Porto Seguro Airport",
+   "uf": "BA",
+   "municipios": [
+    "porto seguro"
+   ]
+  },
+  {
+   "iata": "PDF",
+   "icao": "SNRD",
+   "nome": "Prado Airport",
+   "uf": "BA",
+   "municipios": [
+    "prado"
+   ]
+  },
+  {
+   "iata": "TXF",
+   "icao": "SNTF",
+   "nome": "Teixeira de Freitas Airport",
+   "uf": "BA",
+   "municipios": [
+    "teixeira de freitas"
+   ]
+  },
+  {
+   "iata": "UNA",
+   "icao": "SBTC",
+   "nome": "Hotel Transamerica Airport",
+   "uf": "BA",
+   "municipios": [
+    "una"
+   ]
+  },
+  {
+   "iata": "VAL",
+   "icao": "SNVB",
+   "nome": "Valenca Airport",
+   "uf": "BA",
+   "municipios": [
+    "valenca"
+   ]
+  },
+  {
+   "iata": "VDC",
+   "icao": "SBVC",
+   "nome": "Glauber de Andrade Rocha Airport",
+   "uf": "BA",
+   "municipios": [
+    "vitoria da conquista"
+   ]
+  },
+  {
+   "iata": "CMC",
+   "icao": "SNWC",
+   "nome": "Camocim Airport",
+   "uf": "CE",
+   "municipios": [
+    "camocim"
+   ]
+  },
+  {
+   "iata": "FOR",
+   "icao": "SBFZ",
+   "nome": "Pinto Martins International Airport",
+   "uf": "CE",
+   "municipios": [
+    "fortaleza"
+   ]
+  },
+  {
+   "iata": "QIG",
+   "icao": "SNIG",
+   "nome": "Iguatu Airport",
+   "uf": "CE",
+   "municipios": [
+    "iguatu"
+   ]
+  },
+  {
+   "iata": "JJD",
+   "icao": "SBJE",
+   "nome": "Comandante Ariston Pessoa Airport",
+   "uf": "CE",
+   "municipios": [
+    "jijoca de jericoacoara cruz"
+   ]
+  },
+  {
+   "iata": "JDO",
+   "icao": "SBJU",
+   "nome": "Orlando Bezerra de Menezes Airport",
+   "uf": "CE",
+   "municipios": [
+    "juazeiro do norte"
+   ]
+  },
+  {
+   "iata": "QBX",
+   "icao": "SNOB",
+   "nome": "Sobral Airport",
+   "uf": "CE",
+   "municipios": [
+    "sobral"
+   ]
+  },
+  {
+   "iata": "BSB",
+   "icao": "SBBR",
+   "nome": "Presidente Juscelino Kubistschek International Airport",
+   "uf": "DF",
+   "municipios": [
+    "brasilia"
+   ]
+  },
+  {
+   "iata": "CZS",
+   "icao": "SBCZ",
+   "nome": "Cruzeiro do Sul Airport",
+   "uf": "DF",
+   "municipios": [
+    "cruzeiro do sul"
+   ]
+  },
+  {
+   "iata": "FEJ",
+   "icao": "SNOU",
+   "nome": "Feijó Airport",
+   "uf": "DF",
+   "municipios": [
+    "feijo"
+   ]
+  },
+  {
+   "iata": "RBR",
+   "icao": "SBRB",
+   "nome": "Placido de Castro Airport",
+   "uf": "DF",
+   "municipios": [
+    "rio branco"
+   ]
+  },
+  {
+   "iata": "TRQ",
+   "icao": "SBTK",
+   "nome": "Tarauaca Airport",
+   "uf": "DF",
+   "municipios": [
+    "tarauaca"
+   ]
+  },
+  {
+   "iata": "CDI",
+   "icao": "SNKI",
+   "nome": "Cachoeiro do Itapemirim Airport",
+   "uf": "ES",
+   "municipios": [
+    "cachoeiro do itapemirim"
+   ]
+  },
+  {
+   "iata": "QCH",
+   "icao": "SNCX",
+   "nome": "Colatina Airport",
+   "uf": "ES",
+   "municipios": [
+    "colatina"
+   ]
+  },
+  {
+   "iata": "GUZ",
+   "icao": "SNGA",
+   "nome": "Guarapari Airport",
+   "uf": "ES",
+   "municipios": [
+    "guarapari"
+   ]
+  },
+  {
+   "iata": "SBJ",
+   "icao": "SNMX",
+   "nome": "Sao Mateus Airport",
+   "uf": "ES",
+   "municipios": [
+    "sao mateus"
+   ]
+  },
+  {
+   "iata": "VIX",
+   "icao": "SBVT",
+   "nome": "Eurico de Aguiar Salles Airport",
+   "uf": "ES",
+   "municipios": [
+    "vitoria"
+   ]
+  },
+  {
+   "iata": "APS",
+   "icao": "SWNS",
+   "nome": "Anapolis Airport",
+   "uf": "GO",
+   "municipios": [
+    "anapolis"
+   ]
+  },
+  {
+   "iata": "ARS",
+   "icao": "SWEC",
+   "nome": "Estancia das Cascatas Airport",
+   "uf": "GO",
+   "municipios": [
+    "aragarcas"
+   ]
+  },
+  {
+   "iata": "CLV",
+   "icao": "SBCN",
+   "nome": "Caldas Novas Airport",
+   "uf": "GO",
+   "municipios": [
+    "caldas novas"
+   ]
+  },
+  {
+   "iata": "TLZ",
+   "icao": "SWKT",
+   "nome": "Catalao Airport",
+   "uf": "GO",
+   "municipios": [
+    "catalao"
+   ]
+  },
+  {
+   "iata": "GYN",
+   "icao": "SBGO",
+   "nome": "Santa Genoveva Airport",
+   "uf": "GO",
+   "municipios": [
+    "goiania"
+   ]
+  },
+  {
+   "iata": "JTI",
+   "icao": "SWJW",
+   "nome": "Jatai Airport",
+   "uf": "GO",
+   "municipios": [
+    "jatai"
+   ]
+  },
+  {
+   "iata": "MQH",
+   "icao": "SBMC",
+   "nome": "Minacu Airport",
+   "uf": "GO",
+   "municipios": [
+    "minacu"
+   ]
+  },
+  {
+   "iata": "NQL",
+   "icao": "SWNQ",
+   "nome": "Niquelandia Airport",
+   "uf": "GO",
+   "municipios": [
+    "niquelandia"
+   ]
+  },
+  {
+   "iata": "RVD",
+   "icao": "SWLC",
+   "nome": "General Leite de Castro Airport",
+   "uf": "GO",
+   "municipios": [
+    "rio verde"
+   ]
+  },
+  {
+   "iata": "SQM",
+   "icao": "SWUA",
+   "nome": "Sao Miguel do Araguaia Airport",
+   "uf": "GO",
+   "municipios": [
+    "sao miguel do araguaia"
+   ]
+  },
+  {
+   "iata": "BRB",
+   "icao": "SBRR",
+   "nome": "Barreirinhas Airport",
+   "uf": "MA",
+   "municipios": []
+  },
+  {
+   "iata": "APY",
+   "icao": "SNAI",
+   "nome": "Alto Parnaiba Airport",
+   "uf": "MA",
+   "municipios": [
+    "alto parnaiba"
+   ]
+  },
+  {
+   "iata": "BSS",
+   "icao": "SNBS",
+   "nome": "Balsas Airport",
+   "uf": "MA",
+   "municipios": [
+    "balsas"
+   ]
+  },
+  {
+   "iata": "BDC",
+   "icao": "SNBC",
+   "nome": "Barra do Corda Airport",
+   "uf": "MA",
+   "municipios": [
+    "barra do corda"
+   ]
+  },
+  {
+   "iata": "CLN",
+   "icao": "SBCI",
+   "nome": "Brig. Lysias Augusto Rodrigues Airport",
+   "uf": "MA",
+   "municipios": [
+    "carolina"
+   ]
+  },
+  {
+   "iata": "CTP",
+   "icao": "SNCP",
+   "nome": "Carutapera Airport",
+   "uf": "MA",
+   "municipios": [
+    "carutapera"
+   ]
+  },
+  {
+   "iata": "CPU",
+   "icao": "SNCU",
+   "nome": "Cururupu Airport",
+   "uf": "MA",
+   "municipios": [
+    "cururupu"
+   ]
+  },
+  {
+   "iata": "IMP",
+   "icao": "SBIZ",
+   "nome": "Prefeito Renato Moreira Airport",
+   "uf": "MA",
+   "municipios": [
+    "imperatriz"
+   ]
+  },
+  {
+   "iata": "PHI",
+   "icao": "SNYE",
+   "nome": "Pinheiro Airport",
+   "uf": "MA",
+   "municipios": [
+    "pinheiro"
+   ]
+  },
+  {
+   "iata": "SLZ",
+   "icao": "SBSL",
+   "nome": "Marechal Cunha Machado International Airport",
+   "uf": "MA",
+   "municipios": [
+    "sao luis"
+   ]
+  },
+  {
+   "iata": "AMJ",
+   "icao": "SNAR",
+   "nome": "Cirilo Queiroz Airport",
+   "uf": "MG",
+   "municipios": [
+    "almenara"
+   ]
+  },
+  {
+   "iata": "AAX",
+   "icao": "SBAX",
+   "nome": "Araxa Airport",
+   "uf": "MG",
+   "municipios": [
+    "araxa"
+   ]
+  },
+  {
+   "iata": "QAK",
+   "icao": "SBBQ",
+   "nome": "Major Brigadeiro Doorgal Borges Airport",
+   "uf": "MG",
+   "municipios": [
+    "barbacena"
+   ]
+  },
+  {
+   "iata": "PLU",
+   "icao": "SBBH",
+   "nome": "Pampulha - Carlos Drummond de Andrade Airport",
+   "uf": "MG",
+   "municipios": [
+    "belo horizonte"
+   ]
+  },
+  {
+   "iata": "CNF",
+   "icao": "SBCF",
+   "nome": "Tancredo Neves International Airport",
+   "uf": "MG",
+   "municipios": [
+    "belo horizonte",
+    "confins",
+    "lagoa santa"
+   ]
+  },
+  {
+   "iata": "QDF",
+   "icao": "SNKF",
+   "nome": "Conselheiro Lafaiete Airport",
+   "uf": "MG",
+   "municipios": [
+    "conselheiro lafaiete"
+   ]
+  },
+  {
+   "iata": "DTI",
+   "icao": "SNDT",
+   "nome": "Diamantina Airport",
+   "uf": "MG",
+   "municipios": [
+    "diamantina"
+   ]
+  },
+  {
+   "iata": "DIQ",
+   "icao": "SNDV",
+   "nome": "Divinopolis Airport",
+   "uf": "MG",
+   "municipios": [
+    "divinopolis"
+   ]
+  },
+  {
+   "iata": "GVR",
+   "icao": "SBGV",
+   "nome": "Governador Valadares Airport",
+   "uf": "MG",
+   "municipios": [
+    "governador valadares"
+   ]
+  },
+  {
+   "iata": "IPN",
+   "icao": "SBIP",
+   "nome": "Usiminas Airport",
+   "uf": "MG",
+   "municipios": [
+    "ipatinga"
+   ]
+  },
+  {
+   "iata": "JNA",
+   "icao": "SNJN",
+   "nome": "Januaria Airport",
+   "uf": "MG",
+   "municipios": [
+    "januaria"
+   ]
+  },
+  {
+   "iata": "JDF",
+   "icao": "SBJF",
+   "nome": "Francisco de Assis Airport",
+   "uf": "MG",
+   "municipios": [
+    "juiz de fora"
+   ]
+  },
+  {
+   "iata": "IZA",
+   "icao": "SBZM",
+   "nome": "Zona da Mata Regional Airport",
+   "uf": "MG",
+   "municipios": [
+    "juiz de fora"
+   ]
+  },
+  {
+   "iata": "LEP",
+   "icao": "SNDN",
+   "nome": "Leopoldina Airport",
+   "uf": "MG",
+   "municipios": [
+    "leopoldina"
+   ]
+  },
+  {
+   "iata": "MOC",
+   "icao": "SBMK",
+   "nome": "Mario Ribeiro Airport",
+   "uf": "MG",
+   "municipios": [
+    "montes claros"
+   ]
+  },
+  {
+   "iata": "NNU",
+   "icao": "SNNU",
+   "nome": "Nanuque Airport",
+   "uf": "MG",
+   "municipios": [
+    "nanuque"
+   ]
+  },
+  {
+   "iata": "PSW",
+   "icao": "SNOS",
+   "nome": "Municipal Jose Figueiredo Airport",
+   "uf": "MG",
+   "municipios": [
+    "passos"
+   ]
+  },
+  {
+   "iata": "POJ",
+   "icao": "SNPD",
+   "nome": "Patos de Minas Airport",
+   "uf": "MG",
+   "municipios": [
+    "patos de minas"
+   ]
+  },
+  {
+   "iata": "PIV",
+   "icao": "SNPX",
+   "nome": "Pirapora Airport",
+   "uf": "MG",
+   "municipios": [
+    "pirapora"
+   ]
+  },
+  {
+   "iata": "POO",
+   "icao": "SBPC",
+   "nome": "Pocos de Caldas Airport",
+   "uf": "MG",
+   "municipios": [
+    "pocos de caldas"
+   ]
+  },
+  {
+   "iata": "PPY",
+   "icao": "SNZA",
+   "nome": "Pouso Alegre Airport",
+   "uf": "MG",
+   "municipios": [
+    "pouso alegre"
+   ]
+  },
+  {
+   "iata": "JDR",
+   "icao": "SNJR",
+   "nome": "Prefeito Octavio de Almeida Neves Airport",
+   "uf": "MG",
+   "municipios": [
+    "sao joao del rei"
+   ]
+  },
+  {
+   "iata": "SSO",
+   "icao": "SNLO",
+   "nome": "Sao Lourenco Airport",
+   "uf": "MG",
+   "municipios": [
+    "sao lourenco"
+   ]
+  },
+  {
+   "iata": "TFL",
+   "icao": "SNTO",
+   "nome": "Juscelino Kubitscheck Airport",
+   "uf": "MG",
+   "municipios": [
+    "teofilo otoni"
+   ]
+  },
+  {
+   "iata": "QID",
+   "icao": "SNVI",
+   "nome": "Melio Viana Airport",
+   "uf": "MG",
+   "municipios": [
+    "tres coracoes"
+   ]
+  },
+  {
+   "iata": "UBA",
+   "icao": "SBUR",
+   "nome": "Mario de Almeida Franco Airport",
+   "uf": "MG",
+   "municipios": [
+    "uberaba"
+   ]
+  },
+  {
+   "iata": "UDI",
+   "icao": "SBUL",
+   "nome": "Ten. Cel. Aviador Cesar Bombonato Airport",
+   "uf": "MG",
+   "municipios": [
+    "uberlandia"
+   ]
+  },
+  {
+   "iata": "GMS",
+   "icao": "SNGM",
+   "nome": "Fazenda Canada Airport",
+   "uf": "MG",
+   "municipios": [
+    "uberlandia"
+   ]
+  },
+  {
+   "iata": "VAG",
+   "icao": "SBVG",
+   "nome": "Major Brigadeiro Trompowsky Airport",
+   "uf": "MG",
+   "municipios": [
+    "varginha"
+   ]
+  },
+  {
+   "iata": "GGB",
+   "icao": "SWHP",
+   "nome": "Fazenda Olhos D`agua Airport",
+   "uf": "MS",
+   "municipios": [
+    "agua boa"
+   ]
+  },
+  {
+   "iata": "AFL",
+   "icao": "SBAT",
+   "nome": "Alta Floresta Airport",
+   "uf": "MS",
+   "municipios": [
+    "alta floresta"
+   ]
+  },
+  {
+   "iata": "BPG",
+   "icao": "SBBW",
+   "nome": "Barra do Garcas Airport",
+   "uf": "MS",
+   "municipios": [
+    "barra do garcas"
+   ]
+  },
+  {
+   "iata": "BYO",
+   "icao": "SBDB",
+   "nome": "Bonito Airport",
+   "uf": "MS",
+   "municipios": [
+    "bonito"
+   ]
+  },
+  {
+   "iata": "CCX",
+   "icao": "SWKC",
+   "nome": "Caceres Airport",
+   "uf": "MS",
+   "municipios": [
+    "caceres"
+   ]
+  },
+  {
+   "iata": "CGR",
+   "icao": "SBCG",
+   "nome": "Campo Grande Airport",
+   "uf": "MS",
+   "municipios": [
+    "campo grande"
+   ]
+  },
+  {
+   "iata": "CQA",
+   "icao": "SWEK",
+   "nome": "Canarana Airport",
+   "uf": "MS",
+   "municipios": [
+    "canarana"
+   ]
+  },
+  {
+   "iata": "CSS",
+   "icao": "SSCL",
+   "nome": "Cassilandia Airport",
+   "uf": "MS",
+   "municipios": [
+    "cassilandia"
+   ]
+  },
+  {
+   "iata": "CFO",
+   "icao": "SJHG",
+   "nome": "Confresa Airport",
+   "uf": "MS",
+   "municipios": [
+    "confresa"
+   ]
+  },
+  {
+   "iata": "CMG",
+   "icao": "SBCR",
+   "nome": "Corumba International Airport",
+   "uf": "MS",
+   "municipios": [
+    "corumba"
+   ]
+  },
+  {
+   "iata": "CGB",
+   "icao": "SBCY",
+   "nome": "Marechal Rondon Airport",
+   "uf": "MS",
+   "municipios": [
+    "cuiaba",
+    "varzea grande"
+   ]
+  },
+  {
+   "iata": "DMT",
+   "icao": "SWDM",
+   "nome": "Diamantino Airport",
+   "uf": "MS",
+   "municipios": [
+    "diamantino"
+   ]
+  },
+  {
+   "iata": "DOU",
+   "icao": "SSDO",
+   "nome": "Dourados Airport",
+   "uf": "MS",
+   "municipios": [
+    "dourados"
+   ]
+  },
+  {
+   "iata": "JCB",
+   "icao": "SSJA",
+   "nome": "Santa Terezinha Airport",
+   "uf": "MS",
+   "municipios": [
+    "joacaba"
+   ]
+  },
+  {
+   "iata": "JUA",
+   "icao": "SIZX",
+   "nome": "Juara Sul Airport",
+   "uf": "MS",
+   "municipios": [
+    "juara"
+   ]
+  },
+  {
+   "iata": "JIA",
+   "icao": "SWJN",
+   "nome": "Juina Airport",
+   "uf": "MS",
+   "municipios": [
+    "juina"
+   ]
+  },
+  {
+   "iata": "JRN",
+   "icao": "SWJU",
+   "nome": "Juruena Airport",
+   "uf": "MS",
+   "municipios": [
+    "juruena"
+   ]
+  },
+  {
+   "iata": "LVR",
+   "icao": "SILC",
+   "nome": "Municipal Bom Futuro Airport",
+   "uf": "MS",
+   "municipios": [
+    "lucas do rio verde"
+   ]
+  },
+  {
+   "iata": "MBK",
+   "icao": "SWXM",
+   "nome": "Regional Orlando Villas Boas Airport",
+   "uf": "MS",
+   "municipios": [
+    "matupa"
+   ]
+  },
+  {
+   "iata": "NOK",
+   "icao": "SWXV",
+   "nome": "Xavantina Airport",
+   "uf": "MS",
+   "municipios": [
+    "nova xavantina"
+   ]
+  },
+  {
+   "iata": "PBB",
+   "icao": "SSPN",
+   "nome": "Paranaiba Airport",
+   "uf": "MS",
+   "municipios": [
+    "paranaiba"
+   ]
+  },
+  {
+   "iata": "PMG",
+   "icao": "SBPP",
+   "nome": "Ponta Pora Airport",
+   "uf": "MS",
+   "municipios": [
+    "ponta pora"
+   ]
+  },
+  {
+   "iata": "PBX",
+   "icao": "SWPQ",
+   "nome": "Fazenda Piraguassu Airport",
+   "uf": "MS",
+   "municipios": [
+    "porto alegre do norte"
+   ]
+  },
+  {
+   "iata": "PBV",
+   "icao": "SWPG",
+   "nome": "Porto dos Gauchos Airport",
+   "uf": "MS",
+   "municipios": [
+    "porto dos gauchos"
+   ]
+  },
+  {
+   "iata": "ROO",
+   "icao": "SWRD",
+   "nome": "Rondonopolis Airport",
+   "uf": "MS",
+   "municipios": [
+    "rondonopolis"
+   ]
+  },
+  {
+   "iata": "SXO",
+   "icao": "SWFX",
+   "nome": "Sao Felix do Araguaia Airport",
+   "uf": "MS",
+   "municipios": [
+    "sao felix do araguaia"
+   ]
+  },
+  {
+   "iata": "AZL",
+   "icao": "SWTU",
+   "nome": "Fazenda Tucunare Airport",
+   "uf": "MS",
+   "municipios": [
+    "sapezal"
+   ]
+  },
+  {
+   "iata": "OPS",
+   "icao": "SWSI",
+   "nome": "Presidente Joao Batista Figueiredo Airport",
+   "uf": "MS",
+   "municipios": [
+    "sinop"
+   ]
+  },
+  {
+   "iata": "TGQ",
+   "icao": "SWTS",
+   "nome": "Tangara da Serra Airport",
+   "uf": "MS",
+   "municipios": [
+    "tangara da serra"
+   ]
+  },
+  {
+   "iata": "MTG",
+   "icao": "SWVB",
+   "nome": "Vila Bela da Santissima Trindade Airport",
+   "uf": "MS",
+   "municipios": [
+    "vila bela da santissima trindade"
+   ]
+  },
+  {
+   "iata": "VLP",
+   "icao": "SWVC",
+   "nome": "Vila Rica Airport",
+   "uf": "MS",
+   "municipios": [
+    "vila rica"
+   ]
+  },
+  {
+   "iata": "AIR",
+   "icao": "SSOU",
+   "nome": "Aripuanã Airport",
+   "uf": "MT",
+   "municipios": [
+    "aripuana"
+   ]
+  },
+  {
+   "iata": "ALT",
+   "icao": "SDWQ",
+   "nome": "Alenquer Airport",
+   "uf": "PA",
+   "municipios": [
+    "alenquer"
+   ]
+  },
+  {
+   "iata": "MEU",
+   "icao": "SBMD",
+   "nome": "Monte Dourado Airport",
+   "uf": "PA",
+   "municipios": [
+    "almeirim"
+   ]
+  },
+  {
+   "iata": "GGF",
+   "icao": "SNYA",
+   "nome": "Almeirim Airport",
+   "uf": "PA",
+   "municipios": [
+    "almeirim"
+   ]
+  },
+  {
+   "iata": "ATM",
+   "icao": "SBHT",
+   "nome": "Altamira Airport",
+   "uf": "PA",
+   "municipios": [
+    "altamira"
+   ]
+  },
+  {
+   "iata": "BEL",
+   "icao": "SBBE",
+   "nome": "Val de Cans/Julio Cezar Ribeiro International Airport",
+   "uf": "PA",
+   "municipios": [
+    "ananindeua",
+    "belem"
+   ]
+  },
+  {
+   "iata": "BVS",
+   "icao": "SNVS",
+   "nome": "Breves Airport",
+   "uf": "PA",
+   "municipios": [
+    "breves"
+   ]
+  },
+  {
+   "iata": "CKS",
+   "icao": "SBCJ",
+   "nome": "Carajas Airport",
+   "uf": "PA",
+   "municipios": [
+    "carajas"
+   ]
+  },
+  {
+   "iata": "CDJ",
+   "icao": "SBAA",
+   "nome": "Conceicao do Araguaia Airport",
+   "uf": "PA",
+   "municipios": [
+    "conceicao do araguaia"
+   ]
+  },
+  {
+   "iata": "ITI",
+   "icao": "SNYH",
+   "nome": "Agropecuaria Castanhais Airport",
+   "uf": "PA",
+   "municipios": [
+    "cumaru do norte"
+   ]
+  },
+  {
+   "iata": "ITB",
+   "icao": "SBIH",
+   "nome": "Itaituba Airport",
+   "uf": "PA",
+   "municipios": [
+    "itaituba"
+   ]
+  },
+  {
+   "iata": "JCR",
+   "icao": "SBEK",
+   "nome": "Jacareacanga Airport",
+   "uf": "PA",
+   "municipios": [
+    "jacareacanga"
+   ]
+  },
+  {
+   "iata": "MAB",
+   "icao": "SBMA",
+   "nome": "Maraba Airport",
+   "uf": "PA",
+   "municipios": [
+    "maraba"
+   ]
+  },
+  {
+   "iata": "MTE",
+   "icao": "SNMA",
+   "nome": "Monte Alegre Airport",
+   "uf": "PA",
+   "municipios": [
+    "monte alegre"
+   ]
+  },
+  {
+   "iata": "NPR",
+   "icao": "SJNP",
+   "nome": "Novo Progresso Airport",
+   "uf": "PA",
+   "municipios": [
+    "novo progresso"
+   ]
+  },
+  {
+   "iata": "OBI",
+   "icao": "SNTI",
+   "nome": "Obidos Airport",
+   "uf": "PA",
+   "municipios": [
+    "obidos"
+   ]
+  },
+  {
+   "iata": "TMT",
+   "icao": "SBTB",
+   "nome": "Trombetas Airport",
+   "uf": "PA",
+   "municipios": [
+    "oriximina"
+   ]
+  },
+  {
+   "iata": "ORX",
+   "icao": "SNOX",
+   "nome": "Oriximina Airport",
+   "uf": "PA",
+   "municipios": [
+    "oriximina"
+   ]
+  },
+  {
+   "iata": "OIA",
+   "icao": "SDOW",
+   "nome": "Ourilandia do Norte Airport",
+   "uf": "PA",
+   "municipios": [
+    "ourilandia do norte"
+   ]
+  },
+  {
+   "iata": "PTQ",
+   "icao": "SNMZ",
+   "nome": "Porto de Moz Airport",
+   "uf": "PA",
+   "municipios": [
+    "porto de moz"
+   ]
+  },
+  {
+   "iata": "RDC",
+   "icao": "SNDC",
+   "nome": "Redencao Airport",
+   "uf": "PA",
+   "municipios": [
+    "redencao"
+   ]
+  },
+  {
+   "iata": "OPP",
+   "icao": "SNSM",
+   "nome": "Salinopolis Airport",
+   "uf": "PA",
+   "municipios": [
+    "salinopolis"
+   ]
+  },
+  {
+   "iata": "CMP",
+   "icao": "SNKE",
+   "nome": "Santana do Araguaia Airport",
+   "uf": "PA",
+   "municipios": [
+    "santana do araguaia"
+   ]
+  },
+  {
+   "iata": "STM",
+   "icao": "SBSN",
+   "nome": "Maestro Wilson Fonseca Airport",
+   "uf": "PA",
+   "municipios": [
+    "santarem"
+   ]
+  },
+  {
+   "iata": "SXX",
+   "icao": "SNFX",
+   "nome": "Sao Felix do Xingu Airport",
+   "uf": "PA",
+   "municipios": [
+    "sao felix do xingu"
+   ]
+  },
+  {
+   "iata": "SFK",
+   "icao": "SNSW",
+   "nome": "Soure Airport",
+   "uf": "PA",
+   "municipios": [
+    "soure"
+   ]
+  },
+  {
+   "iata": "TUR",
+   "icao": "SBTU",
+   "nome": "Tucurui Airport",
+   "uf": "PA",
+   "municipios": [
+    "tucurui"
+   ]
+  },
+  {
+   "iata": "JPA",
+   "icao": "SBJP",
+   "nome": "Presidente Castro Pinto Airport",
+   "uf": "PB",
+   "municipios": [
+    "bayeux",
+    "joao pessoa"
+   ]
+  },
+  {
+   "iata": "CPV",
+   "icao": "SBKG",
+   "nome": "Presidente Joao Suassuna Airport",
+   "uf": "PB",
+   "municipios": [
+    "campina grande"
+   ]
+  },
+  {
+   "iata": "JAW",
+   "icao": "SNAB",
+   "nome": "Araripina Airport",
+   "uf": "PE",
+   "municipios": [
+    "araripina"
+   ]
+  },
+  {
+   "iata": "CAU",
+   "icao": "SNRU",
+   "nome": "Caruaru Airport",
+   "uf": "PE",
+   "municipios": [
+    "caruaru"
+   ]
+  },
+  {
+   "iata": "FEN",
+   "icao": "SBFN",
+   "nome": "Fernando de Noronha Airport",
+   "uf": "PE",
+   "municipios": [
+    "fernando de noronha"
+   ]
+  },
+  {
+   "iata": "QGP",
+   "icao": "SNGN",
+   "nome": "Garanhuns Airport",
+   "uf": "PE",
+   "municipios": [
+    "garanhuns"
+   ]
+  },
+  {
+   "iata": "PNZ",
+   "icao": "SBPL",
+   "nome": "Senador Nilo Coelho Airport",
+   "uf": "PE",
+   "municipios": [
+    "petrolina"
+   ]
+  },
+  {
+   "iata": "REC",
+   "icao": "SBRF",
+   "nome": "Guararapes - Gilberto Freyre International Airport",
+   "uf": "PE",
+   "municipios": [
+    "recife"
+   ]
+  },
+  {
+   "iata": "FLB",
+   "icao": "SNQG",
+   "nome": "Cangapara Airport",
+   "uf": "PI",
+   "municipios": [
+    "floriano"
+   ]
+  },
+  {
+   "iata": "GDP",
+   "icao": "SNGD",
+   "nome": "Guadalupe Airport",
+   "uf": "PI",
+   "municipios": [
+    "guadalupe"
+   ]
+  },
+  {
+   "iata": "PHB",
+   "icao": "SBPB",
+   "nome": "Prefeito Doutor Joao Silva Filho Airport",
+   "uf": "PI",
+   "municipios": [
+    "parnaiba"
+   ]
+  },
+  {
+   "iata": "PCS",
+   "icao": "SNPC",
+   "nome": "Picos Airport",
+   "uf": "PI",
+   "municipios": [
+    "picos"
+   ]
+  },
+  {
+   "iata": "NSR",
+   "icao": "SWKQ",
+   "nome": "Serra da Capivara Airport",
+   "uf": "PI",
+   "municipios": [
+    "sao raimundo nonato"
+   ]
+  },
+  {
+   "iata": "THE",
+   "icao": "SBTE",
+   "nome": "Senador Petronio Portela Airport",
+   "uf": "PI",
+   "municipios": [
+    "teresina"
+   ]
+  },
+  {
+   "iata": "APU",
+   "icao": "SSAP",
+   "nome": "Apucarana Airport",
+   "uf": "PR",
+   "municipios": [
+    "apucarana"
+   ]
+  },
+  {
+   "iata": "APX",
+   "icao": "SSOG",
+   "nome": "Arapongas Airport",
+   "uf": "PR",
+   "municipios": [
+    "arapongas"
+   ]
+  },
+  {
+   "iata": "AAG",
+   "icao": "SSYA",
+   "nome": "Arapoti Airport",
+   "uf": "PR",
+   "municipios": [
+    "arapoti"
+   ]
+  },
+  {
+   "iata": "CBW",
+   "icao": "SSKM",
+   "nome": "Campo Mourao Airport",
+   "uf": "PR",
+   "municipios": [
+    "campo mourao"
+   ]
+  },
+  {
+   "iata": "CAC",
+   "icao": "SBCA",
+   "nome": "Cascavel Airport",
+   "uf": "PR",
+   "municipios": [
+    "cascavel"
+   ]
+  },
+  {
+   "iata": "QAC",
+   "icao": "SSQT",
+   "nome": "Castro Airport",
+   "uf": "PR",
+   "municipios": [
+    "castro"
+   ]
+  },
+  {
+   "iata": "GGH",
+   "icao": "SSCT",
+   "nome": "Cianorte Airport",
+   "uf": "PR",
+   "municipios": [
+    "cianorte"
+   ]
+  },
+  {
+   "iata": "CKO",
+   "icao": "SSCP",
+   "nome": "Cornelio Procopio Airport",
+   "uf": "PR",
+   "municipios": [
+    "cornelio procopio"
+   ]
+  },
+  {
+   "iata": "BFH",
+   "icao": "SBBI",
+   "nome": "Bacacheri Airport",
+   "uf": "PR",
+   "municipios": [
+    "curitiba"
+   ]
+  },
+  {
+   "iata": "CWB",
+   "icao": "SBCT",
+   "nome": "Afonso Pena Airport",
+   "uf": "PR",
+   "municipios": [
+    "curitiba",
+    "sao jose dos pinhais"
+   ]
+  },
+  {
+   "iata": "IGU",
+   "icao": "SBFI",
+   "nome": "Cataratas International Airport",
+   "uf": "PR",
+   "municipios": [
+    "foz do iguacu"
+   ]
+  },
+  {
+   "iata": "FBE",
+   "icao": "SSFB",
+   "nome": "Francisco Beltrao Airport",
+   "uf": "PR",
+   "municipios": [
+    "francisco beltrao"
+   ]
+  },
+  {
+   "iata": "GPB",
+   "icao": "SBGU",
+   "nome": "Tancredo Thomas de Faria Airport",
+   "uf": "PR",
+   "municipios": [
+    "guarapuava"
+   ]
+  },
+  {
+   "iata": "LDB",
+   "icao": "SBLO",
+   "nome": "Governador Jose Richa Airport",
+   "uf": "PR",
+   "municipios": [
+    "londrina"
+   ]
+  },
+  {
+   "iata": "MGF",
+   "icao": "SBMG",
+   "nome": "Regional de Maringa - Silvio Nane Junior Airport",
+   "uf": "PR",
+   "municipios": [
+    "maringa"
+   ]
+  },
+  {
+   "iata": "PNG",
+   "icao": "SSPG",
+   "nome": "Paranagua Airport",
+   "uf": "PR",
+   "municipios": [
+    "paranagua"
+   ]
+  },
+  {
+   "iata": "PVI",
+   "icao": "SSPI",
+   "nome": "Paranavai Airport",
+   "uf": "PR",
+   "municipios": [
+    "paranavai"
+   ]
+  },
+  {
+   "iata": "PTO",
+   "icao": "SSPB",
+   "nome": "Pato Branco Airport",
+   "uf": "PR",
+   "municipios": [
+    "pato branco"
+   ]
+  },
+  {
+   "iata": "PGZ",
+   "icao": "SSZW",
+   "nome": "Ponta Grossa Airport",
+   "uf": "PR",
+   "municipios": [
+    "ponta grossa"
+   ]
+  },
+  {
+   "iata": "TEC",
+   "icao": "SBTL",
+   "nome": "Telemaco Borba Airport",
+   "uf": "PR",
+   "municipios": [
+    "telemaco borba"
+   ]
+  },
+  {
+   "iata": "TOW",
+   "icao": "SBTD",
+   "nome": "Toledo Airport",
+   "uf": "PR",
+   "municipios": [
+    "toledo"
+   ]
+  },
+  {
+   "iata": "UMU",
+   "icao": "SSUM",
+   "nome": "Umuarama Airport",
+   "uf": "PR",
+   "municipios": [
+    "umuarama"
+   ]
+  },
+  {
+   "iata": "BZC",
+   "icao": "SBBZ",
+   "nome": "Umberto Modiano Airport",
+   "uf": "RJ",
+   "municipios": [
+    "cabo frio"
+   ]
+  },
+  {
+   "iata": "CFB",
+   "icao": "SBCB",
+   "nome": "Cabo Frio Airport",
+   "uf": "RJ",
+   "municipios": [
+    "cabo frio"
+   ]
+  },
+  {
+   "iata": "CAW",
+   "icao": "SBCP",
+   "nome": "Bartolomeu Lisandro Airport",
+   "uf": "RJ",
+   "municipios": [
+    "campos dos goytacazes"
+   ]
+  },
+  {
+   "iata": "ITP",
+   "icao": "SDUN",
+   "nome": "Itaperuna Airport",
+   "uf": "RJ",
+   "municipios": [
+    "itaperuna"
+   ]
+  },
+  {
+   "iata": "MEA",
+   "icao": "SBME",
+   "nome": "Macae Airport",
+   "uf": "RJ",
+   "municipios": [
+    "macae"
+   ]
+  },
+  {
+   "iata": "QNV",
+   "icao": "SDNY",
+   "nome": "Aeroclube Airport",
+   "uf": "RJ",
+   "municipios": [
+    "nova iguacu"
+   ]
+  },
+  {
+   "iata": "QRZ",
+   "icao": "SDRS",
+   "nome": "Resende Airport",
+   "uf": "RJ",
+   "municipios": [
+    "resende"
+   ]
+  },
+  {
+   "iata": "GIG",
+   "icao": "SBGL",
+   "nome": "Galeao - Antonio Carlos Jobim International Airport",
+   "uf": "RJ",
+   "municipios": [
+    "rio de janeiro"
+   ]
+  },
+  {
+   "iata": "SDU",
+   "icao": "SBRJ",
+   "nome": "Santos Dumont Airport",
+   "uf": "RJ",
+   "municipios": [
+    "rio de janeiro"
+   ]
+  },
+  {
+   "iata": "SNZ",
+   "icao": "SBSC",
+   "nome": "Santa Cruz Airport",
+   "uf": "RJ",
+   "municipios": [
+    "rio de janeiro"
+   ]
+  },
+  {
+   "iata": "QCP",
+   "icao": "SNKN",
+   "nome": "Currais Novos Airport",
+   "uf": "RN",
+   "municipios": [
+    "currais novos"
+   ]
+  },
+  {
+   "iata": "MVF",
+   "icao": "SBMS",
+   "nome": "Dix-Sept Rosado Airport",
+   "uf": "RN",
+   "municipios": [
+    "mossoro"
+   ]
+  },
+  {
+   "iata": "NAT",
+   "icao": "SBSG",
+   "nome": "Greater Natal International Airport",
+   "uf": "RN",
+   "municipios": [
+    "sao goncalo do amarante"
+   ]
+  },
+  {
+   "iata": "AQM",
+   "icao": "SWNI",
+   "nome": "Nova Vida Airport",
+   "uf": "RO",
+   "municipios": [
+    "ariquemes"
+   ]
+  },
+  {
+   "iata": "OAL",
+   "icao": "SSKW",
+   "nome": "Cacoal Airport",
+   "uf": "RO",
+   "municipios": [
+    "cacoal"
+   ]
+  },
+  {
+   "iata": "CQS",
+   "icao": "SWCQ",
+   "nome": "Costa Marques Airport",
+   "uf": "RO",
+   "municipios": [
+    "costa marques"
+   ]
+  },
+  {
+   "iata": "GJM",
+   "icao": "SBGM",
+   "nome": "Guajara-Mirim Airport",
+   "uf": "RO",
+   "municipios": [
+    "guajara mirim"
+   ]
+  },
+  {
+   "iata": "JPR",
+   "icao": "SWJI",
+   "nome": "Ji-Parana Airport",
+   "uf": "RO",
+   "municipios": [
+    "ji parana"
+   ]
+  },
+  {
+   "iata": "PVH",
+   "icao": "SBPV",
+   "nome": "Governador Jorge Teixeira de Oliveira Airport",
+   "uf": "RO",
+   "municipios": [
+    "porto velho"
+   ]
+  },
+  {
+   "iata": "BVH",
+   "icao": "SBVH",
+   "nome": "Vilhena Airport",
+   "uf": "RO",
+   "municipios": [
+    "vilhena"
+   ]
+  },
+  {
+   "iata": "BVB",
+   "icao": "SBBV",
+   "nome": "Atlas Brasil Cantanhede Airport",
+   "uf": "RR",
+   "municipios": [
+    "boa vista"
+   ]
+  },
+  {
+   "iata": "ALQ",
+   "icao": "SSLT",
+   "nome": "Alegrete Novo Airport",
+   "uf": "RS",
+   "municipios": [
+    "alegrete"
+   ]
+  },
+  {
+   "iata": "BGX",
+   "icao": "SBBG",
+   "nome": "Comandante Gustavo Kraemer Airport",
+   "uf": "RS",
+   "municipios": [
+    "bage"
+   ]
+  },
+  {
+   "iata": "BGV",
+   "icao": "SSBG",
+   "nome": "Aeroclube de Bento Goncalves Airport",
+   "uf": "RS",
+   "municipios": [
+    "bento goncalves"
+   ]
+  },
+  {
+   "iata": "QDB",
+   "icao": "SSKS",
+   "nome": "Cachoeira do Sul Airport",
+   "uf": "RS",
+   "municipios": [
+    "cachoeira do sul"
+   ]
+  },
+  {
+   "iata": "CEL",
+   "icao": "SSCN",
+   "nome": "Canela Airport",
+   "uf": "RS",
+   "municipios": [
+    "canela"
+   ]
+  },
+  {
+   "iata": "CXJ",
+   "icao": "SBCX",
+   "nome": "Campo dos Bugres Airport",
+   "uf": "RS",
+   "municipios": [
+    "caxias do sul"
+   ]
+  },
+  {
+   "iata": "ERM",
+   "icao": "SSER",
+   "nome": "Erechim Airport",
+   "uf": "RS",
+   "municipios": [
+    "erechim"
+   ]
+  },
+  {
+   "iata": "HRZ",
+   "icao": "SSHZ",
+   "nome": "Horizontina Airport",
+   "uf": "RS",
+   "municipios": [
+    "horizontina"
+   ]
+  },
+  {
+   "iata": "IJU",
+   "icao": "SSIJ",
+   "nome": "Ijui Airport",
+   "uf": "RS",
+   "municipios": [
+    "ijui"
+   ]
+  },
+  {
+   "iata": "ITQ",
+   "icao": "SSIQ",
+   "nome": "Itaqui Airport",
+   "uf": "RS",
+   "municipios": [
+    "itaqui"
+   ]
+  },
+  {
+   "iata": "QGF",
+   "icao": "SSNG",
+   "nome": "Montenegro Airport",
+   "uf": "RS",
+   "municipios": [
+    "montenegro"
+   ]
+  },
+  {
+   "iata": "QHV",
+   "icao": "SSNH",
+   "nome": "Novo Hamburgo Airport",
+   "uf": "RS",
+   "municipios": [
+    "novo hamburgo"
+   ]
+  },
+  {
+   "iata": "PFB",
+   "icao": "SBPF",
+   "nome": "Lauro Kurtz Airport",
+   "uf": "RS",
+   "municipios": [
+    "passo fundo"
+   ]
+  },
+  {
+   "iata": "PET",
+   "icao": "SBPK",
+   "nome": "Pelotas Airport",
+   "uf": "RS",
+   "municipios": [
+    "pelotas"
+   ]
+  },
+  {
+   "iata": "QNS",
+   "icao": "SBCO",
+   "nome": "Canoas Airport",
+   "uf": "RS",
+   "municipios": [
+    "porto alegre"
+   ]
+  },
+  {
+   "iata": "POA",
+   "icao": "SBPA",
+   "nome": "Salgado Filho Airport",
+   "uf": "RS",
+   "municipios": [
+    "porto alegre"
+   ]
+  },
+  {
+   "iata": "RIG",
+   "icao": "SJRG",
+   "nome": "Rio Grande Airport",
+   "uf": "RS",
+   "municipios": [
+    "rio grande"
+   ]
+  },
+  {
+   "iata": "CSU",
+   "icao": "SSSC",
+   "nome": "Santa Cruz do Sul Airport",
+   "uf": "RS",
+   "municipios": [
+    "santa cruz do sul"
+   ]
+  },
+  {
+   "iata": "RIA",
+   "icao": "SBSM",
+   "nome": "Santa Maria Airport",
+   "uf": "RS",
+   "municipios": [
+    "santa maria"
+   ]
+  },
+  {
+   "iata": "SRA",
+   "icao": "SSZR",
+   "nome": "Santa Rosa Airport",
+   "uf": "RS",
+   "municipios": [
+    "santa rosa"
+   ]
+  },
+  {
+   "iata": "CTQ",
+   "icao": "SSVP",
+   "nome": "Santa Vitoria do Palmar Airport",
+   "uf": "RS",
+   "municipios": [
+    "santa vitoria do palmar"
+   ]
+  },
+  {
+   "iata": "GEL",
+   "icao": "SBNM",
+   "nome": "Santo Angelo Airport",
+   "uf": "RS",
+   "municipios": [
+    "santo angelo"
+   ]
+  },
+  {
+   "iata": "QOJ",
+   "icao": "SSSB",
+   "nome": "Sao Borja Airport",
+   "uf": "RS",
+   "municipios": [
+    "sao borja"
+   ]
+  },
+  {
+   "iata": "SQY",
+   "icao": "SSRU",
+   "nome": "Sao Lourenco do Sul Airport",
+   "uf": "RS",
+   "municipios": [
+    "sao lourenco do sul"
+   ]
+  },
+  {
+   "iata": "TSQ",
+   "icao": "SSTE",
+   "nome": "Torres Airport",
+   "uf": "RS",
+   "municipios": [
+    "torres"
+   ]
+  },
+  {
+   "iata": "URG",
+   "icao": "SBUG",
+   "nome": "Rubem Berta Airport",
+   "uf": "RS",
+   "municipios": [
+    "uruguaiana"
+   ]
+  },
+  {
+   "iata": "BNU",
+   "icao": "SSBL",
+   "nome": "Blumenau Airport",
+   "uf": "SC",
+   "municipios": [
+    "blumenau"
+   ]
+  },
+  {
+   "iata": "CFC",
+   "icao": "SBCD",
+   "nome": "Caçador Airport",
+   "uf": "SC",
+   "municipios": [
+    "cacador"
+   ]
+  },
+  {
+   "iata": "XAP",
+   "icao": "SBCH",
+   "nome": "Chapeco Airport",
+   "uf": "SC",
+   "municipios": [
+    "chapeco"
+   ]
+  },
+  {
+   "iata": "CCI",
+   "icao": "SSCK",
+   "nome": "Concordia Airport",
+   "uf": "SC",
+   "municipios": [
+    "concordia"
+   ]
+  },
+  {
+   "iata": "CCM",
+   "icao": "SBCM",
+   "nome": "Forquilhinha - Criciuma Airport",
+   "uf": "SC",
+   "municipios": [
+    "criciuma"
+   ]
+  },
+  {
+   "iata": "QCR",
+   "icao": "SSKU",
+   "nome": "Curitibanos Airport",
+   "uf": "SC",
+   "municipios": [
+    "curitibanos"
+   ]
+  },
+  {
+   "iata": "FLN",
+   "icao": "SBFL",
+   "nome": "Hercilio Luz International Airport",
+   "uf": "SC",
+   "municipios": [
+    "florianopolis"
+   ]
+  },
+  {
+   "iata": "NVT",
+   "icao": "SBNF",
+   "nome": "Ministro Victor Konder International Airport",
+   "uf": "SC",
+   "municipios": [
+    "itajai",
+    "navegantes"
+   ]
+  },
+  {
+   "iata": "JJG",
+   "icao": "SBJA",
+   "nome": "Humberto Ghizzo Bortoluzzi Regional Airport",
+   "uf": "SC",
+   "municipios": [
+    "jaguaruna"
+   ]
+  },
+  {
+   "iata": "JOI",
+   "icao": "SBJV",
+   "nome": "Lauro Carneiro de Loyola Airport",
+   "uf": "SC",
+   "municipios": [
+    "joinville"
+   ]
+  },
+  {
+   "iata": "LAJ",
+   "icao": "SBLJ",
+   "nome": "Lages Airport",
+   "uf": "SC",
+   "municipios": [
+    "lages"
+   ]
+  },
+  {
+   "iata": "LOI",
+   "icao": "SSLN",
+   "nome": "Helmuth Baungarten Airport",
+   "uf": "SC",
+   "municipios": [
+    "lontras"
+   ]
+  },
+  {
+   "iata": "QMF",
+   "icao": "SSMF",
+   "nome": "Mafra Airport",
+   "uf": "SC",
+   "municipios": [
+    "mafra"
+   ]
+  },
+  {
+   "iata": "SQX",
+   "icao": "SSOE",
+   "nome": "Sao Miguel do Oeste Airport",
+   "uf": "SC",
+   "municipios": [
+    "sao miguel do oeste"
+   ]
+  },
+  {
+   "iata": "QVB",
+   "icao": "SSUV",
+   "nome": "Uniao da Vitoria Airport",
+   "uf": "SC",
+   "municipios": [
+    "uniao da vitoria"
+   ]
+  },
+  {
+   "iata": "VIA",
+   "icao": "SSVI",
+   "nome": "Videira Airport",
+   "uf": "SC",
+   "municipios": [
+    "videira"
+   ]
+  },
+  {
+   "iata": "AXE",
+   "icao": "SSXX",
+   "nome": "Xanxere Airport",
+   "uf": "SC",
+   "municipios": [
+    "xanxere"
+   ]
+  },
+  {
+   "iata": "AJU",
+   "icao": "SBAR",
+   "nome": "Santa Maria Airport",
+   "uf": "SE",
+   "municipios": [
+    "aracaju",
+    "sao cristovao"
+   ]
+  },
+  {
+   "iata": "ARU",
+   "icao": "SBAU",
+   "nome": "Aracatuba Airport",
+   "uf": "SP",
+   "municipios": [
+    "aracatuba"
+   ]
+  },
+  {
+   "iata": "AQA",
+   "icao": "SBAQ",
+   "nome": "Araraquara Airport",
+   "uf": "SP",
+   "municipios": [
+    "araraquara"
+   ]
+  },
+  {
+   "iata": "AIF",
+   "icao": "SBAS",
+   "nome": "Marcelo Pires Halzhausen Airport",
+   "uf": "SP",
+   "municipios": [
+    "assis"
+   ]
+  },
+  {
+   "iata": "QVP",
+   "icao": "SDRR",
+   "nome": "Avare-Arandu Airport",
+   "uf": "SP",
+   "municipios": [
+    "avare"
+   ]
+  },
+  {
+   "iata": "BAT",
+   "icao": "SBBT",
+   "nome": "Chafei Amsei Airport",
+   "uf": "SP",
+   "municipios": [
+    "barretos"
+   ]
+  },
+  {
+   "iata": "JTC",
+   "icao": "SBAE",
+   "nome": "Bauru-Arealva Airport",
+   "uf": "SP",
+   "municipios": [
+    "bauru"
+   ]
+  },
+  {
+   "iata": "BAU",
+   "icao": "SBBU",
+   "nome": "Bauru Airport",
+   "uf": "SP",
+   "municipios": [
+    "bauru"
+   ]
+  },
+  {
+   "iata": "QCJ",
+   "icao": "SDBK",
+   "nome": "Botucatu Airport",
+   "uf": "SP",
+   "municipios": [
+    "botucatu"
+   ]
+  },
+  {
+   "iata": "BJP",
+   "icao": "SBBP",
+   "nome": "Aeroporto Estadual Arthur Siqueira Airport",
+   "uf": "SP",
+   "municipios": [
+    "braganca paulista"
+   ]
+  },
+  {
+   "iata": "VCP",
+   "icao": "SBKP",
+   "nome": "Viracopos International Airport",
+   "uf": "SP",
+   "municipios": [
+    "campinas"
+   ]
+  },
+  {
+   "iata": "CPQ",
+   "icao": "SDAM",
+   "nome": "Amarais Airport",
+   "uf": "SP",
+   "municipios": [
+    "campinas"
+   ]
+  },
+  {
+   "iata": "QDC",
+   "icao": "SDDR",
+   "nome": "Dracena Airport",
+   "uf": "SP",
+   "municipios": [
+    "dracena"
+   ]
+  },
+  {
+   "iata": "FRC",
+   "icao": "SIMK",
+   "nome": "Franca Airport",
+   "uf": "SP",
+   "municipios": [
+    "franca"
+   ]
+  },
+  {
+   "iata": "GUJ",
+   "icao": "SBGW",
+   "nome": "Guaratingueta Airport",
+   "uf": "SP",
+   "municipios": [
+    "guaratingueta"
+   ]
+  },
+  {
+   "iata": "SSZ",
+   "icao": "SBST",
+   "nome": "Base Aerea de Santos Airport",
+   "uf": "SP",
+   "municipios": [
+    "guaruja"
+   ]
+  },
+  {
+   "iata": "GRU",
+   "icao": "SBGR",
+   "nome": "Guarulhos - Governador Andre Franco Montoro International Airport",
+   "uf": "SP",
+   "municipios": [
+    "guarulhos",
+    "sao paulo"
+   ]
+  },
+  {
+   "iata": "JLS",
+   "icao": "SDJL",
+   "nome": "Jales Airport",
+   "uf": "SP",
+   "municipios": [
+    "jales"
+   ]
+  },
+  {
+   "iata": "QGC",
+   "icao": "SDLP",
+   "nome": "Lencois Paulista Airport",
+   "uf": "SP",
+   "municipios": [
+    "lencois paulista"
+   ]
+  },
+  {
+   "iata": "QGB",
+   "icao": "SDYM",
+   "nome": "Limeira Airport",
+   "uf": "SP",
+   "municipios": [
+    "limeira"
+   ]
+  },
+  {
+   "iata": "LIP",
+   "icao": "SBLN",
+   "nome": "Lins Airport",
+   "uf": "SP",
+   "municipios": [
+    "lins"
+   ]
+  },
+  {
+   "iata": "MII",
+   "icao": "SBML",
+   "nome": "Marilia Airport",
+   "uf": "SP",
+   "municipios": [
+    "marilia"
+   ]
+  },
+  {
+   "iata": "QOA",
+   "icao": "SDKK",
+   "nome": "Mococa Airport",
+   "uf": "SP",
+   "municipios": [
+    "mococa"
+   ]
+  },
+  {
+   "iata": "QHB",
+   "icao": "SDPW",
+   "nome": "Piracicaba Airport",
+   "uf": "SP",
+   "municipios": [
+    "piracicaba"
+   ]
+  },
+  {
+   "iata": "QPS",
+   "icao": "SBYS",
+   "nome": "Campo Fontenelle Airport",
+   "uf": "SP",
+   "municipios": [
+    "pirassununga"
+   ]
+  },
+  {
+   "iata": "PPB",
+   "icao": "SBDN",
+   "nome": "Presidente Prudente Airport",
+   "uf": "SP",
+   "municipios": [
+    "presidente prudente"
+   ]
+  },
+  {
+   "iata": "RAO",
+   "icao": "SBRP",
+   "nome": "Leite Lopes Airport",
+   "uf": "SP",
+   "municipios": [
+    "ribeirao preto"
+   ]
+  },
+  {
+   "iata": "QIQ",
+   "icao": "SDRK",
+   "nome": "Rio Claro Airport",
+   "uf": "SP",
+   "municipios": [
+    "rio claro"
+   ]
+  },
+  {
+   "iata": "QSC",
+   "icao": "SDSC",
+   "nome": "Sao Carlos Airport",
+   "uf": "SP",
+   "municipios": [
+    "sao carlos"
+   ]
+  },
+  {
+   "iata": "SJP",
+   "icao": "SBSR",
+   "nome": "Sao Jose do Rio Preto Airport",
+   "uf": "SP",
+   "municipios": [
+    "sao jose do rio preto"
+   ]
+  },
+  {
+   "iata": "SJK",
+   "icao": "SBSJ",
+   "nome": "Professor Urbano Ernesto Stumpf Airport",
+   "uf": "SP",
+   "municipios": [
+    "sao jose dos campos"
+   ]
+  },
+  {
+   "iata": "SAO",
+   "icao": "SBMT",
+   "nome": "Campo de Marte Airport",
+   "uf": "SP",
+   "municipios": [
+    "sao paulo"
+   ]
+  },
+  {
+   "iata": "CGH",
+   "icao": "SBSP",
+   "nome": "Congonhas Airport",
+   "uf": "SP",
+   "municipios": [
+    "sao paulo"
+   ]
+  },
+  {
+   "iata": "JHF",
+   "icao": "SBHJ",
+   "nome": "São Paulo Catarina Executive Airport",
+   "uf": "SP",
+   "municipios": [
+    "sao roque"
+   ]
+  },
+  {
+   "iata": "SOD",
+   "icao": "SDCO",
+   "nome": "Sorocaba Airport",
+   "uf": "SP",
+   "municipios": [
+    "sorocaba"
+   ]
+  },
+  {
+   "iata": "QHP",
+   "icao": "SBTA",
+   "nome": "Base de Aviacao de Taubate Airport",
+   "uf": "SP",
+   "municipios": [
+    "taubate"
+   ]
+  },
+  {
+   "iata": "TJL",
+   "icao": "SBTG",
+   "nome": "Plinio Alarcom Airport",
+   "uf": "SP",
+   "municipios": [
+    "tres lagoas"
+   ]
+  },
+  {
+   "iata": "UBT",
+   "icao": "SDUB",
+   "nome": "Ubatuba Airport",
+   "uf": "SP",
+   "municipios": [
+    "ubatuba"
+   ]
+  },
+  {
+   "iata": "VOT",
+   "icao": "SDVG",
+   "nome": "Votuporanga Airport",
+   "uf": "SP",
+   "municipios": [
+    "votuporanga"
+   ]
+  },
+  {
+   "iata": "AUX",
+   "icao": "SWGN",
+   "nome": "Araguaina Airport",
+   "uf": "TO",
+   "municipios": [
+    "araguaina"
+   ]
+  },
+  {
+   "iata": "AAI",
+   "icao": "SWRA",
+   "nome": "Arraias Airport",
+   "uf": "TO",
+   "municipios": [
+    "arraias"
+   ]
+  },
+  {
+   "iata": "IDO",
+   "icao": "SWIY",
+   "nome": "Santa Izabel do Morro Airport",
+   "uf": "TO",
+   "municipios": [
+    "cristalandia"
+   ]
+  },
+  {
+   "iata": "DNO",
+   "icao": "SWDN",
+   "nome": "Dianopolis Airport",
+   "uf": "TO",
+   "municipios": [
+    "dianopolis"
+   ]
+  },
+  {
+   "iata": "GRP",
+   "icao": "SWGI",
+   "nome": "Gurupi Airport",
+   "uf": "TO",
+   "municipios": [
+    "gurupi"
+   ]
+  },
+  {
+   "iata": "PMW",
+   "icao": "SBPJ",
+   "nome": "Brigadeiro Lysias Rodrigues Airport",
+   "uf": "TO",
+   "municipios": [
+    "palmas"
+   ]
+  },
+  {
+   "iata": "PNB",
+   "icao": "SBPN",
+   "nome": "Porto Nacional Airport",
+   "uf": "TO",
+   "municipios": [
+    "porto nacional"
+   ]
+  },
+  {
+   "iata": "STZ",
+   "icao": "SWST",
+   "nome": "Santa Terezinha Airport",
+   "uf": "TO",
+   "municipios": [
+    "santa terezinha"
+   ]
+  },
+  {
+   "iata": "QHN",
+   "icao": "SWTY",
+   "nome": "Taguatinga Airport",
+   "uf": "TO",
+   "municipios": [
+    "taguatinga"
+   ]
+  }
+ ]
+}

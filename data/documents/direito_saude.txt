@@ -1,0 +1,294 @@
+DIREITO À SAÚDE - DIREITOS E ORIENTAÇÕES
+
+=== DIREITO CONSTITUCIONAL À SAÚDE ===
+
+Fundamentos:
+- Saúde é direito fundamental de todos
+- Dever do Estado (União, Estados e Municípios)
+- Acesso universal e igualitário
+- Sistema Único de Saúde (SUS): gratuito e universal
+
+Princípios do SUS:
+- Universalidade: atendimento a todos
+- Integralidade: prevenção, tratamento e reabilitação
+- Equidade: tratar desigualmente os desiguais
+- Descentralização: responsabilidade compartilhada entre União, Estados e Municípios
+- Participação popular: conselhos e conferências de saúde
+
+=== ATENDIMENTO NO SUS ===
+
+Direitos Gerais:
+- Atendimento gratuito em qualquer unidade pública
+- Não pode ser cobrado nada (consultas, exames, cirurgias, medicamentos)
+- Atendimento humanizado e digno
+- Informação clara sobre diagnóstico e tratamento
+- Escolha de acompanhante (idosos, gestantes, crianças, deficientes)
+
+Urgência e Emergência:
+- Atendimento imediato independente de documentos
+- Prioridade conforme gravidade (classificação de risco)
+- Transferência entre hospitais (vaga zero): proibida recusa de atendimento
+- SAMU 192: atendimento pré-hospitalar gratuito
+
+Marcação de Consultas e Exames:
+- Direito a consulta e exames necessários
+- Fila única regulada
+- Prazo conforme urgência
+- Demora excessiva: direito a ação judicial
+
+=== MEDICAMENTOS E TRATAMENTOS ===
+
+Fornecimento de Medicamentos:
+- SUS deve fornecer medicamentos essenciais (lista RENAME)
+- Farmácia Popular: medicamentos gratuitos ou com desconto
+- Medicamentos de alto custo: fornecimento via SUS (necessário laudo médico)
+- Medicamento fora da lista: pode exigir judicialmente (se comprovada necessidade)
+
+Tratamentos e Cirurgias:
+- Direito a tratamento integral
+- Cirurgias eletivas: regulação via fila única
+- Tratamentos experimentais: SUS não é obrigado a fornecer
+- Procedimentos estéticos: não cobertos pelo SUS (salvo reparadores)
+
+Oncologia:
+- Lei dos 60 dias: início de tratamento em até 60 dias após diagnóstico
+- Acesso a quimioterapia, radioterapia e cirurgia
+- Direito a medicamentos oncológicos
+
+=== PLANOS DE SAÚDE PRIVADOS ===
+
+Regulação pela ANS:
+- Agência Nacional de Saúde Suplementar regula planos
+- Cobertura mínima obrigatória (rol ANS)
+- Reajuste regulamentado
+- Proibição de rescisão unilateral (salvo fraude ou não pagamento)
+
+Carências:
+- Urgência/emergência: máximo 24h
+- Parto: máximo 300 dias
+- Doenças preexistentes: cobertura parcial temporária (máximo 24 meses)
+- Carência não se aplica em caso de urgência/emergência
+
+Cobertura Obrigatória:
+- Consultas, exames, internações, cirurgias (conforme rol ANS)
+- Não pode limitar número de consultas/dias de internação
+- Próteses e órteses ligadas ao ato cirúrgico
+- Atendimento domiciliar (home care) quando indicado
+
+Negativa de Cobertura:
+- Plano deve justificar por escrito
+- Médico assistente pode contestar
+- Recurso à operadora
+- Denúncia à ANS
+- Ação judicial (urgente: com pedido de liminar)
+
+Reajuste:
+- Plano individual: reajuste autorizado pela ANS
+- Plano coletivo: conforme contrato (mas deve ser justificado)
+- Mudança de faixa etária: reajuste permitido (mas limitado)
+
+Portabilidade:
+- Direito de mudar de plano sem novas carências
+- Exige cumprimento de carências no plano anterior
+- Cobertura igual ou inferior à contratada anteriormente
+
+=== DIREITOS DO PACIENTE ===
+
+Direitos Fundamentais:
+- Atendimento digno e respeitoso
+- Informação clara sobre diagnóstico, tratamento e riscos
+- Consentimento informado (autorização para procedimentos)
+- Recusa de tratamento (salvo risco de morte ou ordem judicial)
+- Confidencialidade (sigilo médico)
+- Acesso ao prontuário médico
+- Segunda opinião médica
+- Acompanhante (idosos, gestantes, crianças, deficientes)
+
+Prontuário Médico:
+- Paciente tem direito a cópia
+- Hospital/clínica deve fornecer em até 48h-72h
+- Pode ser cobrada taxa de reprodução (razoável)
+- Informações devem ser completas e legíveis
+
+Consentimento Informado:
+- Médico deve explicar procedimento, riscos e alternativas
+- Paciente deve concordar (assinatura de termo)
+- Pode ser verbal em situações urgentes
+- Menores/incapazes: responsável legal decide
+
+Direito à Morte Digna:
+- Ortotanásia: suspensão de tratamentos fúteis
+- Testamento vital/diretivas antecipadas: manifestação prévia de vontade
+- Eutanásia: proibida no Brasil
+- Cuidados paliativos: direito a alívio da dor e sofrimento
+
+=== GRAVIDEZ E PARTO ===
+
+Pré-Natal:
+- No mínimo 6 consultas (recomendado 7 ou mais)
+- Exames obrigatórios gratuitos
+- Suplementação (ácido fólico, sulfato ferroso)
+- Vacinas
+
+Parto:
+- Direito a acompanhante (Lei do Acompanhante)
+- Escolha da via de parto (normal ou cesárea conforme indicação médica)
+- Violência obstétrica: proibida (ex: episiotomia desnecessária, manobra de Kristeller)
+- Contato pele a pele com bebê logo após nascimento
+- Alojamento conjunto (mãe e bebê no mesmo quarto)
+
+Licença-Maternidade:
+- 120 dias (pode ser 180 em empresas do Programa Empresa Cidadã)
+- Salário-maternidade pago pelo INSS
+- Estabilidade até 5 meses após parto
+- Amamentação: 2 pausas de 30 min até 6 meses do bebê
+
+=== DOENÇAS OCUPACIONAIS E ACIDENTES DE TRABALHO ===
+
+Direitos:
+- CAT (Comunicação de Acidente de Trabalho): obrigatória
+- Afastamento: até 15 dias empresa paga, após INSS
+- Estabilidade de 12 meses após alta
+- Aposentadoria por invalidez (se incapacitante)
+- Indenização por danos (ação contra empregador)
+
+Doenças Relacionadas ao Trabalho:
+- LER/DORT
+- Problemas respiratórios (poeira, produtos químicos)
+- Surdez ocupacional
+- Transtornos mentais (burnout, ansiedade, depressão)
+
+=== PESSOAS COM DEFICIÊNCIA ===
+
+Direitos Específicos:
+- Atendimento prioritário
+- Acessibilidade em estabelecimentos de saúde
+- Tratamento de reabilitação
+- Órteses, próteses e cadeiras de rodas (fornecimento pelo SUS)
+- Medicamentos de uso contínuo
+- Transporte adaptado (TFD - Tratamento Fora de Domicílio)
+
+BPC (Benefício de Prestação Continuada):
+- 1 salário-mínimo para pessoa com deficiência de baixa renda
+- Requisitos: renda per capita inferior a 1/4 do salário-mínimo
+
+=== IDOSOS ===
+
+Estatuto do Idoso:
+- Prioridade no atendimento
+- Acompanhante em internações
+- Desconto em medicamentos (Farmácia Popular)
+- Vacinação prioritária
+- Direito a cuidador (quando necessário)
+
+=== DOENÇAS GRAVES E CRÔNICAS ===
+
+Isenção de Imposto de Renda:
+- Aposentados e pensionistas com doenças graves
+- Doenças: AIDS, câncer, cardiopatia grave, doenças renais, etc.
+
+LOAS/BPC:
+- Benefício assistencial para pessoas incapacitadas de baixa renda
+
+Saque do FGTS:
+- Doenças graves: AIDS, câncer, estágio terminal
+
+=== SAÚDE MENTAL ===
+
+Direitos:
+- Atendimento no SUS (CAPS - Centro de Atenção Psicossocial)
+- Internação involuntária: apenas com laudo médico e comunicação ao MP
+- Internação compulsória: apenas com ordem judicial
+- Tratamento humanizado e em liberdade (preferencialmente)
+
+Lei Antimanicomial:
+- Proibição de internações desnecessárias
+- Tratamento em rede de atenção psicossocial
+- Respeito à dignidade e autonomia
+
+=== VACINAÇÃO ===
+
+Direitos:
+- Vacinas do calendário nacional: gratuitas (SUS)
+- Obrigatoriedade: vacinação infantil é obrigatória (Estatuto da Criança e do Adolescente)
+- Recusa: pode gerar consequências (matrícula escolar, programas sociais)
+
+=== DOAÇÃO DE ÓRGÃOS ===
+
+Legislação:
+- Manifestação em vida ou decisão da família
+- Fila única regulada
+- Proibição de comercialização
+
+Doador Vivo:
+- Pode doar órgão duplo (rim) ou parte (fígado, medula)
+- Deve ser capaz e informado
+- Prioridade para parentes
+
+=== ERRO MÉDICO ===
+
+Responsabilidade:
+- Médico responde por negligência, imprudência ou imperícia
+- Hospital responde objetivamente (independente de culpa)
+- Ônus da prova: médico/hospital devem provar que agiram corretamente
+
+Indenização:
+- Dano material: despesas com tratamento, lucros cessantes
+- Dano moral: sofrimento, sequelas
+- Dano estético: deformidades permanentes
+
+Prazo para Ação:
+- 3 anos (responsabilidade civil)
+- 5 anos (contra Fazenda Pública)
+
+=== INTERNAÇÃO COMPULSÓRIA ===
+
+Tipos:
+- Voluntária: com consentimento
+- Involuntária: sem consentimento, com laudo médico (comunicação ao MP)
+- Compulsória: determinada judicialmente
+
+Direitos:
+- Tratamento digno
+- Comunicação com família e advogado
+- Reavaliação periódica
+
+=== JUDICIALIZAÇÃO DA SAÚDE ===
+
+Quando Recorrer à Justiça:
+- Negativa de tratamento/medicamento
+- Demora excessiva
+- Falta de vagas/leitos
+- Falta de medicamentos
+
+Como Agir:
+1. Buscar atendimento no SUS ou plano de saúde
+2. Obter laudo médico detalhado
+3. Protocolar pedido administrativo
+4. Se negado, procurar Defensoria Pública ou advogado
+5. Ação judicial (muitas vezes com liminar urgente)
+
+=== ORIENTAÇÕES GERAIS ===
+
+Documentos Importantes:
+- Cartão SUS
+- Prontuário médico
+- Laudos e exames
+- Receitas médicas
+- Comprovantes de despesas (em caso de ação de ressarcimento)
+
+Como Agir em Caso de Violação:
+1. Registrar reclamação na ouvidoria do hospital/plano
+2. Denunciar ao Conselho Regional de Medicina (CRM)
+3. Denunciar à ANS (planos de saúde)
+4. Ministério Público (questões coletivas ou graves)
+5. Ação judicial
+
+Onde Buscar Ajuda:
+- Ouvidoria do SUS (136)
+- ANS (planos de saúde): 0800 701 9656
+- Defensoria Pública
+- OAB (indicação de advogados)
+- Ministério Público
+- Conselhos de Saúde (participação popular)
+- PROCON (relações de consumo com planos de saúde)

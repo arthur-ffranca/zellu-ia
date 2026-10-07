@@ -1,0 +1,988 @@
+{
+  "agent_id": "<ELEVENLABS_AGENT_ID>",
+  "name": "Zellu - Pre-atendimento telefonico",
+  "conversation_config": {
+    "asr": {
+      "quality": "high",
+      "provider": "scribe_realtime",
+      "user_input_audio_format": "pcm_16000",
+      "keywords": []
+    },
+    "turn": {
+      "turn_timeout": 10.0,
+      "initial_wait_time": null,
+      "silence_end_call_timeout": 15.0,
+      "mode": "turn",
+      "turn_eagerness": "patient",
+      "spelling_patience": "auto",
+      "speculative_turn": true,
+      "retranscribe_on_turn_timeout": false,
+      "turn_model": "turn_v3",
+      "interruption_ignore_terms": [],
+      "interruption_ignore_term_languages": [],
+      "merge_with_default_ignore_terms": false,
+      "transcribe_on_disabled_interruptions": false,
+      "soft_timeout_config": {
+        "timeout_seconds": 2.5,
+        "message": "Hmm, só um instantinho...",
+        "additional_soft_timeout_messages": [
+          "Deixa eu ver aqui...",
+          "Um momentinho, por favor...",
+          "Já estou vendo pra você...",
+          "Só um segundinho..."
+        ],
+        "use_llm_generated_message": false,
+        "randomize_fillers": true,
+        "max_soft_timeouts_per_generation": 5,
+        "llm_generated_message_prompt_override": null,
+        "disable_until_first_user_message": false
+      }
+    },
+    "tts": {
+      "model_id": "eleven_flash_v2_5",
+      "voice_id": "GDzHdQOi6jjf8zaXhCYD",
+      "supported_voices": [],
+      "expressive_mode": false,
+      "suggested_audio_tags": [],
+      "agent_output_audio_format": "pcm_16000",
+      "optimize_streaming_latency": 3,
+      "stability": 0.5,
+      "speed": 0.9,
+      "similarity_boost": 0.8,
+      "text_normalisation_type": "system_prompt",
+      "pronunciation_dictionary_locators": [
+        {
+          "pronunciation_dictionary_id": "xz9trzBHqFZQVXJ3uAcw",
+          "version_id": "xlJ931B5S7RmXy5hcd2H"
+        }
+      ],
+      "enable_phoneme_tags": true,
+      "audio_effects": null
+    },
+    "conversation": {
+      "text_only": false,
+      "max_duration_seconds": 900,
+      "max_duration_seconds_after_last_agent_message": null,
+      "client_events": [
+        "audio",
+        "interruption",
+        "agent_response",
+        "user_transcript",
+        "agent_response_correction",
+        "agent_tool_response"
+      ],
+      "file_input": {
+        "enabled": true,
+        "max_files_in_memory": 10,
+        "max_files_per_conversation": 10
+      },
+      "monitoring_enabled": false,
+      "monitoring_events": [
+        "user_transcript",
+        "agent_response",
+        "agent_response_correction"
+      ],
+      "dtmf_input_settings": null,
+      "background_sound": {
+        "source_type": null,
+        "source_id": null,
+        "volume": 0.15,
+        "crossfade_loop": true
+      },
+      "compaction": {
+        "enabled": null,
+        "soft_trigger_fraction": null,
+        "tail_size": null,
+        "min_reclaimable_tokens": null
+      },
+      "source_attribution": false
+    },
+    "language_presets": {},
+    "vad": {
+      "background_voice_detection": false
+    },
+    "realtime_model": null,
+    "agent": {
+      "first_message": "Olá, sou a assistente da Zellu. Antes de começar, preciso confirmar sua idade: qual é a sua data de nascimento?",
+      "language": "pt-br",
+      "hinglish_mode": false,
+      "dynamic_variables": {
+        "dynamic_variable_placeholders": {
+          "origin": "phone",
+          "logged_in": "nao",
+          "system__caller_id": ""
+        }
+      },
+      "disable_first_message_interruptions": false,
+      "max_conversation_duration_message": "",
+      "text_behavior_overrides": null,
+      "subagents": [],
+      "prompt": {
+        "prompt": "<ver raquel-prompt.md>",
+        "llm": "claude-sonnet-4-5",
+        "reasoning_effort": null,
+        "service_tier": "standard",
+        "opener": null,
+        "thinking_budget": null,
+        "enable_reasoning_summary": false,
+        "temperature": 0.3,
+        "max_tokens": -1,
+        "tool_ids": [
+          "tool_2801m1yrh54hff7r021514x5vjjp",
+          "tool_4001m3277h7qf0js299jw6z0pgn5",
+          "tool_3401m3277hkve26v31tj29184p92"
+        ],
+        "built_in_tools": {
+          "transfer_to_agent": null,
+          "update_state": null,
+          "memory_entry_search": null,
+          "run_subagent": null,
+          "flag_issue_for_review": null,
+          "end_call": {
+            "type": "system",
+            "name": "end_call",
+            "description": "",
+            "response_timeout_secs": 20,
+            "disable_interruptions": false,
+            "interruption_mode": "allow",
+            "force_pre_tool_speech": false,
+            "pre_tool_speech": "auto",
+            "assignments": [],
+            "tool_call_sound": null,
+            "tool_call_sound_behavior": "auto",
+            "tool_error_handling_mode": "auto",
+            "params": {
+              "system_tool_type": "end_call"
+            }
+          },
+          "language_detection": null,
+          "transfer_to_number": null,
+          "skip_turn": null,
+          "play_keypad_touch_tone": null,
+          "voicemail_detection": null,
+          "transfer_to_genesys": null,
+          "transfer_to_genesys_chat": null,
+          "transfer_to_genesys_bot": null
+        },
+        "rich_content": {
+          "enabled_components": []
+        },
+        "enable_parallel_tool_calls": false,
+        "mcp_server_ids": [],
+        "native_mcp_server_ids": [],
+        "knowledge_base": [],
+        "custom_llm": null,
+        "bedrock_llm": null,
+        "speech_engine": null,
+        "ignore_default_personality": true,
+        "rag": {
+          "enabled": false,
+          "embedding_model": "e5_mistral_7b_instruct",
+          "optional_rag_enabled": false,
+          "max_vector_distance": 0.6,
+          "max_documents_length": 50000,
+          "max_retrieved_rag_chunks_count": 20,
+          "num_candidates": null,
+          "query_rewrite_prompt_override": null,
+          "knowledge_base_tool_info": null,
+          "include_source_urls": false
+        },
+        "timezone": null,
+        "backup_llm_config": {
+          "preference": "default"
+        },
+        "cascade_timeout_seconds": 4.0,
+        "tools": [
+          {
+            "type": "webhook",
+            "name": "validar_idade",
+            "description": "Diz se o cliente tem 18 anos ou mais a partir da data de nascimento dele. Devolve isAdult e age, ou invalidDate quando a data nao foi reconhecida. Chame na triagem, assim que o cliente disser a data de nascimento.",
+            "response_timeout_secs": 10,
+            "disable_interruptions": false,
+            "interruption_mode": "allow",
+            "force_pre_tool_speech": true,
+            "pre_tool_speech": "force",
+            "assignments": [],
+            "tool_call_sound": null,
+            "tool_call_sound_behavior": "auto",
+            "tool_error_handling_mode": "auto",
+            "dynamic_variables": {
+              "dynamic_variable_placeholders": {}
+            },
+            "execution_mode": "immediate",
+            "api_schema": {
+              "request_headers": {
+                "x-api-key": "<REDACTED>"
+              },
+              "kind": "webhook",
+              "url": "https://ia-service.zellu.tec.br/phone/age-check",
+              "method": "POST",
+              "path_params_schema": {},
+              "query_params_schema": null,
+              "request_body_schema": {
+                "description": "",
+                "dynamic_variable": "",
+                "is_omitted": false,
+                "type": "object",
+                "required": [
+                  "birthDate"
+                ],
+                "properties": {
+                  "birthDate": {
+                    "type": "string",
+                    "description": "Data de nascimento que o cliente falou, no formato AAAA-MM-DD. Exemplo: doze de maio de 1990 vira 1990-05-12.",
+                    "enum": null,
+                    "is_system_provided": false,
+                    "dynamic_variable": "",
+                    "allowed_values": null,
+                    "allowed_values_dynamic_variable": "",
+                    "constant_value": "",
+                    "is_omitted": false
+                  }
+                }
+              },
+              "response_body_schema": null,
+              "response_filter": null,
+              "content_type": "application/json",
+              "auth_resolved_params": [],
+              "auth_connection": null,
+              "mtls_auth_connection": null
+            },
+            "follow_redirects": false,
+            "follow_redirects_allowed_domains": []
+          },
+          {
+            "type": "webhook",
+            "name": "consultar_telefone",
+            "description": "Manda um codigo de seis digitos por mensagem para o telefone do cliente. Chame DEPOIS de repetir o numero digito a digito e receber a confirmacao - nunca com o numero que voce achou que entendeu. Devolve outcome: challenge (o codigo saiu, peca que ele leia), invalid_format (numero nao reconhecido, peca de novo), in_use, unavailable, sms_failed e rate_limited (continue a coleta com identidade pendente; nunca encerre por esses resultados) ou unchecked (siga o atendimento sem a confirmacao).",
+            "response_timeout_secs": 20,
+            "disable_interruptions": false,
+            "interruption_mode": "allow",
+            "force_pre_tool_speech": true,
+            "pre_tool_speech": "force",
+            "assignments": [],
+            "tool_call_sound": null,
+            "tool_call_sound_behavior": "auto",
+            "tool_error_handling_mode": "auto",
+            "dynamic_variables": {
+              "dynamic_variable_placeholders": {}
+            },
+            "execution_mode": "immediate",
+            "api_schema": {
+              "request_headers": {
+                "x-api-key": "<REDACTED>"
+              },
+              "kind": "webhook",
+              "url": "https://ia-service.zellu.tec.br/phone/identity/lookup",
+              "method": "POST",
+              "path_params_schema": {},
+              "query_params_schema": null,
+              "request_body_schema": {
+                "description": "",
+                "dynamic_variable": "",
+                "is_omitted": false,
+                "type": "object",
+                "required": [
+                  "phone"
+                ],
+                "properties": {
+                  "phone": {
+                    "type": "string",
+                    "description": "Telefone que o cliente CONFIRMOU digito a digito, com DDD. Pode ir com ou sem mascara: (11) 99999-1111 e 11999991111 valem igual.",
+                    "enum": null,
+                    "is_system_provided": false,
+                    "dynamic_variable": "",
+                    "allowed_values": null,
+                    "allowed_values_dynamic_variable": "",
+                    "constant_value": "",
+                    "is_omitted": false
+                  }
+                }
+              },
+              "response_body_schema": null,
+              "response_filter": null,
+              "content_type": "application/json",
+              "auth_resolved_params": [],
+              "auth_connection": null,
+              "mtls_auth_connection": null
+            },
+            "follow_redirects": false,
+            "follow_redirects_allowed_domains": []
+          },
+          {
+            "type": "webhook",
+            "name": "confirmar_codigo",
+            "description": "Confere o codigo de seis digitos que o cliente leu da mensagem. Devolve outcome: found ou verified (o codigo confere, siga para o relato), invalid (codigo errado ou vencido, peca para ele ditar de novo), locked (pare de tentar) ou unchecked (siga sem a confirmacao). Nunca encerre a ligacao por causa desta resposta.",
+            "response_timeout_secs": 10,
+            "disable_interruptions": false,
+            "interruption_mode": "allow",
+            "force_pre_tool_speech": true,
+            "pre_tool_speech": "force",
+            "assignments": [],
+            "tool_call_sound": null,
+            "tool_call_sound_behavior": "auto",
+            "tool_error_handling_mode": "auto",
+            "dynamic_variables": {
+              "dynamic_variable_placeholders": {}
+            },
+            "execution_mode": "immediate",
+            "api_schema": {
+              "request_headers": {
+                "x-api-key": "<REDACTED>"
+              },
+              "kind": "webhook",
+              "url": "https://ia-service.zellu.tec.br/phone/identity/verify",
+              "method": "POST",
+              "path_params_schema": {},
+              "query_params_schema": null,
+              "request_body_schema": {
+                "description": "",
+                "dynamic_variable": "",
+                "is_omitted": false,
+                "type": "object",
+                "required": [
+                  "phone",
+                  "code"
+                ],
+                "properties": {
+                  "phone": {
+                    "type": "string",
+                    "description": "O MESMO telefone que voce mandou para a ferramenta consultar_telefone.",
+                    "enum": null,
+                    "is_system_provided": false,
+                    "dynamic_variable": "",
+                    "allowed_values": null,
+                    "allowed_values_dynamic_variable": "",
+                    "constant_value": "",
+                    "is_omitted": false
+                  },
+                  "code": {
+                    "type": "string",
+                    "description": "Os seis digitos que o cliente leu da mensagem, so os numeros. Exemplo: 123456.",
+                    "enum": null,
+                    "is_system_provided": false,
+                    "dynamic_variable": "",
+                    "allowed_values": null,
+                    "allowed_values_dynamic_variable": "",
+                    "constant_value": "",
+                    "is_omitted": false
+                  }
+                }
+              },
+              "response_body_schema": null,
+              "response_filter": null,
+              "content_type": "application/json",
+              "auth_resolved_params": [],
+              "auth_connection": null,
+              "mtls_auth_connection": null
+            },
+            "follow_redirects": false,
+            "follow_redirects_allowed_domains": []
+          },
+          {
+            "type": "system",
+            "name": "end_call",
+            "description": "",
+            "response_timeout_secs": 20,
+            "disable_interruptions": false,
+            "interruption_mode": "allow",
+            "force_pre_tool_speech": false,
+            "pre_tool_speech": "auto",
+            "assignments": [],
+            "tool_call_sound": null,
+            "tool_call_sound_behavior": "auto",
+            "tool_error_handling_mode": "auto",
+            "params": {
+              "system_tool_type": "end_call"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "created_at_unix_secs": 1788388137,
+    "updated_at_unix_secs": 1791386756
+  },
+  "platform_settings": {
+    "evaluation": {
+      "criteria": [
+        {
+          "id": "coleta_sem_repeticao",
+          "name": "Coleta completa sem repeticao",
+          "type": "prompt",
+          "conversation_goal_prompt": "Avalie nome, telefone, relato e empresa, aproveitando dados ja informados. Falha se repetir o relato, encerrar por in_use, unavailable, sms_failed ou rate_limited, afirmar identidade verificada sem prova ou publicar chamado sem confirmacao do backend. Sucesso requer resumo confirmado ou preservacao do relato parcial quando o cliente interrompe. No web_app logado nao chamar ferramentas SMS. No phone respeitar maioridade e consentimento.",
+          "use_knowledge_base": false,
+          "scope": "conversation",
+          "llm": null,
+          "llm_billed": false,
+          "analysis_schedule": null,
+          "scoring_mode": "binary",
+          "max_score": 100,
+          "score_instructions": null
+        }
+      ]
+    },
+    "widget": {
+      "variant": "full",
+      "placement": "bottom-right",
+      "expandable": "never",
+      "avatar": {
+        "type": "orb",
+        "color_1": "#2792dc",
+        "color_2": "#9ce6e6"
+      },
+      "feedback_mode": "none",
+      "end_feedback": {
+        "type": "rating"
+      },
+      "bg_color": "#ffffff",
+      "text_color": "#000000",
+      "btn_color": "#000000",
+      "btn_text_color": "#ffffff",
+      "border_color": "#e1e1e1",
+      "focus_color": "#000000",
+      "border_radius": null,
+      "btn_radius": null,
+      "action_text": null,
+      "start_call_text": null,
+      "end_call_text": null,
+      "expand_text": null,
+      "listening_text": null,
+      "speaking_text": null,
+      "shareable_page_text": null,
+      "shareable_page_show_terms": true,
+      "terms_text": null,
+      "terms_html": null,
+      "terms_key": null,
+      "show_avatar_when_collapsed": false,
+      "disable_banner": false,
+      "override_link": null,
+      "markdown_link_allowed_hosts": [],
+      "markdown_link_include_www": true,
+      "markdown_link_allow_http": true,
+      "mic_muting_enabled": true,
+      "transcript_enabled": true,
+      "text_input_enabled": true,
+      "conversation_mode_toggle_enabled": false,
+      "default_expanded": false,
+      "always_expanded": false,
+      "dismissible": false,
+      "show_agent_status": false,
+      "show_conversation_id": true,
+      "strip_audio_tags": true,
+      "syntax_highlight_theme": null,
+      "text_contents": {
+        "main_label": null,
+        "start_call": null,
+        "start_chat": null,
+        "new_call": null,
+        "end_call": null,
+        "mute_microphone": null,
+        "change_language": null,
+        "collapse": null,
+        "expand": null,
+        "copied": null,
+        "accept_terms": null,
+        "dismiss_terms": null,
+        "listening_status": null,
+        "speaking_status": null,
+        "connecting_status": null,
+        "chatting_status": null,
+        "queue_waiting_status": null,
+        "queue_waiting_status_short": null,
+        "input_label": null,
+        "input_placeholder": null,
+        "input_placeholder_text_only": null,
+        "input_placeholder_new_conversation": null,
+        "user_ended_conversation": null,
+        "agent_ended_conversation": null,
+        "conversation_id": null,
+        "error_occurred": null,
+        "queue_timed_out": null,
+        "copy_id": null,
+        "initiate_feedback": null,
+        "request_follow_up_feedback": null,
+        "thanks_for_feedback": null,
+        "thanks_for_feedback_details": null,
+        "follow_up_feedback_placeholder": null,
+        "submit": null,
+        "go_back": null,
+        "send_message": null,
+        "text_mode": null,
+        "voice_mode": null,
+        "switched_to_text_mode": null,
+        "switched_to_voice_mode": null,
+        "copy": null,
+        "download": null,
+        "wrap": null,
+        "agent_working": null,
+        "agent_done": null,
+        "agent_error": null,
+        "attach_file": null,
+        "remove_file": null,
+        "file_upload_error": null,
+        "file_type_unsupported": null,
+        "file_too_large": null,
+        "file_limit_reached": null,
+        "typing_indicator": null,
+        "rich_content_unavailable": null
+      },
+      "styles": {
+        "base": null,
+        "base_hover": null,
+        "base_active": null,
+        "base_border": null,
+        "base_subtle": null,
+        "base_primary": null,
+        "base_error": null,
+        "accent": null,
+        "accent_hover": null,
+        "accent_active": null,
+        "accent_border": null,
+        "accent_subtle": null,
+        "accent_primary": null,
+        "overlay_padding": null,
+        "button_radius": null,
+        "input_radius": null,
+        "bubble_radius": null,
+        "sheet_radius": null,
+        "compact_sheet_radius": null,
+        "dropdown_sheet_radius": null
+      },
+      "show_resize_button": true,
+      "language_selector": false,
+      "supports_text_only": true,
+      "custom_avatar_path": null,
+      "language_presets": {},
+      "first_message_quick_replies": []
+    },
+    "data_collection": {
+      "email": {
+        "type": "string",
+        "description": "E-mail informado e confirmado pelo cliente. Vazio se nao informou. Nao invente.",
+        "enum": null,
+        "is_system_provided": false,
+        "dynamic_variable": "",
+        "allowed_values": null,
+        "allowed_values_dynamic_variable": "",
+        "constant_value": "",
+        "is_omitted": false,
+        "name": null,
+        "llm": null,
+        "llm_billed": false,
+        "analysis_schedule": null
+      },
+      "firstName": {
+        "type": "string",
+        "description": "Primeiro nome do cliente, como ele falou. Vazio se ele nao chegou a dizer o nome.",
+        "enum": null,
+        "is_system_provided": false,
+        "dynamic_variable": "",
+        "allowed_values": null,
+        "allowed_values_dynamic_variable": "",
+        "constant_value": "",
+        "is_omitted": false,
+        "name": null,
+        "llm": null,
+        "llm_billed": false,
+        "analysis_schedule": null
+      },
+      "lastName": {
+        "type": "string",
+        "description": "Sobrenome do cliente. Vazio se ele so disse o primeiro nome.",
+        "enum": null,
+        "is_system_provided": false,
+        "dynamic_variable": "",
+        "allowed_values": null,
+        "allowed_values_dynamic_variable": "",
+        "constant_value": "",
+        "is_omitted": false,
+        "name": null,
+        "llm": null,
+        "llm_billed": false,
+        "analysis_schedule": null
+      },
+      "phone": {
+        "type": "string",
+        "description": "Telefone de contato do cliente no formato E.164, com o codigo do Brasil. Exemplo: (11) 99999-1111 vira +5511999991111. Vazio se ele nao passou telefone.",
+        "enum": null,
+        "is_system_provided": false,
+        "dynamic_variable": "",
+        "allowed_values": null,
+        "allowed_values_dynamic_variable": "",
+        "constant_value": "",
+        "is_omitted": false,
+        "name": null,
+        "llm": null,
+        "llm_billed": false,
+        "analysis_schedule": null
+      },
+      "summary": {
+        "type": "string",
+        "description": "Resumo fiel em segunda pessoa, iniciando por Voce relatou que. Preserve empresa, local, fatos, valores declarados e tentativas de resolucao. Preserve relato parcial mesmo com telefone nao verificado. Nao invente fatos nem declare chamado publicado.",
+        "enum": null,
+        "is_system_provided": false,
+        "dynamic_variable": "",
+        "allowed_values": null,
+        "allowed_values_dynamic_variable": "",
+        "constant_value": "",
+        "is_omitted": false,
+        "name": null,
+        "llm": null,
+        "llm_billed": false,
+        "analysis_schedule": null
+      },
+      "endReason": {
+        "type": "string",
+        "description": "Use completed para coleta concluida; caller_hangup para interrupcao pelo cliente; underage para menoridade confirmada; no_consent para recusa de gravacao; telemarketing para oferta comercial ou robo; abuse_suspected para abuso real; out_of_scope para assunto fora do atendimento. Nunca classifique in_use, unavailable, sms_failed ou rate_limited como out_of_scope: continue a coleta. failed somente para falha tecnica que efetivamente impediu a conversa, nao para pendencia de identidade.",
+        "enum": [
+          "completed",
+          "underage",
+          "telemarketing",
+          "abuse_suspected",
+          "out_of_scope",
+          "no_consent",
+          "caller_hangup",
+          "failed"
+        ],
+        "is_system_provided": false,
+        "dynamic_variable": "",
+        "allowed_values": null,
+        "allowed_values_dynamic_variable": "",
+        "constant_value": "",
+        "is_omitted": false,
+        "name": null,
+        "llm": null,
+        "llm_billed": false,
+        "analysis_schedule": null
+      },
+      "declaredAdult": {
+        "type": "boolean",
+        "description": "true somente se a ferramenta validar_idade respondeu isAdult true para a data de nascimento do cliente. Quando a ferramenta nao chegou a responder, use true apenas se o cliente declarou em palavras ter 18 anos ou mais. false se a ferramenta disse isAdult false, se ele declarou ser menor, ou se o assunto nao chegou a ser tratado.",
+        "enum": null,
+        "is_system_provided": false,
+        "dynamic_variable": "",
+        "allowed_values": null,
+        "allowed_values_dynamic_variable": "",
+        "constant_value": "",
+        "is_omitted": false,
+        "name": null,
+        "llm": null,
+        "llm_billed": false,
+        "analysis_schedule": null
+      },
+      "consentAccepted": {
+        "type": "boolean",
+        "description": "true somente se o cliente respondeu claramente que sim ao texto de consentimento de gravacao e armazenamento. false se recusou, ficou em duvida ou se o texto nem chegou a ser falado.",
+        "enum": null,
+        "is_system_provided": false,
+        "dynamic_variable": "",
+        "allowed_values": null,
+        "allowed_values_dynamic_variable": "",
+        "constant_value": "",
+        "is_omitted": false,
+        "name": null,
+        "llm": null,
+        "llm_billed": false,
+        "analysis_schedule": null
+      }
+    },
+    "data_collection_scopes": {},
+    "analysis_items": {
+      "evaluation_criteria": [
+        {
+          "source": "user",
+          "analysis_item_id": "aitem_7501m3taht5meptvt5fj0b409yqg",
+          "version_id": null,
+          "additional_version_ids": [],
+          "scope": "conversation",
+          "weight": null
+        }
+      ],
+      "data_collection": [
+        {
+          "source": "user",
+          "analysis_item_id": "aitem_9201m3waw70sfnkvr3k14pjha2g8",
+          "version_id": null,
+          "scope": "conversation"
+        },
+        {
+          "source": "user",
+          "analysis_item_id": "aitem_3201m1j3tpf2ef8vy0awwj9p97a4",
+          "version_id": null,
+          "scope": "conversation"
+        },
+        {
+          "source": "user",
+          "analysis_item_id": "aitem_2101m1j3tpf8f6nty6p6vg7sgj8y",
+          "version_id": null,
+          "scope": "conversation"
+        },
+        {
+          "source": "user",
+          "analysis_item_id": "aitem_9001m1j3tpfpe339cqg5g6prp9sj",
+          "version_id": null,
+          "scope": "conversation"
+        },
+        {
+          "source": "user",
+          "analysis_item_id": "aitem_8701m1j3tpfxfp89krdfqwhmfamz",
+          "version_id": null,
+          "scope": "conversation"
+        },
+        {
+          "source": "user",
+          "analysis_item_id": "aitem_8501m1j3tpg4ehrbmhctfw1s5hca",
+          "version_id": null,
+          "scope": "conversation"
+        },
+        {
+          "source": "user",
+          "analysis_item_id": "aitem_2901m1j3tpgcf08vd0dmmx765zqe",
+          "version_id": null,
+          "scope": "conversation"
+        },
+        {
+          "source": "user",
+          "analysis_item_id": "aitem_7001m1j3tpgje2waxddwpn3z38pw",
+          "version_id": null,
+          "scope": "conversation"
+        }
+      ]
+    },
+    "overrides": {
+      "conversation_config_override": {
+        "asr": {
+          "keywords": false
+        },
+        "turn": {
+          "soft_timeout_config": {
+            "message": false,
+            "additional_soft_timeout_messages": false
+          }
+        },
+        "tts": {
+          "model_id": false,
+          "voice_id": false,
+          "supported_voices": false,
+          "stability": false,
+          "speed": false,
+          "similarity_boost": false,
+          "pronunciation_dictionary_locators": false
+        },
+        "conversation": {
+          "text_only": true,
+          "max_duration_seconds": false
+        },
+        "agent": {
+          "first_message": false,
+          "language": false,
+          "max_conversation_duration_message": false,
+          "prompt": {
+            "prompt": false,
+            "llm": false,
+            "tool_ids": false,
+            "native_mcp_server_ids": false,
+            "knowledge_base": false
+          }
+        }
+      },
+      "custom_llm_extra_body": false,
+      "enable_conversation_initiation_client_data_from_webhook": false,
+      "enable_starting_workflow_node_id_from_client": false,
+      "enable_procedure_ids_from_client": false
+    },
+    "workspace_overrides": {
+      "conversation_initiation_client_data_webhook": null,
+      "webhooks": {
+        "post_call_webhook_id": null,
+        "events": [
+          "transcript"
+        ],
+        "transcript_format": "json",
+        "exclude_transcript": false,
+        "send_audio": false
+      },
+      "cloud_storage_export": {
+        "destination_id": null,
+        "events": [
+          "transcript"
+        ],
+        "transcript_format": "json"
+      }
+    },
+    "testing": {
+      "attached_tests": [],
+      "referenced_tests_ids": []
+    },
+    "archived": false,
+    "guardrails": {
+      "version": "1",
+      "focus": {
+        "is_enabled": false
+      },
+      "prompt_injection": {
+        "is_enabled": false
+      },
+      "synthetic_voice": {
+        "is_enabled": false,
+        "trigger_action": {
+          "type": "end_call"
+        }
+      },
+      "content": {
+        "execution_mode": "streaming",
+        "config": {
+          "sexual": {
+            "is_enabled": false,
+            "threshold": "medium"
+          },
+          "violence": {
+            "is_enabled": false,
+            "threshold": "medium"
+          },
+          "harassment": {
+            "is_enabled": false,
+            "threshold": "medium"
+          },
+          "self_harm": {
+            "is_enabled": false,
+            "threshold": "medium"
+          },
+          "profanity": {
+            "is_enabled": false,
+            "threshold": "medium"
+          },
+          "religion_or_politics": {
+            "is_enabled": false,
+            "threshold": "medium"
+          },
+          "medical_and_legal_information": {
+            "is_enabled": false,
+            "threshold": "medium"
+          }
+        },
+        "trigger_action": {
+          "type": "end_call"
+        }
+      },
+      "moderation": null,
+      "custom": {
+        "config": {
+          "configs": []
+        }
+      }
+    },
+    "summary_language": null,
+    "auto_translate_transcript_to_app_language": null,
+    "auth": {
+      "enable_auth": false,
+      "allowlist": [],
+      "require_origin_header": false,
+      "shareable_token": null
+    },
+    "call_limits": {
+      "agent_concurrency_limit": -1,
+      "daily_limit": 100000,
+      "bursting_enabled": true
+    },
+    "queueing_config": {
+      "enabled": false,
+      "wait_timeout_seconds": 180,
+      "hold_audio": null
+    },
+    "ban": null,
+    "smb_metadata": null,
+    "privacy": {
+      "record_voice": true,
+      "retention_days": -1,
+      "delete_transcript_and_pii": false,
+      "delete_audio": false,
+      "apply_to_existing_conversations": false,
+      "zero_retention_mode": false,
+      "nested_history_redaction": false,
+      "conversation_history_redaction": {
+        "enabled": false,
+        "entities": [],
+        "excluded_data_collection_ids": []
+      },
+      "user_memory": {
+        "enabled": false,
+        "scale": "balanced"
+      }
+    },
+    "trust_context": "unknown",
+    "analysis_llm": "gemini-2.5-flash",
+    "analysis_bedrock_llm": null,
+    "analysis_llm_billed": false,
+    "topic_discovery": {
+      "enabled": true
+    },
+    "sentiment_analysis": {
+      "enabled": true
+    },
+    "simulation_library": {
+      "enabled": false,
+      "test_ids": []
+    },
+    "alerting": null,
+    "overview_dashboard_template_id": null,
+    "safety": {
+      "is_blocked_ivc": false,
+      "is_blocked_non_ivc": false,
+      "ignore_safety_evaluation": false
+    }
+  },
+  "phone_numbers": [
+    {
+      "phone_number": "+13185911404",
+      "label": "External Chat",
+      "supports_inbound": true,
+      "supports_outbound": true,
+      "phone_number_id": "phnum_5801m1j2gkawfrq8yhgwxnkg22pa",
+      "assigned_agent": {
+        "agent_id": "<ELEVENLABS_AGENT_ID>",
+        "agent_name": "Zellu - Pre-atendimento telefonico",
+        "environment": null,
+        "branch_id": null
+      },
+      "provider": "twilio"
+    }
+  ],
+  "whatsapp_accounts": [],
+  "workflow": {
+    "edges": {},
+    "nodes": {
+      "start_node": {
+        "type": "start",
+        "position": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "edge_order": [],
+        "parent_subgraph_id": null
+      }
+    },
+    "subgraphs": {},
+    "prevent_subagent_loops": false
+  },
+  "access_info": {
+    "is_creator": true,
+    "creator_name": "tech@zellu.com.br",
+    "creator_email": "tech@zellu.com.br",
+    "role": "admin",
+    "anonymous_access_level_override": null,
+    "access_source": "creator"
+  },
+  "tags": [
+    "zellu",
+    "voice-intake"
+  ],
+  "version_id": "agtvrsn_0601m4bfh9p2ffb998qxg433wycg",
+  "branch_id": "agtbrch_0301m1j3tpa5e3tr9d71wh88p9qf",
+  "main_branch_id": "agtbrch_0301m1j3tpa5e3tr9d71wh88p9qf",
+  "procedures": {},
+  "trust_context": "unknown",
+  "default_hold_audio_url": "https://eleven-public-cdn-common.elevenlabs.io/convai/ambient-audio-assets/elevator1.mp3"
+}

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petição Inicial — Relação de Consumo</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 2.5cm;
+        }
+        body {
+            font-family: 'Times New Roman', serif;
+            font-size: 12pt;
+            line-height: 1.6;
+            color: #000;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 24px;
+            background-color: #fff;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 28px;
+        }
+        .court-address {
+            font-weight: bold;
+            text-transform: uppercase;
+            margin: 0 0 24px 0;
+        }
+        .qualification {
+            text-align: justify;
+            margin: 16px 0;
+        }
+        .action-title {
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin: 24px 0;
+        }
+        h2.section-title {
+            font-size: 12pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin: 28px 0 10px 0;
+            border-bottom: 1px solid #555;
+            padding-bottom: 4px;
+        }
+        h3.subsection-title {
+            font-size: 12pt;
+            font-weight: bold;
+            margin: 18px 0 8px 0;
+        }
+        .free-text {
+            text-align: justify;
+            margin: 10px 0;
+        }
+        .placeholder {
+            color: #777;
+            font-style: italic;
+        }
+        ol.requests-list, ol.tutela-list {
+            padding-left: 28px;
+        }
+        ol.requests-list li, ol.tutela-list li {
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+        .value-line {
+            margin-top: 24px;
+            text-align: justify;
+        }
+        .closing-block {
+            margin-top: 32px;
+        }
+        .closing-block p {
+            margin: 8px 0;
+        }
+        .place-date {
+            margin-top: 32px;
+            text-align: left;
+        }
+        .signature-section {
+            margin-top: 50px;
+            text-align: center;
+        }
+        .signature-line {
+            border-top: 1px solid #000;
+            width: 300px;
+            margin: 0 auto 6px auto;
+        }
+        .documents-list {
+            margin-top: 32px;
+        }
+        .documents-list h2 {
+            text-align: center;
+        }
+        .footer-note {
+            margin-top: 30px;
+            font-size: 10pt;
+            color: #666;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <p class="court-address">
+        AO JUÍZO DA <span class="placeholder">[Nº DA VARA CÍVEL / JUIZADO ESPECIAL]</span>
+        DA COMARCA DE <span class="placeholder">[COMARCA / UF]</span>.
+    </p>
+
+    <p class="qualification">
+        <strong>{{client_name}}</strong>,
+        <span class="placeholder">[nacionalidade]</span>,
+        <span class="placeholder">[estado civil]</span>,
+        <span class="placeholder">[profissão]</span>,
+        portador(a) do RG nº <span class="placeholder">[Nº RG / ÓRGÃO EXPEDIDOR]</span>
+        e inscrito(a) no CPF sob o nº <strong>{{client_cpf}}</strong>,
+        endereço eletrônico <span class="placeholder">[E-MAIL]</span>,
+        residente e domiciliado(a) à <span class="placeholder">[ENDEREÇO COMPLETO, CEP E CIDADE/UF]</span>,
+        vem, respeitosamente, por intermédio de seu(sua) advogado(a) que esta subscreve, perante Vossa
+        Excelência, propor a presente
+    </p>
+
+    <p class="action-title">
+        AÇÃO DE <span class="placeholder">[TIPO DE AÇÃO — ex.: OBRIGAÇÃO DE FAZER C/C INDENIZAÇÃO POR DANOS MORAIS E MATERIAIS, COM PEDIDO DE TUTELA DE URGÊNCIA]</span>
+    </p>
+
+    <p class="qualification">
+        em face de <strong>{{opposing_party_name or '[RAZÃO SOCIAL DO(A) RÉU(É)]'}}</strong>,
+        pessoa jurídica de direito privado, inscrita no CNPJ sob o nº
+        <strong>{{opposing_party_cnpj or '[CNPJ]'}}</strong>,
+        com sede à <span class="placeholder">[ENDEREÇO COMPLETO DA SEDE, CEP E CIDADE/UF]</span>,
+        pelos fatos e fundamentos jurídicos a seguir expostos.
+    </p>
+
+    <h2 class="section-title">1. Da legitimidade e da competência</h2>
+    <p class="free-text">
+        A legitimidade ativa decorre da condição de consumidor(a) do(a) Autor(a), nos termos do art. 2º do
+        Código de Defesa do Consumidor, na medida em que adquiriu/contratou produto/serviço fornecido pelo(a)
+        Réu(é) como destinatário(a) final. A legitimidade passiva, por sua vez, está demonstrada pela cadeia
+        de fornecimento descrita nos fatos, atraindo a responsabilidade objetiva e solidária prevista nos
+        arts. 7º, parágrafo único, 14 e 25, § 1º, do CDC.
+    </p>
+    <p class="free-text">
+        Quanto à competência, faculta-se ao(à) consumidor(a) propor a demanda no foro de seu domicílio,
+        conforme art. 101, inciso I, do CDC, em razão da vulnerabilidade reconhecida pelo art. 4º, inciso I,
+        do mesmo diploma. Assim, é competente o foro da Comarca de
+        <span class="placeholder">[COMARCA DO DOMICÍLIO DO AUTOR]</span>, domicílio do(a) Autor(a).
+    </p>
+
+    <h2 class="section-title">2. Da gratuidade da justiça e da prioridade de tramitação</h2>
+    <p class="free-text">
+        O(A) Autor(a) declara, sob as penas da lei, não dispor de condições financeiras para arcar com as
+        custas e despesas processuais sem prejuízo de seu próprio sustento ou de sua família, razão pela qual
+        requer a concessão dos benefícios da gratuidade da justiça, nos termos dos arts. 98 e seguintes do
+        CPC (art. 99, § 3º, CPC).
+    </p>
+    <p class="free-text placeholder">
+        [Se aplicável: pedido de prioridade de tramitação por idade (60+), doença grave ou pessoa com
+        deficiência, nos termos do art. 1.048, I, CPC.]
+    </p>
+
+    <h2 class="section-title">3. Dos fatos</h2>
+
+    <h3 class="subsection-title">3.1. Da contratação e da relação jurídica</h3>
+    <p class="free-text">
+        Em <span class="placeholder">[DATA]</span>, o(a) Autor(a)
+        {% if problem_description %}{{problem_description}}{% else %}<span class="placeholder">[descrever a contratação — produto/serviço, canal, valor, condições essenciais]</span>{% endif %},
+        o que evidencia o estabelecimento de típica relação de consumo, à luz dos arts. 2º e 3º do CDC.
+    </p>
+
+    <h3 class="subsection-title">3.2. Da conduta lesiva imputada ao(à) Réu(é)</h3>
+    <p class="free-text placeholder">
+        [Descrever cronologicamente a conduta lesiva — vício, inadimplemento, cobrança indevida, bloqueio,
+        recusa de cumprimento, etc., indicando os documentos comprobatórios.]
+    </p>
+
+    <h3 class="subsection-title">3.3. Das tentativas administrativas de solução</h3>
+    <p class="free-text">
+        Diante da conduta, o(a) Autor(a) buscou, de boa-fé, a solução administrativa do impasse junto ao(à)
+        Réu(é), tendo
+        {% if suggested_next_steps %}
+        adotado as seguintes providências:
+        <ul>
+            {% for step in suggested_next_steps %}
+            <li>{{ step }}</li>
+            {% endfor %}
+        </ul>
+        sem êxito.
+        {% else %}
+        <span class="placeholder">[descrever tentativas — protocolos, ligações, e-mails, reclamações em
+        plataformas, PROCON, notificação extrajudicial via Zellu, etc.]</span>, sem êxito.
+        {% endif %}
+    </p>
+
+    <h3 class="subsection-title">3.4. Do dano concreto suportado pelo(a) Autor(a)</h3>
+    <p class="free-text placeholder">
+        [Descrever dano concreto — financeiro (com valores), profissional, reputacional, à saúde, ao convívio
+        familiar, etc., indicando os documentos comprobatórios.]
+    </p>
+
+    <h2 class="section-title">4. Do direito</h2>
+
+    <h3 class="subsection-title">4.1. Da incidência do Código de Defesa do Consumidor</h3>
+    <p class="free-text">
+        A relação jurídica narrada caracteriza, de modo inequívoco, relação de consumo, conforme arts. 2º e 3º
+        do CDC. O(A) Autor(a) é destinatário(a) final do produto/serviço; o(a) Réu(é) exerce profissionalmente
+        atividade de fornecimento no mercado de consumo. Aplicam-se, portanto, o regime protetivo dos arts. 4º
+        e 6º do CDC e a responsabilidade objetiva do fornecedor (arts. 12 e 14).
+    </p>
+
+    <h3 class="subsection-title">4.2. Da inversão do ônus da prova</h3>
+    <p class="free-text">
+        Requer-se, com fundamento no art. 6º, inciso VIII, do CDC, a inversão do ônus probatório, à vista da
+        hipossuficiência técnica e informacional do(a) Autor(a) frente ao(à) Réu(é).
+    </p>
+
+    <h3 class="subsection-title">4.3. Da violação aos deveres de informação, transparência e bom atendimento</h3>
+    <p class="free-text">
+        A conduta do(a) Réu(é) afronta os direitos básicos do(a) consumidor(a) à informação adequada e clara
+        (art. 6º, III, CDC), à proteção contra práticas abusivas (art. 6º, IV) e à prestação de serviços de
+        atendimento eficaz e eficiente (art. 6º, X, e art. 4º, V).
+    </p>
+
+    {% if client_rights %}
+    <h3 class="subsection-title">4.4. Dos direitos identificados</h3>
+    <ul>
+        {% for right in client_rights %}
+        <li>{{ right }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    <h3 class="subsection-title">4.5. Da responsabilidade civil, do nexo causal e do dano</h3>
+    <p class="free-text">
+        Estão presentes, no caso concreto, todos os pressupostos da responsabilidade civil objetiva: (i) a
+        conduta do(a) Réu(é); (ii) o dano experimentado pelo(a) Autor(a); e (iii) o nexo de causalidade.
+        Inexiste qualquer das excludentes previstas no art. 14, § 3º, do CDC.
+    </p>
+
+    <h3 class="subsection-title">4.6. Do dano moral</h3>
+    <p class="free-text">
+        Os fatos extrapolam o mero aborrecimento cotidiano, caracterizando dano moral
+        <em>in re ipsa</em>, prescindindo de prova específica do sofrimento, conforme entendimento consolidado
+        da jurisprudência pátria.
+    </p>
+
+    <h2 class="section-title">5. Da tutela de urgência</h2>
+    <p class="free-text">
+        O art. 300 do CPC autoriza a concessão da tutela de urgência quando demonstrados, cumulativamente, a
+        probabilidade do direito e o perigo de dano. No caso, ambos os requisitos se encontram preenchidos.
+    </p>
+    <p class="free-text">
+        Diante do preenchimento dos requisitos legais, requer-se a concessão, <em>inaudita altera parte</em>,
+        da tutela de urgência para determinar ao(à) Réu(é) que, no prazo máximo de
+        <span class="placeholder">[PRAZO — ex.: 48 horas]</span>, cumpra integralmente as seguintes obrigações:
+    </p>
+    <ol class="tutela-list">
+        <li class="placeholder">[Obrigação específica — ex.: restabelecer o serviço, entregar o produto, cessar a cobrança, retirar restritivo, etc.]</li>
+        <li class="placeholder">[Detalhamento técnico que assegure efetividade do cumprimento]</li>
+        <li>sob pena de multa diária no valor de <span class="placeholder">[VALOR]</span>, sem prejuízo das demais sanções previstas em lei (art. 537, CPC).</li>
+    </ol>
+
+    <h2 class="section-title">6. Dos pedidos</h2>
+    <p class="free-text">Ante o exposto, requer-se a Vossa Excelência:</p>
+    <ol class="requests-list">
+        <li>a concessão da tutela de urgência, <em>inaudita altera parte</em>, nos termos do item 5 desta peça;</li>
+        <li>a confirmação integral da tutela concedida na sentença de mérito;</li>
+        <li>
+            a condenação do(a) Réu(é) ao pagamento de indenização por danos morais, no valor de
+            {% if potential_gain %}<strong>R$ {{ potential_gain }}</strong>{% else %}<span class="placeholder">[VALOR]</span>{% endif %},
+            ou conforme prudente arbítrio de Vossa Excelência, acrescido de correção monetária desde o
+            arbitramento (Súmula 362/STJ) e juros de mora desde o evento danoso (Súmula 54/STJ);
+        </li>
+        <li>
+            a condenação do(a) Réu(é) ao pagamento de indenização por danos materiais, no valor de
+            <span class="placeholder">[VALOR — ou indicar 'a ser apurado em liquidação']</span>;
+        </li>
+        <li>a inversão do ônus da prova, nos termos do art. 6º, VIII, do CDC;</li>
+        <li>a concessão dos benefícios da gratuidade da justiça, nos termos dos arts. 98 e seguintes do CPC;</li>
+        <li>
+            a citação do(a) Réu(é), no endereço acima indicado, para, querendo, apresentar contestação no
+            prazo legal, sob pena de revelia e confissão;
+        </li>
+        <li>
+            a condenação do(a) Réu(é) ao pagamento das custas processuais e dos honorários advocatícios,
+            estes fixados no patamar máximo previsto no art. 85, § 2º, do CPC;
+        </li>
+        <li>
+            manifesta o(a) Autor(a) desinteresse na realização de audiência de conciliação, nos termos do
+            art. 334, § 5º, do CPC;
+        </li>
+        <li>
+            protesta provar o alegado por todos os meios de prova em direito admitidos, em especial
+            documental, testemunhal, depoimento pessoal do(a) representante legal do(a) Réu(é), pericial e
+            demais que se fizerem necessárias;
+        </li>
+        <li>
+            requer que as intimações sejam publicadas exclusivamente em nome de
+            <span class="placeholder">[NOME DO(A) ADVOGADO(A) e OAB]</span>, sob pena de nulidade.
+        </li>
+    </ol>
+
+    <p class="value-line">
+        Atribui-se à causa, para fins fiscais e de alçada, o valor de
+        {% if potential_gain %}<strong>R$ {{ potential_gain }}</strong>{% else %}<span class="placeholder">[VALOR por extenso e em numerais]</span>{% endif %},
+        correspondente à soma dos pedidos formulados (art. 292, VI, CPC).
+    </p>
+
+    <div class="closing-block">
+        <p>Termos em que,</p>
+        <p>Pede deferimento.</p>
+    </div>
+
+    <div class="place-date">
+        <span class="placeholder">[CIDADE / UF]</span>, {{current_date}}.
+    </div>
+
+    <div class="signature-section">
+        <div class="signature-line"></div>
+        <div><span class="placeholder">[NOME DO(A) ADVOGADO(A)]</span></div>
+        <div><span class="placeholder">[OAB/UF nº]</span></div>
+    </div>
+
+    <div class="documents-list">
+        <h2 class="section-title">Rol de documentos</h2>
+        {% if required_documents %}
+        <ol>
+            {% for doc in required_documents %}
+            <li>Documento {{ "%02d"|format(loop.index) }} — {{ doc }}</li>
+            {% endfor %}
+        </ol>
+        {% else %}
+        <ol>
+            <li class="placeholder">Documento 01 — [descrição]</li>
+            <li class="placeholder">Documento 02 — [descrição]</li>
+            <li class="placeholder">Documento 03 — [descrição]</li>
+        </ol>
+        {% endif %}
+    </div>
+
+    <div class="footer-note">
+        Documento gerado em {{generation_date}}.
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+# Segredos — nunca versionar
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.bin
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+
+# Dados gerados em runtime (podem conter dados pessoais de clientes)
+uploads/
+logs/
+*.log
+generated_documents/
+document_urls/
+debug_payloads/
+data/documents/.case_evidence/
+data/documents/.voice_intake/
+*.sqlite3
+*.db
+
+# Backups / pacotes
+backups/
+*backup*
+*.zip
+*.7z
+*.tar.gz
+
+# SO / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
