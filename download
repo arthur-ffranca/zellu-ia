@@ -1,0 +1,40 @@
+# Git / docs / testes (não vão para a imagem)
+.git
+.gitignore
+docs/
+*.md
+!security/trust_roots/README.md
+tests/
+requirements-dev.txt
+.pytest_cache/
+
+# Segredos (passados pelo Coolify como variáveis de ambiente)
+.env
+.env.*
+
+# Python / ambientes
+__pycache__
+*.py[cod]
+.venv/
+venv/
+
+# Dados de runtime (nunca embutir na imagem)
+uploads/
+logs/
+generated_documents/
+document_urls/
+debug_payloads/
+data/documents/.case_evidence/
+data/documents/.voice_intake/
+*.sqlite3
+
+# Pacotes / SO / editor
+*.zip
+*.7z
+.DS_Store
+.vscode/
+.idea/
+
+# Docker
+Dockerfile
+.dockerignore

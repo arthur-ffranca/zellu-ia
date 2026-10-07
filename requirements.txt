@@ -1,0 +1,48 @@
+# Dependências de runtime do zelinho-ia.
+# Somente pacotes importados pelo código (rastreado a partir de app.py -> src.main:app).
+# Pins mantidos do requirements.txt original do zellinho_chat.
+
+# --- Web / API ---
+fastapi==0.115.6
+starlette==0.41.3
+uvicorn==0.34.0
+python-multipart==0.0.19     # exigido pelo FastAPI para UploadFile/Form (upload de anexos)
+pydantic==2.12.3
+pydantic-settings==2.11.0
+python-dotenv==1.1.1
+httpx==0.28.1
+requests==2.32.5
+urllib3==2.5.0
+aiofiles==25.1.0
+
+# --- LLM / RAG ---
+openai==2.6.0
+pinecone==7.3.0              # pinecone-client (antigo) removido: conflita com pinecone>=6
+
+# --- Persistência / cache / storage ---
+pymongo==4.10.1
+redis==5.2.1
+minio==7.2.11                # só usado com MINIO_ENABLED=true
+
+# --- Busca de empresa ---
+firecrawl-py==4.16.0
+scrapling[fetchers]==0.4.15
+
+# --- Documentos (geração e leitura) ---
+Jinja2==3.1.6
+MarkupSafe==2.1.5
+weasyprint==63.1
+python-docx
+PyPDF2
+pypdfium2==5.6.0
+pyhanko==0.37.0              # traz pyhanko-certvalidator e asn1crypto (validação de assinatura digital)
+pillow==10.4.0
+numpy==1.26.4
+
+# --- OCR documental (pesado: maior parte do tempo de build) ---
+paddleocr>=3.3,<4
+paddlepaddle>=3.2,<4
+
+# --- Fixes de ambiente ---
+tzdata==2025.2               # zoneinfo America/Sao_Paulo em imagens slim
+chardet<6                    # chardet 6.x gerou incompatibilidade; manter fixado
