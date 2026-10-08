@@ -143,10 +143,21 @@ async def route_legal_candidates(state, docs):
             candidates.append({'article_id': str(doc.get('id') or metadata.get('article_id') or f'C{index}'),
                                'title': flow.metadata_title(metadata), 'text': text})
     if not candidates:
-        raise ValueError('No legislation candidates; cannot invent an article')
+        print('[ANALYST] Busca sem texto de lei; analise segue sem artigo')
+        state['legal_decision'] = {'source': 'NONE', 'reason': 'sem texto de lei nos documentos recuperados'}
+        return docs
     intake = flow.IntakeState.model_validate(state.get('staged_intake') or {})
     intake.problem_description = state.get('case_summary') or state.get('problem_description')
-    decision = await flow.choose_with_jev(intake, candidates)
+    try:
+        decision = await flow.choose_with_jev(intake, candidates)
+    except Exception as exc:
+        print(f'[ANALYST] JEV nao escolheu ({type(exc).__name__}: {exc}); usando GPT')
+        chosen = await flow.choose_with_gpt5(intake, candidates)
+        decision = {'chosen_article_id': chosen, 'confidence': 0.0, 'margin': 0.0, 'source': 'GPT5_FALLBACK'}
+        state['legal_decision'] = decision
+        selected = next(i for i, c in enumerate(candidates) if c['article_id'] == chosen)
+        nonempty = [d for d in docs if d.get('content') or flow.metadata_text(d.get('metadata') or {})]
+        return [nonempty[selected]]
     confidence, margin = decision['confidence'], decision['margin']
     if not all(math.isfinite(v) and 0 <= v <= 1 for v in (confidence, margin)):
         raise ValueError('Invalid JEV confidence or margin')

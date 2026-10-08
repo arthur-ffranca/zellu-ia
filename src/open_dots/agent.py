@@ -95,7 +95,9 @@ class DotAgent:
             if result.status != 'completed':
                 state['completed'] = False
                 state['dot_failed_action'] = action
-                raise RuntimeError('Open Dots case action failed: ' + action)
+                detail = getattr(result, 'error', None) or ''
+                print(f'[CASE] acao {action} falhou: {detail}')
+                raise RuntimeError('Open Dots case action failed: ' + action + ((': ' + detail) if detail else ''))
 
         await dispatch('evidence')
         with case_evidence_scope(state):
