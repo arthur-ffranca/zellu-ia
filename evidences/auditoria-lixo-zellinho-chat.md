@@ -1,10 +1,25 @@
-# MASSACRE: o lixo inútil do repo Zelluu/zellinho_chat
+# MASSACRE: 284 arquivos de lixo inútil no repo Zelluu/zellinho_chat
+
+Data: out/2026. Método: grep de importadores no repo inteiro + o que o `Dockerfile` realmente copia + o que está versionado sem motivo. Não é opinião — é fato verificável item por item. **Total: 284 arquivos que não servem pra absolutamente nada.**
 
 Data: out/2026. Método: grep de importadores no repo inteiro + o que o `Dockerfile` realmente copia + o que está versionado sem motivo. Não é opinião — é fato verificável item por item.
 
 ## O quadro geral
 
 A aplicação que roda em produção é: `app.py` → `uvicorn src.main:app`. Ponto final. O resto deste capítulo é a lista de tudo que **não faz parte disso e mesmo assim está lá**, ocupando espaço, confundindo quem lê e fingindo que é código.
+
+## O placar do lixo: 284 × 0
+
+| Categoria | Arquivos | Utilidade |
+|---|---|---|
+| `.py` cadáveres na raiz | 11 | zero |
+| `debug_payloads/` | 162 | zero (e ainda é risco) |
+| `document_urls/` | 53 | zero |
+| `generated_documents/` | 54 | zero |
+| `reports/` + `nova documentação/` + `tmpclaude-*` | 4 | zero |
+| **TOTAL** | **284** | **nada** |
+
+(Fora os 20 `.md` avulsos da raiz — esses já foram organizados para `docs_old/` e saíram da conta do lixo.)
 
 ## Os 11 cadáveres da raiz — SERVEM PRA PORRA NENHUMA
 
