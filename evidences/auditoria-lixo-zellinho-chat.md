@@ -1,6 +1,6 @@
-# MASSACRE: 284 arquivos de lixo inútil no repo Zelluu/zellinho_chat
+# MASSACRE: 155 arquivos de lixo inútil no repo Zelluu/zellinho_chat
 
-Data: out/2026. Método: grep de importadores no repo inteiro + o que o `Dockerfile` realmente copia + o que está versionado sem motivo. Não é opinião — é fato verificável item por item. **Total: 284 arquivos que não servem pra absolutamente nada.**
+Data: out/2026. Método: grep de importadores no repo inteiro + o que o `Dockerfile` realmente copia + o que está versionado sem motivo. Não é opinião — é fato verificável item por item, **executado no commit `acd669c` (155 arquivos, 25.593 linhas deletadas)**. **Total: 284 arquivos que não servem pra absolutamente nada.**
 
 Data: out/2026. Método: grep de importadores no repo inteiro + o que o `Dockerfile` realmente copia + o que está versionado sem motivo. Não é opinião — é fato verificável item por item.
 
@@ -8,18 +8,20 @@ Data: out/2026. Método: grep de importadores no repo inteiro + o que o `Dockerf
 
 A aplicação que roda em produção é: `app.py` → `uvicorn src.main:app`. Ponto final. O resto deste capítulo é a lista de tudo que **não faz parte disso e mesmo assim está lá**, ocupando espaço, confundindo quem lê e fingindo que é código.
 
-## O placar do lixo: 284 × 0
+## O placar do lixo: 155 × 0 (executado)
 
-| Categoria | Arquivos | Utilidade |
+| Categoria | Arquivos removidos | Utilidade que tinham |
 |---|---|---|
 | `.py` cadáveres na raiz | 11 | zero |
-| `debug_payloads/` | 162 | zero (e ainda é risco) |
+| `debug_payloads/` | 35 | zero (e ainda era risco: payload pode ter dado de cliente) |
 | `document_urls/` | 53 | zero |
 | `generated_documents/` | 54 | zero |
-| `reports/` + `nova documentação/` + `tmpclaude-*` | 4 | zero |
-| **TOTAL** | **284** | **nada** |
+| `reports/` + `nova documentação/` | 2 | zero |
+| **TOTAL REMOVIDO** | **155** (+2 `.gitkeep` p/ manter as pastas de runtime) | **nada** |
 
-(Fora os 20 `.md` avulsos da raiz — esses já foram organizados para `docs_old/` e saíram da conta do lixo.)
+(Fora os 20 `.md` avulsos da raiz — esses já tinham sido organizados para `docs_old/` e saíram da conta do lixo.)
+
+*Correção de um número anterior deste documento: a primeira versão falava em 284 — contagem errada minha (li um contador combinado como se fosse de uma pasta só). O número auditado no commit é **155**. Continua sendo um absurdo, só que auditado.*
 
 ## Os 11 cadáveres da raiz — SERVEM PRA PORRA NENHUMA
 
@@ -62,8 +64,10 @@ Specs, handoffs e guias espalhados na raiz como roupa no chão do quarto. Movido
 - `docs_teste/` — 16 fixtures incluindo `instrucao_secreta.pdf` (fixture de segurança). Pequeno, inofensivo, útil. Fica.
 - `docs/` — documentação viva. Fica.
 
-## Sentença (falta executar)
+## Sentença — EXECUTADA
 
-1. `git rm` nos 11 `.py` da raiz + `PATCH_autostart_handler.py`. Risco: **zero** — grep prova que nada importa nada.
-2. `git rm -r debug_payloads document_urls generated_documents reports "nova documentação"` + `.gitkeep` nas pastas de runtime + `.gitignore` nelas.
-3. Commit `chore(limpeza)` e pronto: repo respira de novo.
+1. `git rm` nos 11 `.py` da raiz + `PATCH_autostart_handler.py`. ✅ commit `acd669c`
+2. `git rm -r debug_payloads document_urls generated_documents reports "nova documentação"` + `.gitkeep` nas pastas de runtime. ✅ commit `acd669c`
+3. `tmpclaude-*` removidos do disco (nunca deveriam ter sido commitados — e estavam também na `main` do GitHub, o que diz tudo sobre o cuidado anterior).
+
+Commit `chore(limpeza)` no ar, na branch do PR. Repo respira de novo.
