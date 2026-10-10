@@ -12,6 +12,17 @@ from pinecone import Pinecone, ServerlessSpec
 
 from config import Settings
 from src.services.ai_usage_tracker import track_usage
+
+
+def _legislation_text(metadata):
+    """Texto do artigo. O índice mistura `text` e `content`; seção sem corpo volta vazio."""
+    if not isinstance(metadata, dict):
+        return ""
+    for key in ("text", "content", "section_text", "conteudo", "chunk", "body"):
+        value = metadata.get(key)
+        if isinstance(value, str) and value.strip():
+            return value.strip()
+    return ""
 # Embeddings com cache transparente (sha256 -> vetor, memoria + Redis).
 from src.services.embedding_cache import CachedOpenAIEmbeddings as OpenAIEmbeddings
 
@@ -402,28 +413,43 @@ Resposta (em português, clara, objetiva e acolhedora):"""
             import asyncio
             query_embedding = await asyncio.to_thread(self.embeddings.embed_query, query)
 
-            # Search in Pinecone
-            results = await asyncio.to_thread(self.index.query,
-                vector=query_embedding,
-                top_k=top_k,
-                namespace=self.settings.LEGAL_RAG_NAMESPACE,
-                include_metadata=True
-            )
-
-            # Format results
-            documents = []
-            for match in results.get('matches', []):
-                documents.append({
-                    'id': match.get('id'),
-                    'content': match.get('metadata', {}).get('text', ''),
-                    'metadata': match.get('metadata', {}),
-                    'score': match.get('score', 0.0)
-                })
-
+            namespace = self.settings.LEGAL_RAG_NAMESPACE or ""
+            documents = await self._query_legislation(query_embedding, top_k, namespace)
+            # json-sections-v1 guarda só o rótulo da seção, sem o artigo.
+            # O texto da lei está no namespace padrão, no campo content.
+            if namespace and not any(doc.get('content') for doc in documents):
+                print(f"[RAG] namespace {namespace} sem texto de lei; buscando no namespace padrao")
+                documents = await self._query_legislation(query_embedding, top_k, "")
+            print(f"[RAG] busca do caso matches={len(documents)} com_texto={sum(1 for d in documents if d.get('content'))}")
             return documents
         except Exception as e:
             print(f"[ERROR] Erro ao buscar documentos similares: {e}")
             return []
+
+    async def _query_legislation(self, vector, top_k, namespace):
+        import asyncio
+        kwargs = {"vector": vector, "top_k": top_k, "include_metadata": True}
+        if namespace:
+            kwargs["namespace"] = namespace
+        results = await asyncio.to_thread(self.index.query, **kwargs)
+        matches = results.get("matches") if hasattr(results, "get") else getattr(results, "matches", None)
+        documents = []
+        for match in matches or []:
+            if isinstance(match, dict):
+                metadata = match.get("metadata") or {}
+                doc_id = match.get("id")
+                score = match.get("score", 0.0)
+            else:
+                metadata = getattr(match, "metadata", None) or {}
+                doc_id = getattr(match, "id", None)
+                score = getattr(match, "score", 0.0)
+            documents.append({
+                "id": doc_id,
+                "content": _legislation_text(metadata),
+                "metadata": metadata,
+                "score": score,
+            })
+        return documents
 
     def get_legal_info(self, category: str, description: str) -> str:
         """Get legal information for a specific category and problem description.
